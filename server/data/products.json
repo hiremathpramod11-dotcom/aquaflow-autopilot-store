@@ -1,5 +1,653 @@
 [
   {
+    "id": "prod_1793121344945",
+    "title": "ChronoGlow Max V136 Smart Edition",
+    "slug": "chronoglow-max-v136-smart-edition",
+    "category": "Aesthetic Home & Wellness",
+    "price": 69.99,
+    "compareAtPrice": 125.98,
+    "supplierCost": 18,
+    "shippingCost": 4.5,
+    "marginPercent": 67.9,
+    "profitPerUnit": 47.49,
+    "rating": 4.81,
+    "reviewCount": 378,
+    "stock": 8,
+    "trendingScore": 93,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "The cyberpunk retro-futuristic desk showpiece that everyone in your room will ask you about.",
+    "description": "Retro Nixie-tube inspired electronic clock with full color IPS screens displaying dynamic weather, photo albums, and ambient lighting.",
+    "bullets": [
+      "🕰️ 6 High-Definition IPS Custom Digital Screen Dials",
+      "🌈 16 Million RGB Backlight Color Combinations",
+      "📶 WiFi Time & Live Weather Synchronization",
+      "🪵 Real North American Black Walnut Solid Wood Base"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Home & Wellness"
+    ]
+  },
+  {
+    "id": "prod_1793121299946",
+    "title": "SculptBlade Max V864 Smart Edition",
+    "slug": "sculptblade-max-v864-smart-edition",
+    "category": "Beauty & Personal Care",
+    "price": 36.95,
+    "compareAtPrice": 66.51,
+    "supplierCost": 8.6,
+    "shippingCost": 3.2,
+    "marginPercent": 68.1,
+    "profitPerUnit": 25.15,
+    "rating": 4.84,
+    "reviewCount": 335,
+    "stock": 8,
+    "trendingScore": 98,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Melt away muscle tension and flush out toxic bloating with targeted vibration and thermotherapy.",
+    "description": "Modern ergonomic thermal stone gua sha scraper with 9 heat levels and high-frequency acoustic pulse vibrations.",
+    "bullets": [
+      "✨ 9 Adjustable Thermal Heat Levels for deep cellular release",
+      "💎 Promotes instant lymphatic drainage and debloating",
+      "⚡ Acoustic micro-vibrations stimulate collagen and tone skin",
+      "🔋 Cordless handheld design with LCD digital display"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Beauty & Personal Care"
+    ]
+  },
+  {
+    "id": "prod_1793121254933",
+    "title": "SculptBlade Max V928 Smart Edition",
+    "slug": "sculptblade-max-v928-smart-edition",
+    "category": "Beauty & Personal Care",
+    "price": 36.95,
+    "compareAtPrice": 66.51,
+    "supplierCost": 8.6,
+    "shippingCost": 3.2,
+    "marginPercent": 68.1,
+    "profitPerUnit": 25.15,
+    "rating": 4.83,
+    "reviewCount": 277,
+    "stock": 9,
+    "trendingScore": 98,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Melt away muscle tension and flush out toxic bloating with targeted vibration and thermotherapy.",
+    "description": "Modern ergonomic thermal stone gua sha scraper with 9 heat levels and high-frequency acoustic pulse vibrations.",
+    "bullets": [
+      "✨ 9 Adjustable Thermal Heat Levels for deep cellular release",
+      "💎 Promotes instant lymphatic drainage and debloating",
+      "⚡ Acoustic micro-vibrations stimulate collagen and tone skin",
+      "🔋 Cordless handheld design with LCD digital display"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Beauty & Personal Care"
+    ]
+  },
+  {
+    "id": "prod_1793121209926",
+    "title": "SculptBlade Max V614 Smart Edition",
+    "slug": "sculptblade-max-v614-smart-edition",
+    "category": "Beauty & Personal Care",
+    "price": 36.95,
+    "compareAtPrice": 66.51,
+    "supplierCost": 8.6,
+    "shippingCost": 3.2,
+    "marginPercent": 68.1,
+    "profitPerUnit": 25.15,
+    "rating": 4.82,
+    "reviewCount": 333,
+    "stock": 19,
+    "trendingScore": 94,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Melt away muscle tension and flush out toxic bloating with targeted vibration and thermotherapy.",
+    "description": "Modern ergonomic thermal stone gua sha scraper with 9 heat levels and high-frequency acoustic pulse vibrations.",
+    "bullets": [
+      "✨ 9 Adjustable Thermal Heat Levels for deep cellular release",
+      "💎 Promotes instant lymphatic drainage and debloating",
+      "⚡ Acoustic micro-vibrations stimulate collagen and tone skin",
+      "🔋 Cordless handheld design with LCD digital display"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Beauty & Personal Care"
+    ]
+  },
+  {
+    "id": "prod_1793121164921",
+    "title": "SculptBlade Max V774 Smart Edition",
+    "slug": "sculptblade-max-v774-smart-edition",
+    "category": "Beauty & Personal Care",
+    "price": 36.95,
+    "compareAtPrice": 66.51,
+    "supplierCost": 8.6,
+    "shippingCost": 3.2,
+    "marginPercent": 68.1,
+    "profitPerUnit": 25.15,
+    "rating": 4.83,
+    "reviewCount": 127,
+    "stock": 8,
+    "trendingScore": 91,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Melt away muscle tension and flush out toxic bloating with targeted vibration and thermotherapy.",
+    "description": "Modern ergonomic thermal stone gua sha scraper with 9 heat levels and high-frequency acoustic pulse vibrations.",
+    "bullets": [
+      "✨ 9 Adjustable Thermal Heat Levels for deep cellular release",
+      "💎 Promotes instant lymphatic drainage and debloating",
+      "⚡ Acoustic micro-vibrations stimulate collagen and tone skin",
+      "🔋 Cordless handheld design with LCD digital display"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Beauty & Personal Care"
+    ]
+  },
+  {
+    "id": "prod_1793121119910",
+    "title": "NovaBeam Max V261 Smart Edition",
+    "slug": "novabeam-max-v261-smart-edition",
+    "category": "Smart Tech Gadgets",
+    "price": 59.95,
+    "compareAtPrice": 107.91,
+    "supplierCost": 14.8,
+    "shippingCost": 4.1,
+    "marginPercent": 68.5,
+    "profitPerUnit": 41.05,
+    "rating": 4.92,
+    "reviewCount": 240,
+    "stock": 18,
+    "trendingScore": 93,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "The AI personal cameraman that keeps you perfectly centered in every frame without needing an app.",
+    "description": "Built-in optical AI camera sensor tracks your face and body movements 360° seamlessly. Perfect for TikTok, live streaming, fitness, and calls.",
+    "bullets": [
+      "🤖 360° AI Smart Facial & Body Recognition Tracking",
+      "🚫 Zero App Required – instant plug-and-play with phone clamp",
+      "✋ Gesture Control Recognition (OK sign to start, Palm to pause)",
+      "🔋 12-Hour Continuous Battery Life per charge"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Smart Tech Gadgets"
+    ]
+  },
+  {
+    "id": "prod_1793121074903",
+    "title": "SculptBlade Max V551 Smart Edition",
+    "slug": "sculptblade-max-v551-smart-edition",
+    "category": "Beauty & Personal Care",
+    "price": 36.95,
+    "compareAtPrice": 66.51,
+    "supplierCost": 8.6,
+    "shippingCost": 3.2,
+    "marginPercent": 68.1,
+    "profitPerUnit": 25.15,
+    "rating": 4.85,
+    "reviewCount": 222,
+    "stock": 8,
+    "trendingScore": 94,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Melt away muscle tension and flush out toxic bloating with targeted vibration and thermotherapy.",
+    "description": "Modern ergonomic thermal stone gua sha scraper with 9 heat levels and high-frequency acoustic pulse vibrations.",
+    "bullets": [
+      "✨ 9 Adjustable Thermal Heat Levels for deep cellular release",
+      "💎 Promotes instant lymphatic drainage and debloating",
+      "⚡ Acoustic micro-vibrations stimulate collagen and tone skin",
+      "🔋 Cordless handheld design with LCD digital display"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Beauty & Personal Care"
+    ]
+  },
+  {
+    "id": "prod_1793121029894",
+    "title": "PurrPulse Max V942 Smart Edition",
+    "slug": "purrpulse-max-v942-smart-edition",
+    "category": "Pet Supplies",
+    "price": 39.99,
+    "compareAtPrice": 71.98,
+    "supplierCost": 9.9,
+    "shippingCost": 3.5,
+    "marginPercent": 66.5,
+    "profitPerUnit": 26.59,
+    "rating": 4.98,
+    "reviewCount": 355,
+    "stock": 9,
+    "trendingScore": 97,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life.",
+    "description": "Orthopedic memory foam with raised rim bolsters and ultra-soft faux shag fur simulates the comforting warmth of mother's fur coat.",
+    "bullets": [
+      "🐾 Proven to reduce pet stress and separation anxiety by 84%",
+      "☁️ Premium High-Density Orthopedic Joint Support",
+      "🧼 100% Machine Washable with removable zipper cover",
+      "🔒 Non-slip waterproof bottom grip prevents sliding"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Pet Supplies"
+    ]
+  },
+  {
+    "id": "prod_1793120984888",
+    "title": "SculptBlade Max V389 Smart Edition",
+    "slug": "sculptblade-max-v389-smart-edition",
+    "category": "Beauty & Personal Care",
+    "price": 36.95,
+    "compareAtPrice": 66.51,
+    "supplierCost": 8.6,
+    "shippingCost": 3.2,
+    "marginPercent": 68.1,
+    "profitPerUnit": 25.15,
+    "rating": 4.92,
+    "reviewCount": 350,
+    "stock": 8,
+    "trendingScore": 91,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Melt away muscle tension and flush out toxic bloating with targeted vibration and thermotherapy.",
+    "description": "Modern ergonomic thermal stone gua sha scraper with 9 heat levels and high-frequency acoustic pulse vibrations.",
+    "bullets": [
+      "✨ 9 Adjustable Thermal Heat Levels for deep cellular release",
+      "💎 Promotes instant lymphatic drainage and debloating",
+      "⚡ Acoustic micro-vibrations stimulate collagen and tone skin",
+      "🔋 Cordless handheld design with LCD digital display"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Beauty & Personal Care"
+    ]
+  },
+  {
+    "id": "prod_1793120939888",
+    "title": "AquaBreeze Max V570 Smart Edition",
+    "slug": "aquabreeze-max-v570-smart-edition",
+    "category": "Home & Wellness",
+    "price": 49.99,
+    "compareAtPrice": 89.98,
+    "supplierCost": 12.5,
+    "shippingCost": 3.8,
+    "marginPercent": 67.4,
+    "profitPerUnit": 33.69,
+    "rating": 4.98,
+    "reviewCount": 153,
+    "stock": 19,
+    "trendingScore": 92,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Cool down any room by 15°F in under 90 seconds without a $500 monthly electric bill.",
+    "description": "Compact rapid-chill ultrasonic cooling cube that chills, humidifies, and purifies personal spaces with ice-water mist technology.",
+    "bullets": [
+      "❄️ Drops ambient air temp up to 15°F in seconds",
+      "💧 3-in-1 Cooling, Humidifying, and Air Filtering",
+      "🔋 USB-C Powered – run on power bank anywhere",
+      "🤫 Whisper quiet sleep mode with 7-color ambient night light"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Home & Wellness"
+    ]
+  },
+  {
+    "id": "prod_1793120894872",
+    "title": "AquaBreeze Max V166 Smart Edition",
+    "slug": "aquabreeze-max-v166-smart-edition",
+    "category": "Home & Wellness",
+    "price": 49.99,
+    "compareAtPrice": 89.98,
+    "supplierCost": 12.5,
+    "shippingCost": 3.8,
+    "marginPercent": 67.4,
+    "profitPerUnit": 33.69,
+    "rating": 4.85,
+    "reviewCount": 147,
+    "stock": 8,
+    "trendingScore": 92,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Cool down any room by 15°F in under 90 seconds without a $500 monthly electric bill.",
+    "description": "Compact rapid-chill ultrasonic cooling cube that chills, humidifies, and purifies personal spaces with ice-water mist technology.",
+    "bullets": [
+      "❄️ Drops ambient air temp up to 15°F in seconds",
+      "💧 3-in-1 Cooling, Humidifying, and Air Filtering",
+      "🔋 USB-C Powered – run on power bank anywhere",
+      "🤫 Whisper quiet sleep mode with 7-color ambient night light"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Home & Wellness"
+    ]
+  },
+  {
+    "id": "prod_1793120849860",
+    "title": "NovaBeam Max V338 Smart Edition",
+    "slug": "novabeam-max-v338-smart-edition",
+    "category": "Smart Tech Gadgets",
+    "price": 59.95,
+    "compareAtPrice": 107.91,
+    "supplierCost": 14.8,
+    "shippingCost": 4.1,
+    "marginPercent": 68.5,
+    "profitPerUnit": 41.05,
+    "rating": 4.89,
+    "reviewCount": 392,
+    "stock": 20,
+    "trendingScore": 92,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "The AI personal cameraman that keeps you perfectly centered in every frame without needing an app.",
+    "description": "Built-in optical AI camera sensor tracks your face and body movements 360° seamlessly. Perfect for TikTok, live streaming, fitness, and calls.",
+    "bullets": [
+      "🤖 360° AI Smart Facial & Body Recognition Tracking",
+      "🚫 Zero App Required – instant plug-and-play with phone clamp",
+      "✋ Gesture Control Recognition (OK sign to start, Palm to pause)",
+      "🔋 12-Hour Continuous Battery Life per charge"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Smart Tech Gadgets"
+    ]
+  },
+  {
+    "id": "prod_1793120804847",
+    "title": "SculptBlade Max V896 Smart Edition",
+    "slug": "sculptblade-max-v896-smart-edition",
+    "category": "Beauty & Personal Care",
+    "price": 36.95,
+    "compareAtPrice": 66.51,
+    "supplierCost": 8.6,
+    "shippingCost": 3.2,
+    "marginPercent": 68.1,
+    "profitPerUnit": 25.15,
+    "rating": 4.85,
+    "reviewCount": 126,
+    "stock": 26,
+    "trendingScore": 96,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Melt away muscle tension and flush out toxic bloating with targeted vibration and thermotherapy.",
+    "description": "Modern ergonomic thermal stone gua sha scraper with 9 heat levels and high-frequency acoustic pulse vibrations.",
+    "bullets": [
+      "✨ 9 Adjustable Thermal Heat Levels for deep cellular release",
+      "💎 Promotes instant lymphatic drainage and debloating",
+      "⚡ Acoustic micro-vibrations stimulate collagen and tone skin",
+      "🔋 Cordless handheld design with LCD digital display"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Beauty & Personal Care"
+    ]
+  },
+  {
+    "id": "prod_1793120759841",
+    "title": "PurrPulse Max V135 Smart Edition",
+    "slug": "purrpulse-max-v135-smart-edition",
+    "category": "Pet Supplies",
+    "price": 39.99,
+    "compareAtPrice": 71.98,
+    "supplierCost": 9.9,
+    "shippingCost": 3.5,
+    "marginPercent": 66.5,
+    "profitPerUnit": 26.59,
+    "rating": 4.91,
+    "reviewCount": 364,
+    "stock": 16,
+    "trendingScore": 96,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life.",
+    "description": "Orthopedic memory foam with raised rim bolsters and ultra-soft faux shag fur simulates the comforting warmth of mother's fur coat.",
+    "bullets": [
+      "🐾 Proven to reduce pet stress and separation anxiety by 84%",
+      "☁️ Premium High-Density Orthopedic Joint Support",
+      "🧼 100% Machine Washable with removable zipper cover",
+      "🔒 Non-slip waterproof bottom grip prevents sliding"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Pet Supplies"
+    ]
+  },
+  {
+    "id": "prod_1793120714832",
+    "title": "SculptBlade Max V870 Smart Edition",
+    "slug": "sculptblade-max-v870-smart-edition",
+    "category": "Beauty & Personal Care",
+    "price": 36.95,
+    "compareAtPrice": 66.51,
+    "supplierCost": 8.6,
+    "shippingCost": 3.2,
+    "marginPercent": 68.1,
+    "profitPerUnit": 25.15,
+    "rating": 4.81,
+    "reviewCount": 183,
+    "stock": 17,
+    "trendingScore": 94,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Melt away muscle tension and flush out toxic bloating with targeted vibration and thermotherapy.",
+    "description": "Modern ergonomic thermal stone gua sha scraper with 9 heat levels and high-frequency acoustic pulse vibrations.",
+    "bullets": [
+      "✨ 9 Adjustable Thermal Heat Levels for deep cellular release",
+      "💎 Promotes instant lymphatic drainage and debloating",
+      "⚡ Acoustic micro-vibrations stimulate collagen and tone skin",
+      "🔋 Cordless handheld design with LCD digital display"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Beauty & Personal Care"
+    ]
+  },
+  {
+    "id": "prod_1793120669817",
+    "title": "SculptBlade Max V666 Smart Edition",
+    "slug": "sculptblade-max-v666-smart-edition",
+    "category": "Beauty & Personal Care",
+    "price": 36.95,
+    "compareAtPrice": 66.51,
+    "supplierCost": 8.6,
+    "shippingCost": 3.2,
+    "marginPercent": 68.1,
+    "profitPerUnit": 25.15,
+    "rating": 4.81,
+    "reviewCount": 206,
+    "stock": 20,
+    "trendingScore": 95,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Melt away muscle tension and flush out toxic bloating with targeted vibration and thermotherapy.",
+    "description": "Modern ergonomic thermal stone gua sha scraper with 9 heat levels and high-frequency acoustic pulse vibrations.",
+    "bullets": [
+      "✨ 9 Adjustable Thermal Heat Levels for deep cellular release",
+      "💎 Promotes instant lymphatic drainage and debloating",
+      "⚡ Acoustic micro-vibrations stimulate collagen and tone skin",
+      "🔋 Cordless handheld design with LCD digital display"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Beauty & Personal Care"
+    ]
+  },
+  {
+    "id": "prod_1793120624806",
+    "title": "NovaBeam Max V893 Smart Edition",
+    "slug": "novabeam-max-v893-smart-edition",
+    "category": "Smart Tech Gadgets",
+    "price": 59.95,
+    "compareAtPrice": 107.91,
+    "supplierCost": 14.8,
+    "shippingCost": 4.1,
+    "marginPercent": 68.5,
+    "profitPerUnit": 41.05,
+    "rating": 4.92,
+    "reviewCount": 145,
+    "stock": 11,
+    "trendingScore": 98,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "The AI personal cameraman that keeps you perfectly centered in every frame without needing an app.",
+    "description": "Built-in optical AI camera sensor tracks your face and body movements 360° seamlessly. Perfect for TikTok, live streaming, fitness, and calls.",
+    "bullets": [
+      "🤖 360° AI Smart Facial & Body Recognition Tracking",
+      "🚫 Zero App Required – instant plug-and-play with phone clamp",
+      "✋ Gesture Control Recognition (OK sign to start, Palm to pause)",
+      "🔋 12-Hour Continuous Battery Life per charge"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Smart Tech Gadgets"
+    ]
+  },
+  {
+    "id": "prod_1793120579805",
+    "title": "ChronoGlow Max V451 Smart Edition",
+    "slug": "chronoglow-max-v451-smart-edition",
+    "category": "Aesthetic Home & Wellness",
+    "price": 69.99,
+    "compareAtPrice": 125.98,
+    "supplierCost": 18,
+    "shippingCost": 4.5,
+    "marginPercent": 67.9,
+    "profitPerUnit": 47.49,
+    "rating": 4.88,
+    "reviewCount": 369,
+    "stock": 23,
+    "trendingScore": 96,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "The cyberpunk retro-futuristic desk showpiece that everyone in your room will ask you about.",
+    "description": "Retro Nixie-tube inspired electronic clock with full color IPS screens displaying dynamic weather, photo albums, and ambient lighting.",
+    "bullets": [
+      "🕰️ 6 High-Definition IPS Custom Digital Screen Dials",
+      "🌈 16 Million RGB Backlight Color Combinations",
+      "📶 WiFi Time & Live Weather Synchronization",
+      "🪵 Real North American Black Walnut Solid Wood Base"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Home & Wellness"
+    ]
+  },
+  {
     "id": "prod_1793120534796",
     "title": "SculptBlade Max V321 Smart Edition",
     "slug": "sculptblade-max-v321-smart-edition",

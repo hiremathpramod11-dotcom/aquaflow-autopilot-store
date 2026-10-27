@@ -16,6 +16,36 @@ const cartItemsList = document.getElementById('cartItemsList');
 const cartSubtotal = document.getElementById('cartSubtotal');
 const cartTotal = document.getElementById('cartTotal');
 const checkoutBtn = document.getElementById('checkoutBtn');
+const currencySelector = document.getElementById('currencySelector');
+
+let currentCurrency = 'INR';
+
+function formatPrice(amountUsd) {
+  if (currentCurrency === 'INR') {
+    let cleanInr = Math.round((amountUsd * 26) / 50) * 50 - 1;
+    if (cleanInr < 499) cleanInr = 499;
+    return `₹${cleanInr.toLocaleString('en-IN')}`;
+  }
+  return `$${amountUsd.toFixed(2)}`;
+}
+
+function getPriceAmount(amountUsd) {
+  if (currentCurrency === 'INR') {
+    let cleanInr = Math.round((amountUsd * 26) / 50) * 50 - 1;
+    if (cleanInr < 499) cleanInr = 499;
+    return cleanInr;
+  }
+  return amountUsd;
+}
+
+if (currencySelector) {
+  currencySelector.addEventListener('change', () => {
+    currentCurrency = currencySelector.value;
+    renderProducts();
+    updateCartUI();
+    if (activeModalProduct) openProductModal(activeModalProduct.id);
+  });
+}
 
 // Modal Elements
 const productDetailModal = document.getElementById('productDetailModal');
@@ -83,8 +113,8 @@ function renderProducts() {
           <i class="fa-solid fa-fire"></i> High Demand: Only ${p.stock || 12} left in stock
         </div>
         <div class="card-pricing">
-          <span class="price-current">$${p.price.toFixed(2)}</span>
-          <span class="price-compare">$${p.compareAtPrice.toFixed(2)}</span>
+          <span class="price-current">${formatPrice(p.price)}</span>
+          <span class="price-compare">${formatPrice(p.compareAtPrice)}</span>
           <span class="price-save">SAVE 50%</span>
         </div>
         <div class="card-actions">
@@ -117,9 +147,10 @@ function updateCartUI() {
   cartCountBadge.innerText = count;
   document.getElementById('cartDrawerCount').innerText = count;
 
-  const subtotal = cart.reduce((acc, item) => acc + (item.price * item.quantity), 0);
-  cartSubtotal.innerText = `$${subtotal.toFixed(2)}`;
-  cartTotal.innerText = `$${subtotal.toFixed(2)}`;
+  const subtotal = cart.reduce((acc, item) => acc + (getPriceAmount(item.price) * item.quantity), 0);
+  const currencySymbol = currentCurrency === 'INR' ? '₹' : '$';
+  cartSubtotal.innerText = `${currencySymbol}${subtotal.toLocaleString('en-IN')}`;
+  cartTotal.innerText = `${currencySymbol}${subtotal.toLocaleString('en-IN')}`;
 
   if (cart.length === 0) {
     cartItemsList.innerHTML = `
@@ -139,7 +170,7 @@ function updateCartUI() {
         <img src="${item.image}" alt="${item.title}" class="cart-item-img">
         <div class="cart-item-details">
           <div class="cart-item-title">${item.title}</div>
-          <div class="cart-item-price">$${item.price.toFixed(2)} × ${item.quantity}</div>
+          <div class="cart-item-price">${formatPrice(item.price)} × ${item.quantity}</div>
           <button class="cart-item-remove" onclick="removeFromCart('${item.id}')">
             <i class="fa-solid fa-trash-can"></i> Remove
           </button>
@@ -235,7 +266,7 @@ async function updateUpiDisplay(subtotalUsd) {
   const vpa = upiConfig.vpa || "910889831@ybl";
   const payeeName = upiConfig.payeeName || "AquaFlow Store";
   const rate = upiConfig.currencyRate || 86.5;
-  const inrAmount = Math.max(99, Math.round(subtotalUsd * rate));
+  const inrAmount = currentCurrency === 'INR' ? Math.round(subtotalUsd) : Math.max(99, Math.round(subtotalUsd * rate));
 
   if (upiVpaDisplay) upiVpaDisplay.innerText = vpa;
   if (upiAmountInr) upiAmountInr.innerText = `₹${inrAmount.toLocaleString('en-IN')}`;
@@ -268,8 +299,9 @@ if (copyUpiIdBtn && upiVpaDisplay) {
 
 function openCheckoutModal() {
   if (cart.length === 0) return;
-  const subtotal = cart.reduce((acc, item) => acc + (item.price * item.quantity), 0);
-  if (checkoutPayableAmount) checkoutPayableAmount.innerText = `$${subtotal.toFixed(2)}`;
+  const subtotal = cart.reduce((acc, item) => acc + (getPriceAmount(item.price) * item.quantity), 0);
+  const currencySymbol = currentCurrency === 'INR' ? '₹' : '$';
+  if (checkoutPayableAmount) checkoutPayableAmount.innerText = `${currencySymbol}${subtotal.toLocaleString('en-IN')}`;
   updateUpiDisplay(subtotal);
   if (checkoutModal) checkoutModal.style.display = 'flex';
   if (checkoutModalBackdrop) checkoutModalBackdrop.style.display = 'block';
@@ -298,7 +330,8 @@ if (customerCheckoutForm) {
     e.preventDefault();
     if (cart.length === 0) return;
 
-    const subtotal = cart.reduce((acc, item) => acc + (item.price * item.quantity), 0);
+    const subtotal = cart.reduce((acc, item) => acc + (getPriceAmount(item.price) * item.quantity), 0);
+    const currency = currentCurrency;
     const name = document.getElementById('custName')?.value.trim() || "Valued Customer";
     const phone = document.getElementById('custPhone')?.value.trim() || "";
     const email = document.getElementById('custEmail')?.value.trim() || (phone ? `${phone}@delivery.aquaflow.com` : "customer@example.com");
@@ -323,6 +356,7 @@ if (customerCheckoutForm) {
           utrNumber: custUtrNumber?.value.trim() || "",
           paymentStatus: paymentMethod === 'COD' ? "PENDING_CASH_ON_DELIVERY" : (paymentMethod === 'UPI' ? "PAID_DIRECT_UPI" : "PAID"),
           country: "India",
+          currency: currency,
           subtotal: subtotal,
           shipping: 0.00,
           total: subtotal,
@@ -366,8 +400,8 @@ function openProductModal(productId) {
   modalProductImg.src = prod.image;
   modalProductTitle.innerText = prod.title;
   modalProductRating.innerHTML = `<i class="fa-solid fa-star"></i> ${prod.rating} (${prod.reviewCount} verified reviews)`;
-  modalProductPrice.innerText = `$${prod.price.toFixed(2)}`;
-  modalProductCompare.innerText = `$${prod.compareAtPrice.toFixed(2)}`;
+  modalProductPrice.innerText = formatPrice(prod.price);
+  modalProductCompare.innerText = formatPrice(prod.compareAtPrice);
   modalProductHook.innerText = `"${prod.hook || prod.description}"`;
   modalShippingTime.innerText = prod.shippingTime || '3-6 Days Priority Delivery';
 
