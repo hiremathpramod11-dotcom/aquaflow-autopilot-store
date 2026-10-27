@@ -163,11 +163,21 @@ def auto_upload(username, password=None, simulate=False):
     if os.path.exists(session_path):
         try:
             cl.load_settings(session_path)
-            cl.login(clean_user, password)
+            cl.get_timeline_feed()
             logged_in = True
-            print(Fore.GREEN + "Re-used existing saved session!")
+            print(Fore.GREEN + "Re-used existing saved session successfully!")
         except Exception:
-            logged_in = False
+            # If session expired, try re-logging in if password is present
+            if password:
+                try:
+                    cl.login(clean_user, password)
+                    cl.dump_settings(session_path)
+                    logged_in = True
+                    print(Fore.GREEN + "Refreshed session with saved credentials!")
+                except Exception:
+                    logged_in = False
+            else:
+                logged_in = False
 
     if not logged_in:
         try:

@@ -24,6 +24,9 @@ async function run() {
       if (s.activeIntegrations?.instagram?.username) {
         username = s.activeIntegrations.instagram.username;
       }
+      if (s.activeIntegrations?.instagram?.password) {
+        password = s.activeIntegrations.instagram.password;
+      }
     } catch (e) {}
   }
 
