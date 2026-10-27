@@ -1,0 +1,4 @@
+# AquaFlow Direct - Python Automation Requirements
+requests>=2.28.0
+colorama>=0.4.6
+

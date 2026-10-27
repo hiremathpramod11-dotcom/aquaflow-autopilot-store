@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AquaFlow Autopilot Command Center | Autonomous Dropshipping OS</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="admin-body">
+
+  <!-- Top Navbar -->
+  <header class="admin-navbar">
+    <div class="admin-brand">
+      <i class="fa-solid fa-water" style="color: #38bdf8;"></i>
+      <span>AquaFlow Autopilot OS</span>
+      <div class="autopilot-status-indicator" id="autopilotStatusBadge">
+        <span class="pulse-beacon" id="autopilotBeacon"></span>
+        <span id="autopilotStatusText">AUTOPILOT: ACTIVE</span>
+      </div>
+    </div>
+
+    <div class="admin-actions">
+      <button class="btn-trigger-cycle" id="triggerCycleBtn">
+        <i class="fa-solid fa-bolt"></i>
+        <span>Trigger Autopilot Cycle</span>
+      </button>
+
+      <button id="toggleAutopilotBtn" style="background: #1e293b; color: #f1f5f9; border: 1px solid #334155; padding: 8px 14px; border-radius: 8px; font-size: 0.85rem; font-weight: 600; cursor: pointer;">
+        <i class="fa-solid fa-power-off"></i> Toggle Loop
+      </button>
+
+      <a href="/" target="_blank" style="color: #94a3b8; text-decoration: none; font-size: 0.85rem; display: flex; align-items: center; gap: 6px; padding: 8px 12px; border-radius: 8px; background: rgba(255,255,255,0.05);">
+        <span>Customer Store</span>
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </a>
+    </div>
+  </header>
+
+  <div class="admin-container">
+
+    <!-- KPI Metric Cards -->
+    <section class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">
+          <span>TOTAL CASH FLOW (GROSS)</span>
+          <i class="fa-solid fa-wallet text-primary"></i>
+        </div>
+        <div class="kpi-value blue" id="kpiRevenue">$0.00</div>
+        <div class="kpi-sub">Across all viral channels</div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-label">
+          <span>NET CLEAN PROFIT</span>
+          <i class="fa-solid fa-sack-dollar" style="color: #34d399;"></i>
+        </div>
+        <div class="kpi-value green" id="kpiProfit">$0.00</div>
+        <div class="kpi-sub" id="kpiMarginSub">~70% Average Net Margin</div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-label">
+          <span>BLENDED AD ROAS</span>
+          <i class="fa-solid fa-chart-line" style="color: #38bdf8;"></i>
+        </div>
+        <div class="kpi-value" id="kpiRoas">3.42x</div>
+        <div class="kpi-sub">TikTok & Meta Ads Scaled</div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-label">
+          <span>TOTAL ORDERS</span>
+          <i class="fa-solid fa-box-open" style="color: #c084fc;"></i>
+        </div>
+        <div class="kpi-value" id="kpiOrders">0</div>
+        <div class="kpi-sub" id="kpiAvgOrder">AOV: $45.40</div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-label">
+          <span>LIVE STORE VISITORS</span>
+          <span style="display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #34d399;"></span>
+        </div>
+        <div class="kpi-value" id="kpiVisitors">47</div>
+        <div class="kpi-sub">Real-time organic & ad traffic</div>
+      </div>
+    </section>
+
+    <!-- Live Event Terminal Streamer -->
+    <section class="terminal-card">
+      <div class="terminal-header">
+        <div>
+          <i class="fa-solid fa-terminal"></i>
+          <span>AUTOPILOT EVENT STREAM & ORCHESTRATION CONSOLE</span>
+        </div>
+        <span style="color: #34d399; font-size: 0.75rem;">● STREAMING LIVE</span>
+      </div>
+      <div class="terminal-logs" id="terminalLogs">
+        <!-- Logs dynamically appended -->
+      </div>
+    </section>
+
+    <!-- Navigation Tabs -->
+    <div class="admin-tabs">
+      <button class="admin-tab active" data-tab="tabProducts">
+        <i class="fa-solid fa-bullseye"></i> Winning Products & Hunter
+      </button>
+      <button class="admin-tab" data-tab="tabOrders">
+        <i class="fa-solid fa-truck-ramp-box"></i> Auto-Fulfillment & Orders
+      </button>
+      <button class="admin-tab" data-tab="tabAds">
+        <i class="fa-solid fa-video"></i> AI TikTok & Meta Ad Studio
+      </button>
+      <button class="admin-tab" data-tab="tabSettings">
+        <i class="fa-solid fa-sliders"></i> Autopilot Engine Config
+      </button>
+    </div>
+
+    <!-- TAB 1: Products & Hunter -->
+    <div id="tabProducts" class="tab-pane">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <div>
+          <h2 style="font-size: 1.2rem; font-weight: 800;">Curated High-Margin Catalog</h2>
+          <p style="font-size: 0.8rem; color: #94a3b8;">Scored & selected by the autonomous Trend Engine</p>
+        </div>
+        <button id="huntNowBtn" style="background: #0284c7; color: white; border: none; padding: 10px 18px; border-radius: 8px; font-weight: 700; font-size: 0.85rem; cursor: pointer; display: flex; align-items: center; gap: 6px;">
+          <i class="fa-solid fa-magnifying-glass-plus"></i> Hunt Next Winning Product Now
+        </button>
+      </div>
+
+      <div class="admin-table-wrap">
+        <table class="admin-table">
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Category</th>
+              <th>Opportunity Score</th>
+              <th>Retail Price</th>
+              <th>Supplier Cost</th>
+              <th>Net Margin</th>
+              <th>Profit/Unit</th>
+              <th>Inventory</th>
+            </tr>
+          </thead>
+          <tbody id="productsTableBody">
+            <!-- Dynamically populated -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- TAB 2: Orders & Fulfillment -->
+    <div id="tabOrders" class="tab-pane" style="display: none;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <div>
+          <h2 style="font-size: 1.2rem; font-weight: 800;">Automated Order Fulfillment Engine</h2>
+          <p style="font-size: 0.8rem; color: #94a3b8;">Orders synchronized & auto-routed to suppliers</p>
+        </div>
+      </div>
+
+      <div class="admin-table-wrap">
+        <table class="admin-table">
+          <thead>
+            <tr>
+              <th>Order ID</th>
+              <th>Customer</th>
+              <th>Item(s)</th>
+              <th>Total Paid</th>
+              <th>Net Profit</th>
+              <th>Status</th>
+              <th>Tracking Number</th>
+              <th>Carrier</th>
+            </tr>
+          </thead>
+          <tbody id="ordersTableBody">
+            <!-- Dynamically populated -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- TAB 3: AI Ad Studio -->
+    <div id="tabAds" class="tab-pane" style="display: none;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <div>
+          <h2 style="font-size: 1.2rem; font-weight: 800;">Autonomous Viral Ad Creative Studio</h2>
+          <p style="font-size: 0.8rem; color: #94a3b8;">Direct-response TikTok scripts, 3-second hooks, and Meta copy</p>
+        </div>
+      </div>
+
+      <div id="adCampaignsContainer">
+        <!-- Injected by admin.js -->
+      </div>
+    </div>
+
+    <!-- TAB 4: Autopilot Config -->
+    <div id="tabSettings" class="tab-pane" style="display: none;">
+      <div style="background: #0f172a; border: 1px solid #1e293b; border-radius: 12px; padding: 24px; max-width: 700px;">
+        <h2 style="font-size: 1.2rem; font-weight: 800; margin-bottom: 18px;">Autopilot Engine Parameters</h2>
+
+        <form id="settingsForm" style="display: flex; flex-direction: column; gap: 16px;">
+          <div>
+            <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #94a3b8; margin-bottom: 6px;">Autopilot Cycle Frequency (Seconds)</label>
+            <input type="number" id="settingInterval" min="15" max="300" style="width: 100%; background: #1e293b; border: 1px solid #334155; color: white; padding: 10px; border-radius: 8px;" value="45">
+            <span style="font-size: 0.75rem; color: #64748b;">Autonomous loop runs product hunting, copywriting, ad generation, and fulfillment every N seconds.</span>
+          </div>
+
+          <div>
+            <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #94a3b8; margin-bottom: 6px;">Target Pricing Multiplier</label>
+            <input type="number" step="0.1" id="settingMultiplier" style="width: 100%; background: #1e293b; border: 1px solid #334155; color: white; padding: 10px; border-radius: 8px;" value="3.2">
+            <span style="font-size: 0.75rem; color: #64748b;">Calculates retail price based on 3.2x supplier cost to guarantee ~70% gross profit.</span>
+          </div>
+
+          <div>
+            <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #94a3b8; margin-bottom: 6px;">Preferred Global Supplier Bridge</label>
+            <select id="settingSupplier" style="width: 100%; background: #1e293b; border: 1px solid #334155; color: white; padding: 10px; border-radius: 8px;">
+              <option value="CJ_DROPSHIPPING_FAST">CJ Dropshipping US/EU Fast Dispatch (3-7 Days)</option>
+              <option value="ZENDROP_VERIFIED">Zendrop Verified Express Direct</option>
+              <option value="ALIEXPRESS_CHOICE">AliExpress Choice Direct / DSers API</option>
+              <option value="SPOCKET_PREMIUM">Spocket Premium US/EU Artisans</option>
+            </select>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 10px; margin-top: 6px;">
+            <input type="checkbox" id="settingSimulatedTraffic" checked style="width: 18px; height: 18px;">
+            <label for="settingSimulatedTraffic" style="font-size: 0.85rem; font-weight: 600; color: #e2e8f0; cursor: pointer;">
+              Enable Organic Traffic & Sales Generation in background loop
+            </label>
+          </div>
+
+          <div style="margin-top: 10px;">
+            <button type="submit" style="background: #10b981; color: white; border: none; padding: 12px 24px; border-radius: 8px; font-weight: 800; cursor: pointer;">
+              Save & Apply Parameters
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="/js/admin.js"></script>
+</body>
+</html>

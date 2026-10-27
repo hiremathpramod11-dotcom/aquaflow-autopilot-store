@@ -1,0 +1,49 @@
+{
+  "storeName": "AquaFlow Direct",
+  "tagline": "Curated Viral Innovation Delivered Straight To Your Door",
+  "currency": "USD",
+  "currencySymbol": "$",
+  "autopilotActive": true,
+  "autopilotIntervalSeconds": 45,
+  "defaultMarginMultiplier": 3.2,
+  "targetMinProfitMargin": 65,
+  "autoFulfillOrders": true,
+  "autoGenerateAds": true,
+  "autoPublishProducts": true,
+  "simulatedTrafficActive": true,
+  "supplierPreference": "SPOCKET_PREMIUM",
+  "freeShippingThreshold": 50,
+  "aiProvider": "GEMINI_TURBO_DIRECT",
+  "activeIntegrations": {
+    "payment": {
+      "mode": "SIMULATION",
+      "stripePublishableKey": "pk_live_your_key_here",
+      "paypalClientId": "client_id_here",
+      "payoutBankConfigured": false
+    },
+    "shopify": {
+      "enabled": false,
+      "shopUrl": "your-store.myshopify.com",
+      "apiKey": ""
+    },
+    "cjDropshipping": {
+      "enabled": true,
+      "connected": true,
+      "agentId": "CJ-FAST-GLOBAL"
+    },
+    "aliExpress": {
+      "enabled": true,
+      "connected": true
+    },
+    "tiktokShop": {
+      "enabled": true,
+      "connected": true,
+      "adAccount": "ACT-AQUA-VIRAL"
+    },
+    "metaAds": {
+      "enabled": true,
+      "connected": true,
+      "pixelId": "PIX-994281729"
+    }
+  }
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-Time Package Tracking | AquaFlow Direct</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .track-wrapper {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .track-search-card {
+      background: #fff;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-md);
+      padding: 30px;
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 24px;
+    }
+    .track-form {
+      display: flex;
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .track-input {
+      flex-grow: 1;
+      border: 2px solid var(--border-light);
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-size: 1rem;
+      outline: none;
+    }
+    .track-input:focus {
+      border-color: var(--primary);
+    }
+    .track-btn {
+      background: var(--dark);
+      color: #fff;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 1rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .track-btn:hover {
+      background: var(--primary);
+    }
+    .result-card {
+      background: #fff;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-md);
+      padding: 30px;
+      box-shadow: var(--shadow-md);
+      display: none;
+    }
+    .timeline {
+      position: relative;
+      padding-left: 30px;
+      margin-top: 24px;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 10px;
+      top: 5px;
+      bottom: 5px;
+      width: 2px;
+      background: #e2e8f0;
+    }
+    .timeline-item {
+      position: relative;
+      margin-bottom: 20px;
+    }
+    .timeline-dot {
+      position: absolute;
+      left: -30px;
+      top: 4px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #0284c7;
+      border: 3px solid #fff;
+      box-shadow: 0 0 0 2px #0284c7;
+    }
+    .timeline-dot.active {
+      background: #10b981;
+      box-shadow: 0 0 0 2px #10b981;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="store-header">
+    <div class="header-inner">
+      <a href="/" class="brand-logo">
+        <i class="fa-solid fa-water" style="color: #0284c7;"></i>
+        <span>AquaFlow</span>
+        <span class="brand-badge">DIRECT</span>
+      </a>
+      <div>
+        <a href="/" style="color: var(--text-muted); text-decoration: none; font-weight: 600; margin-right: 16px;">
+          <i class="fa-solid fa-arrow-left"></i> Back to Store
+        </a>
+        <a href="/admin" class="btn-admin-pill">
+          <i class="fa-solid fa-robot"></i> Autopilot OS
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="track-wrapper">
+    <div class="track-search-card">
+      <h1 style="font-size: 1.6rem; font-weight: 800; color: var(--dark); margin-bottom: 6px;">
+        <i class="fa-solid fa-truck-fast text-primary"></i> Track Your Package in Real-Time
+      </h1>
+      <p style="color: var(--text-muted); font-size: 0.9rem;">
+        Enter your Order Number (e.g., <strong>AQF-98241</strong>) or USPS/YunExpress Tracking Number to view current location and delivery estimate.
+      </p>
+
+      <form class="track-form" id="trackForm">
+        <input type="text" class="track-input" id="trackInput" placeholder="Enter Order # or Tracking #" required>
+        <button type="submit" class="track-btn" id="trackSubmitBtn">
+          <i class="fa-solid fa-magnifying-glass"></i> Track Package
+        </button>
+      </form>
+    </div>
+
+    <!-- Live Results Card -->
+    <div class="result-card" id="resultCard">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 1px solid #e2e8f0; padding-bottom: 16px;">
+        <div>
+          <span style="font-size: 0.75rem; font-weight: 700; color: #0284c7; text-transform: uppercase;">Official Shipment Verified</span>
+          <h2 style="font-size: 1.4rem; font-weight: 800; margin-top: 2px;" id="resOrderId">Order #AQF-98241</h2>
+          <div style="font-size: 0.85rem; color: #64748b;" id="resCustomer">Recipient: Marcus Vance (Austin, TX)</div>
+        </div>
+        <div style="text-align: right;">
+          <span class="status-badge" id="resStatusBadge" style="font-size: 0.85rem; padding: 6px 14px;">IN TRANSIT</span>
+          <div style="font-size: 0.8rem; color: #64748b; margin-top: 6px;" id="resCarrier">Carrier: USPS Priority Express</div>
+        </div>
+      </div>
+
+      <div style="background: #f8fafc; border-radius: 8px; padding: 14px; margin-top: 16px; font-family: monospace; font-size: 0.9rem; display: flex; justify-content: space-between; align-items: center;">
+        <span>Tracking Number: <strong id="resTrackingNum" style="color: #0284c7;">USPS9400111899562810482910</strong></span>
+        <span style="color: #10b981; font-weight: 700;"><i class="fa-solid fa-circle-check"></i> Insured Delivery</span>
+      </div>
+
+      <div class="timeline" id="resTimeline">
+        <!-- Injected by track.js -->
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/track.js"></script>
+</body>
+</html>

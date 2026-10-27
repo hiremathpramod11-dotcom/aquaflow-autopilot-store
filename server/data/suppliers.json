@@ -1,0 +1,46 @@
+[
+  {
+    "id": "sup_1",
+    "name": "CJ Dropshipping Direct US/EU",
+    "status": "CONNECTED",
+    "deliveryDays": "3-7 Days",
+    "fulfillmentType": "Automated API Dispatch",
+    "rating": 4.8,
+    "totalOrdersFulfilled": 1420,
+    "syncRate": "99.8%",
+    "supportedCarriers": ["USPS Priority", "YunExpress Direct", "DHL Express", "FedEx SmartPost"]
+  },
+  {
+    "id": "sup_2",
+    "name": "Zendrop Verified Express",
+    "status": "CONNECTED",
+    "deliveryDays": "2-5 Days",
+    "fulfillmentType": "Auto-Fulfillment & Custom Packaging",
+    "rating": 4.9,
+    "totalOrdersFulfilled": 890,
+    "syncRate": "100%",
+    "supportedCarriers": ["USPS", "Royal Mail", "Australia Post"]
+  },
+  {
+    "id": "sup_3",
+    "name": "AliExpress VIP Choice Center",
+    "status": "CONNECTED",
+    "deliveryDays": "5-10 Days",
+    "fulfillmentType": "DSers Direct Webhook",
+    "rating": 4.6,
+    "totalOrdersFulfilled": 2650,
+    "syncRate": "98.9%",
+    "supportedCarriers": ["AliExpress Standard", "Cainiao Global", "USPS Ground"]
+  },
+  {
+    "id": "sup_4",
+    "name": "Spocket Premium US/EU Artisans",
+    "status": "CONNECTED",
+    "deliveryDays": "2-4 Days",
+    "fulfillmentType": "Native 1-Click Sync",
+    "rating": 4.9,
+    "totalOrdersFulfilled": 530,
+    "syncRate": "99.5%",
+    "supportedCarriers": ["UPS Ground", "USPS Priority", "DHL Express"]
+  }
+]
