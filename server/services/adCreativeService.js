@@ -61,7 +61,7 @@ class AdCreativeService {
         ]
       },
       metaAdCopy: {
-        primaryText: `⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ${product.title}.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!`,
+        primaryText: `⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ${product.title}.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!`,
         headline: `${product.title} (50% OFF FLASH DEAL)`,
         cta: "Shop Now"
       },

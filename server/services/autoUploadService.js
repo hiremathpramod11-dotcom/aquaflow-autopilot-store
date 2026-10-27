@@ -80,7 +80,7 @@ class AutoUploadService {
       `Transform your space with the viral ${title}! ✨\n\n` +
       `🔥 50% OFF FLASH SALE ENDS TONIGHT!\n` +
       `🚚 Free Priority Insured Shipping Worldwide\n` +
-      `🛡️ 30-Day Money-Back Guarantee\n\n` +
+      `🛡️ 7-Day Hassle-Free Defect Replacement Guarantee\n\n` +
       `👉 Tap the link in bio to claim yours: ${url}\n` +
       `Tag: @aquaflow_drop @kevin_369\n\n` +
       `#aquaflow #viralproducts #tiktokmademebuyit #roomdecor #musthaves #gadgetlovers #interiordesign #fyp #kevin369`

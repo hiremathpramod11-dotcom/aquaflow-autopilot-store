@@ -137,7 +137,7 @@ def auto_upload(username, password=None, simulate=False):
         f"Transform your space with the viral {prod['title']}! ✨\n\n"
         f"🔥 50% OFF FLASH SALE ENDS TONIGHT!\n"
         f"🚚 Free Priority Insured Shipping Worldwide\n"
-        f"🛡️ 30-Day Money-Back Guarantee\n\n"
+        f"🛡️ 7-Day Hassle-Free Defect Replacement Guarantee\n\n"
         f"👉 Tap the link in bio to claim yours: {STORE_URL}\n"
         f"Tag: @aquaflow_drop @{clean_user}\n\n"
         f"#aquaflow #viralproducts #tiktokmademebuyit #roomdecor #musthaves #gadgetlovers #interiordesign #fyp"

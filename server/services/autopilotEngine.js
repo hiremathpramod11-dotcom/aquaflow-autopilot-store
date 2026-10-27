@@ -103,10 +103,12 @@ class AutopilotEngine {
       const settings = this.getSettings();
       if (settings.autoUploadInstagram !== false && this.autoUpload) {
         const igUser = settings.activeIntegrations?.instagram?.username || 'kevin_369';
+        const igPass = settings.activeIntegrations?.instagram?.password || process.env.IG_PASSWORD;
         await this.autoUpload.uploadPost({
           productId: newProduct.id,
           username: igUser,
-          simulate: true // Background autonomous cycle verifies pipeline safely
+          password: igPass,
+          simulate: !igPass
         });
       }
 

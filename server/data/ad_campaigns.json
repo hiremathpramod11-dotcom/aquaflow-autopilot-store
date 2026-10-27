@@ -1,5 +1,1126 @@
 [
   {
+    "id": "ad_1793120534801",
+    "productId": "prod_1793120534796",
+    "productTitle": "SculptBlade Max V321 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 3.36,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Beauty & Personal Care hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral SculptBlade Max V321 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying SculptBlade Max V321 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Beauty & Personal Care hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "Melt away muscle tension and flush out toxic bloating with targeted vibration and thermotherapy."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V321 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "SculptBlade Max V321 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Beauty & Personal Care",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793120489790",
+    "productId": "prod_1793120489786",
+    "productTitle": "PurrPulse Max V879 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 3.64,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Pet Supplies hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral PurrPulse Max V879 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying PurrPulse Max V879 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Pet Supplies hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V879 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "PurrPulse Max V879 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Pet Supplies",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793120444789",
+    "productId": "prod_1793120444784",
+    "productTitle": "NovaBeam Max V535 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 3.31,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Smart Tech Gadgets hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral NovaBeam Max V535 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying NovaBeam Max V535 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Smart Tech Gadgets hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "The AI personal cameraman that keeps you perfectly centered in every frame without needing an app."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V535 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "NovaBeam Max V535 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Smart Tech Gadgets",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793120399783",
+    "productId": "prod_1793120399779",
+    "productTitle": "ChronoGlow Max V308 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 3.42,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Aesthetic Home & Wellness hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral ChronoGlow Max V308 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying ChronoGlow Max V308 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Aesthetic Home & Wellness hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "The cyberpunk retro-futuristic desk showpiece that everyone in your room will ask you about."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V308 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "ChronoGlow Max V308 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Aesthetic Home & Wellness",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793120354771",
+    "productId": "prod_1793120354766",
+    "productTitle": "NovaBeam Max V301 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 4.46,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Smart Tech Gadgets hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral NovaBeam Max V301 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying NovaBeam Max V301 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Smart Tech Gadgets hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "The AI personal cameraman that keeps you perfectly centered in every frame without needing an app."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V301 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "NovaBeam Max V301 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Smart Tech Gadgets",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793120309770",
+    "productId": "prod_1793120309766",
+    "productTitle": "PurrPulse Max V977 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 4.13,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Pet Supplies hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral PurrPulse Max V977 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying PurrPulse Max V977 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Pet Supplies hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V977 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "PurrPulse Max V977 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Pet Supplies",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793120264760",
+    "productId": "prod_1793120264756",
+    "productTitle": "PurrPulse Max V387 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 3.98,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Pet Supplies hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral PurrPulse Max V387 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying PurrPulse Max V387 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Pet Supplies hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V387 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "PurrPulse Max V387 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Pet Supplies",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793120219752",
+    "productId": "prod_1793120219745",
+    "productTitle": "PurrPulse Max V336 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 4.41,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Pet Supplies hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral PurrPulse Max V336 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying PurrPulse Max V336 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Pet Supplies hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V336 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "PurrPulse Max V336 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Pet Supplies",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793120174743",
+    "productId": "prod_1793120174736",
+    "productTitle": "NovaBeam Max V213 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 3.85,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Smart Tech Gadgets hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral NovaBeam Max V213 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying NovaBeam Max V213 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Smart Tech Gadgets hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "The AI personal cameraman that keeps you perfectly centered in every frame without needing an app."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V213 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "NovaBeam Max V213 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Smart Tech Gadgets",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793120129740",
+    "productId": "prod_1793120129734",
+    "productTitle": "SculptBlade Max V230 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 4.42,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Beauty & Personal Care hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral SculptBlade Max V230 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying SculptBlade Max V230 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Beauty & Personal Care hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "Melt away muscle tension and flush out toxic bloating with targeted vibration and thermotherapy."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V230 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "SculptBlade Max V230 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Beauty & Personal Care",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793120084728",
+    "productId": "prod_1793120084723",
+    "productTitle": "ChronoGlow Max V496 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 3.93,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Aesthetic Home & Wellness hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral ChronoGlow Max V496 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying ChronoGlow Max V496 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Aesthetic Home & Wellness hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "The cyberpunk retro-futuristic desk showpiece that everyone in your room will ask you about."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V496 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "ChronoGlow Max V496 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Aesthetic Home & Wellness",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793120039723",
+    "productId": "prod_1793120039716",
+    "productTitle": "AquaBreeze Max V500 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 3.69,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Home & Wellness hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral AquaBreeze Max V500 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying AquaBreeze Max V500 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Home & Wellness hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "Cool down any room by 15°F in under 90 seconds without a $500 monthly electric bill."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V500 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "AquaBreeze Max V500 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Home & Wellness",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793119994709",
+    "productId": "prod_1793119994705",
+    "productTitle": "ChronoGlow Max V942 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 3.86,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Aesthetic Home & Wellness hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral ChronoGlow Max V942 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying ChronoGlow Max V942 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Aesthetic Home & Wellness hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "The cyberpunk retro-futuristic desk showpiece that everyone in your room will ask you about."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V942 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "ChronoGlow Max V942 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Aesthetic Home & Wellness",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793119949711",
+    "productId": "prod_1793119949704",
+    "productTitle": "AquaBreeze Max V228 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 4.24,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Home & Wellness hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral AquaBreeze Max V228 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying AquaBreeze Max V228 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Home & Wellness hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "Cool down any room by 15°F in under 90 seconds without a $500 monthly electric bill."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V228 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "AquaBreeze Max V228 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Home & Wellness",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793119904708",
+    "productId": "prod_1793119904702",
+    "productTitle": "AquaBreeze Max V900 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 3.99,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Home & Wellness hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral AquaBreeze Max V900 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying AquaBreeze Max V900 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Home & Wellness hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "Cool down any room by 15°F in under 90 seconds without a $500 monthly electric bill."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V900 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "AquaBreeze Max V900 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Home & Wellness",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793119859692",
+    "productId": "prod_1793119859688",
+    "productTitle": "PurrPulse Max V942 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 4.41,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Pet Supplies hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral PurrPulse Max V942 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying PurrPulse Max V942 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Pet Supplies hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V942 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "PurrPulse Max V942 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Pet Supplies",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793119814703",
+    "productId": "prod_1793119814693",
+    "productTitle": "PurrPulse Max V849 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 4.36,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Pet Supplies hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral PurrPulse Max V849 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying PurrPulse Max V849 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Pet Supplies hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V849 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "PurrPulse Max V849 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Pet Supplies",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793119769679",
+    "productId": "prod_1793119769674",
+    "productTitle": "NovaBeam Max V960 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 3.72,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Smart Tech Gadgets hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral NovaBeam Max V960 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying NovaBeam Max V960 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Smart Tech Gadgets hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "The AI personal cameraman that keeps you perfectly centered in every frame without needing an app."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V960 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "NovaBeam Max V960 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Smart Tech Gadgets",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793119724667",
+    "productId": "prod_1793119724662",
+    "productTitle": "AquaBreeze Max V232 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 4.46,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Home & Wellness hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral AquaBreeze Max V232 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying AquaBreeze Max V232 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Home & Wellness hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "Cool down any room by 15°F in under 90 seconds without a $500 monthly electric bill."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V232 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "AquaBreeze Max V232 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Home & Wellness",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
     "id": "ad_1793119679656",
     "productId": "prod_1793119679651",
     "productTitle": "PurrPulse Max V110 Smart Edition",
@@ -38,7 +1159,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V110 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V110 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V110 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -97,7 +1218,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V509 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V509 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V509 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -156,7 +1277,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V600 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V600 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V600 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -215,7 +1336,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V556 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V556 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V556 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -274,7 +1395,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V474 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V474 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V474 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -333,7 +1454,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V769 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V769 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V769 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -392,7 +1513,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V311 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V311 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V311 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -451,7 +1572,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V366 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V366 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V366 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -510,7 +1631,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V571 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V571 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V571 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -569,7 +1690,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V193 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V193 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V193 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -628,7 +1749,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V715 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V715 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V715 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -687,7 +1808,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V818 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V818 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V818 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -746,7 +1867,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V683 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V683 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V683 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -805,7 +1926,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V543 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V543 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V543 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -864,7 +1985,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V118 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V118 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V118 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -923,7 +2044,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V259 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V259 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V259 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -982,7 +2103,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V178 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V178 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V178 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1041,7 +2162,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V202 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V202 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V202 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1100,7 +2221,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V590 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V590 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V590 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1159,7 +2280,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V761 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V761 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V761 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1218,7 +2339,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V603 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V603 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V603 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1277,7 +2398,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V580 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V580 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V580 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1336,7 +2457,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V284 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V284 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V284 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1395,7 +2516,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V329 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V329 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V329 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1454,7 +2575,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V453 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V453 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V453 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1513,7 +2634,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V942 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V942 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V942 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1572,7 +2693,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V484 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V484 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V484 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1631,7 +2752,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V638 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V638 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V638 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1690,7 +2811,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V547 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V547 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V547 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1749,7 +2870,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V129 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V129 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V129 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1808,7 +2929,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V219 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V219 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V219 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1867,7 +2988,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V156 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V156 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V156 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1926,7 +3047,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V876 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V876 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V876 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -1985,7 +3106,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V508 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V508 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V508 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2044,7 +3165,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V763 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V763 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V763 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2103,7 +3224,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V856 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V856 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V856 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2162,7 +3283,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V435 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V435 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V435 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2221,7 +3342,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V329 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V329 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V329 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2280,7 +3401,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V271 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V271 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V271 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2339,7 +3460,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V676 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V676 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V676 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2398,7 +3519,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V656 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V656 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V656 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2457,7 +3578,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V526 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V526 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V526 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2516,7 +3637,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V418 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V418 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V418 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2575,7 +3696,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V291 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V291 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V291 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2634,7 +3755,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V571 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V571 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V571 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2693,7 +3814,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V965 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V965 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V965 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2752,7 +3873,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V239 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V239 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V239 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2811,7 +3932,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V176 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V176 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V176 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2870,7 +3991,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V225 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V225 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V225 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2929,7 +4050,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V309 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V309 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V309 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -2988,7 +4109,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V409 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V409 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V409 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3047,7 +4168,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V982 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V982 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V982 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3106,7 +4227,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V306 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V306 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V306 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3165,7 +4286,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V713 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V713 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V713 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3224,7 +4345,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V751 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V751 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V751 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3283,7 +4404,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V473 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V473 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V473 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3342,7 +4463,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V366 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V366 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V366 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3401,7 +4522,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V950 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V950 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V950 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3460,7 +4581,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V546 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V546 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V546 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3519,7 +4640,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V509 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V509 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V509 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3578,7 +4699,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V553 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V553 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V553 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3637,7 +4758,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V329 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V329 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V329 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3696,7 +4817,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V202 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V202 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V202 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3755,7 +4876,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V285 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V285 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V285 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3814,7 +4935,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V635 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V635 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V635 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3873,7 +4994,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V313 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V313 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V313 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3932,7 +5053,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V209 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V209 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V209 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -3991,7 +5112,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V974 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V974 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V974 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4050,7 +5171,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V961 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V961 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V961 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4109,7 +5230,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V555 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V555 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V555 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4168,7 +5289,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V548 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V548 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V548 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4227,7 +5348,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V348 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V348 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V348 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4286,7 +5407,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V790 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V790 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V790 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4345,7 +5466,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V415 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V415 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V415 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4404,7 +5525,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V629 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V629 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V629 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4463,7 +5584,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V160 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V160 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V160 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4522,7 +5643,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V259 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V259 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V259 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4581,7 +5702,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V939 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V939 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V939 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4640,7 +5761,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V626 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V626 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V626 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4699,7 +5820,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V510 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V510 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V510 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4758,7 +5879,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V397 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V397 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V397 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4817,7 +5938,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V630 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V630 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V630 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4876,7 +5997,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V829 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V829 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V829 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4935,7 +6056,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V544 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V544 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V544 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -4994,7 +6115,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V263 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V263 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V263 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5053,7 +6174,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V592 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V592 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V592 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5112,7 +6233,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V906 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V906 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V906 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5171,7 +6292,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V188 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V188 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V188 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5230,7 +6351,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V418 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V418 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V418 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5289,7 +6410,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V509 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V509 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V509 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5348,7 +6469,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V164 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V164 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V164 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5407,7 +6528,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V237 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V237 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V237 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5466,7 +6587,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V849 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V849 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V849 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5525,7 +6646,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V740 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V740 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V740 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5584,7 +6705,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V785 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V785 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V785 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5643,7 +6764,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V826 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V826 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V826 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5702,7 +6823,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V848 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V848 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V848 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5761,7 +6882,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V124 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V124 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V124 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5820,7 +6941,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V732 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V732 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V732 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5879,7 +7000,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V274 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V274 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V274 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5938,7 +7059,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V358 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V358 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V358 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -5997,7 +7118,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V460 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V460 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V460 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -6056,7 +7177,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V900 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V900 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V900 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -6115,7 +7236,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V928 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V928 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V928 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -6174,7 +7295,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V505 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V505 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V505 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -6233,7 +7354,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V528 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V528 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V528 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -6292,7 +7413,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V519 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V519 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V519 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -6351,7 +7472,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V360 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V360 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V360 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -6410,7 +7531,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V168 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V168 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V168 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -6469,7 +7590,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V448 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V448 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V448 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -6528,7 +7649,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V442 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V442 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V442 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -6587,7 +7708,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V957 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V957 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V957 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -6646,7 +7767,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V607 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V607 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V607 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -6705,7 +7826,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V838 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V838 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V838 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -6764,7 +7885,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V983 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V983 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V983 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -6823,7 +7944,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V911 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V911 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V911 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -6882,7 +8003,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V510 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V510 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V510 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -6941,7 +8062,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V500 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V500 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V500 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7000,7 +8121,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V293 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V293 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V293 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7059,7 +8180,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V246 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V246 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V246 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7118,7 +8239,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V905 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V905 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V905 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7177,7 +8298,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V765 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V765 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V765 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7236,7 +8357,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V571 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V571 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V571 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7295,7 +8416,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V567 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V567 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V567 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7354,7 +8475,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V111 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V111 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V111 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7413,7 +8534,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V731 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V731 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V731 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7472,7 +8593,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V263 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V263 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V263 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7531,7 +8652,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V612 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V612 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V612 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7590,7 +8711,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V749 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V749 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V749 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7649,7 +8770,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V335 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V335 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V335 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7708,7 +8829,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V701 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V701 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V701 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7767,7 +8888,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V868 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V868 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V868 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7826,7 +8947,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V607 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V607 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V607 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7885,7 +9006,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V750 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V750 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V750 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -7944,7 +9065,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V986 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V986 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V986 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8003,7 +9124,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V599 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V599 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V599 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8062,7 +9183,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V403 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V403 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V403 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8121,7 +9242,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V171 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V171 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V171 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8180,7 +9301,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V907 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V907 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V907 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8239,7 +9360,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V579 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V579 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V579 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8298,7 +9419,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V681 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V681 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V681 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8357,7 +9478,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V449 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V449 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V449 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8416,7 +9537,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V687 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V687 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V687 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8475,7 +9596,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V739 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V739 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V739 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8534,7 +9655,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V582 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V582 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V582 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8593,7 +9714,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V891 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V891 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V891 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8652,7 +9773,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V538 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V538 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V538 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8711,7 +9832,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V899 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V899 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Max V899 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8770,7 +9891,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V536 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V536 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V536 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8829,7 +9950,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V840 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V840 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V840 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8888,7 +10009,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V709 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Max V709 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Max V709 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -8947,7 +10068,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V361 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V361 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V361 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -9006,7 +10127,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V749 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V749 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Max V749 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -9065,7 +10186,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V355 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Max V355 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Max V355 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -9124,7 +10245,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V977 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V977 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V977 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -9183,7 +10304,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V447 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V447 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Max V447 Smart Edition (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -9242,7 +10363,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Ambient RGB Tube Clock & Weather Station.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Ambient RGB Tube Clock & Weather Station.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "ChronoGlow Ambient RGB Tube Clock & Weather Station (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -9301,7 +10422,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Electric Lymphatic Drainage & Gua Sha Scraper.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new SculptBlade Electric Lymphatic Drainage & Gua Sha Scraper.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "SculptBlade Electric Lymphatic Drainage & Gua Sha Scraper (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -9360,7 +10481,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Heated Anti-Anxiety Calming Donut Pet Bed.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Heated Anti-Anxiety Calming Donut Pet Bed.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "PurrPulse Heated Anti-Anxiety Calming Donut Pet Bed (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -9419,7 +10540,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Pro 360 Auto-Tracking Smart Gimbal Stabilizer.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Pro 360 Auto-Tracking Smart Gimbal Stabilizer.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "NovaBeam Pro 360 Auto-Tracking Smart Gimbal Stabilizer (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },
@@ -9478,7 +10599,7 @@
       ]
     },
     "metaAdCopy": {
-      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Hydro-Mist Portable Air Conditioner & Cooler.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new AquaBreeze Hydro-Mist Portable Air Conditioner & Cooler.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 7-Day Hassle-Free Defect Replacement Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
       "headline": "AquaBreeze Hydro-Mist Portable Air Conditioner & Cooler (50% OFF FLASH DEAL)",
       "cta": "Shop Now"
     },

@@ -13,18 +13,18 @@ class AiCopywriterService {
 
     return {
       seoTitle: `${title} | Official 50% Off Flash Sale | AquaFlow Direct`,
-      metaDescription: `Discover the original ${title}. Rated 4.9/5 by over 1,000+ happy customers. Enjoy free priority shipping and 30-day risk-free money-back guarantee today!`,
+      metaDescription: `Discover the original ${title}. Rated 4.9/5 by over 1,000+ happy customers. Enjoy free priority shipping and 7-day hassle-free replacement guarantee today!`,
       headline: `The Internet's Favorite ${category} Just Got Better.`,
       urgencyTagline: `⚡ Limited Warehouse Stock: High Demand Order Volume Detected`,
-      guarantee: "30-Day 100% Risk-Free Money Back Guarantee – If you don't fall in love, return it for a prompt refund.",
+      guarantee: "7-Day Hassle-Free Replacement Guarantee – If your item arrives defective or damaged, we immediately dispatch a brand-new replacement.",
       faqs: [
         {
           question: `How fast is the shipping for ${title}?`,
           answer: `All orders are processed and dispatched within 24 hours. Free insured delivery takes typically 3 to 7 business days directly to your doorstep with tracking updates sent to your email.`
         },
         {
-          question: `What if it doesn't meet my expectations?`,
-          answer: `We stand behind our quality 100%. We offer a 30-day money-back guarantee. If you're not satisfied, simply contact support@aquaflowdirect.com for an immediate exchange or refund.`
+          question: `What if it arrives defective or damaged?`,
+          answer: `We stand behind our factory quality 100%. We offer a 7-day hassle-free replacement guarantee. If your item has any transit damage or defect, contact support@aquaflowdirect.com with a quick unboxing clip for an immediate brand-new replacement unit dispatched free.`
         },
         {
           question: `Are there any hidden subscription or recurring fees?`,

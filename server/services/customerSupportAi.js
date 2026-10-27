@@ -49,10 +49,10 @@ class CustomerSupportAi {
     }
 
     // 3. Return, refund, or guarantee policy
-    if (text.includes("refund") || text.includes("return") || text.includes("guarantee") || text.includes("money back")) {
+    if (text.includes("refund") || text.includes("return") || text.includes("guarantee") || text.includes("replacement") || text.includes("damaged")) {
       return {
-        reply: `🛡️ **Our 30-Day Risk-Free Guarantee:**\n\n` +
-               `We offer a 100% money-back guarantee for 30 full days after delivery! If you're not completely obsessed with your purchase, simply send an email to **support@aquaflowdirect.com** with your order number. We'll issue an instant prepaid return label and prompt refund. Zero hassle!`,
+        reply: `🛡️ **Our 7-Day Hassle-Free Defect Replacement Policy:**\n\n` +
+               `We stand 100% behind the quality of our factory-direct products! If your item arrives with any transit damage or manufacturing defect, simply email **support@aquaflowdirect.com** with a short unboxing video/photo within 7 days of delivery. Our automated team will dispatch a brand-new replacement unit to your doorstep immediately at zero cost! (To protect low factory pricing, we do not accept opened returns for change of mind).`,
         topic: "returns"
       };
     }
@@ -71,7 +71,7 @@ class CustomerSupportAi {
              `I can help you with:\n` +
              `• **Order Tracking & WISMO** ("Where is order AQF-98241?")\n` +
              `• **Shipping & Delivery Times** ("How fast do you ship?")\n` +
-             `• **Returns & 30-Day Guarantee** ("What is your refund policy?")\n` +
+             `• **7-Day Replacement Policy** ("What is your replacement policy?")\n` +
              `• **VIP Discount Coupons** ("Do you have any discount codes?")\n\n` +
              `How can I assist your order today?`,
       topic: "general"
