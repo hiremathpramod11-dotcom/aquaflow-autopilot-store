@@ -218,6 +218,59 @@
         </div>
       </div>
 
+      <!-- Instagram Auto-Uploader Hero Card -->
+      <div style="background: linear-gradient(135deg, rgba(236, 72, 153, 0.12), rgba(168, 85, 247, 0.12)); border: 1px solid rgba(236, 72, 153, 0.35); border-radius: 12px; padding: 22px; margin-bottom: 24px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 12px;">
+          <div>
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <span style="font-size: 1.15rem; font-weight: 800; color: #f43f5e; display: flex; align-items: center; gap: 8px;">
+                <i class="fa-brands fa-instagram" style="font-size: 1.4rem;"></i> Instagram AI Auto-Uploader
+              </span>
+              <span id="igStatusBadge" style="background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); padding: 3px 10px; border-radius: 9999px; font-size: 0.72rem; font-weight: 700;">
+                ● AUTOPILOT CONNECTED
+              </span>
+            </div>
+            <p style="font-size: 0.8rem; color: #cbd5e1; margin-top: 4px;">
+              Direct-to-Feed Autonomous Publisher for <b>@kevin_369</b> and <b>@aquaflow_drop</b>. Auto-publishes viral products, hashtags, and links.
+            </p>
+          </div>
+          <div style="display: flex; gap: 10px; align-items: center;">
+            <label style="font-size: 0.8rem; color: #cbd5e1; display: flex; align-items: center; gap: 6px; cursor: pointer; background: rgba(0,0,0,0.3); padding: 8px 12px; border-radius: 6px; border: 1px solid #334155;">
+              <input type="checkbox" id="igAutoCycleToggle" checked style="accent-color: #f43f5e; width: 16px; height: 16px;">
+              <span>Auto-Upload in Cycles</span>
+            </label>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-bottom: 16px;">
+          <div>
+            <label style="font-size: 0.75rem; color: #94a3b8; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 6px;">Target Account</label>
+            <select id="igAccountSelect" style="width: 100%; background: #0f172a; color: white; border: 1px solid #334155; padding: 10px 14px; border-radius: 8px; font-size: 0.85rem; font-weight: 600;">
+              <option value="kevin_369" selected>@kevin_369 (Primary Influencer / Drop Account)</option>
+              <option value="aquaflow_drop">@aquaflow_drop (Official Brand Store)</option>
+            </select>
+          </div>
+          <div>
+            <label style="font-size: 0.75rem; color: #94a3b8; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 6px;">Instagram Password / Session Key</label>
+            <input type="password" id="igPasswordInput" placeholder="Enter password (or leave empty for test / saved session)" style="width: 100%; background: #0f172a; color: white; border: 1px solid #334155; padding: 10px 14px; border-radius: 8px; font-size: 0.85rem;">
+          </div>
+          <div>
+            <label style="font-size: 0.75rem; color: #94a3b8; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 6px;">Publishing Mode</label>
+            <select id="igModeSelect" style="width: 100%; background: #0f172a; color: white; border: 1px solid #334155; padding: 10px 14px; border-radius: 8px; font-size: 0.85rem; font-weight: 600;">
+              <option value="simulate">Simulation Mode (Safe Verification / Instant Test)</option>
+              <option value="live">Live Instagram API Mode (Direct to Feed)</option>
+            </select>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+          <button id="triggerAutoUploadBtn" style="background: linear-gradient(135deg, #e11d48, #c026d3); color: white; border: none; padding: 12px 24px; border-radius: 8px; font-weight: 800; font-size: 0.9rem; cursor: pointer; display: flex; align-items: center; gap: 8px; box-shadow: 0 4px 14px rgba(225, 29, 72, 0.4);">
+            <i class="fa-solid fa-cloud-arrow-up"></i> 1-Click Auto-Upload to Instagram
+          </button>
+          <div id="igUploadFeedback" style="font-size: 0.82rem; color: #cbd5e1; font-weight: 600;"></div>
+        </div>
+      </div>
+
       <!-- Traffic Pack Content Cards -->
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 20px;">
         
@@ -277,6 +330,21 @@ Loading filming steps...
         </div>
 
       </div>
+
+      <!-- Auto-Upload History Table -->
+      <div style="background: #0f172a; border: 1px solid #1e293b; border-radius: 12px; padding: 20px; margin-top: 24px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+          <h3 style="font-size: 1rem; font-weight: 700; color: #38bdf8; display: flex; align-items: center; gap: 8px;">
+            <i class="fa-solid fa-clock-rotate-left"></i> Live Social Auto-Upload Feed & History
+          </h3>
+          <button id="refreshIgHistoryBtn" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 5px 12px; border-radius: 6px; font-size: 0.75rem; cursor: pointer;">
+            <i class="fa-solid fa-rotate"></i> Refresh
+          </button>
+        </div>
+        <div id="igUploadHistoryList" style="display: flex; flex-direction: column; gap: 10px;">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
     </div>
 
     <!-- TAB 4: Autopilot Config -->
@@ -311,6 +379,13 @@ Loading filming steps...
             <input type="checkbox" id="settingSimulatedTraffic" checked style="width: 18px; height: 18px;">
             <label for="settingSimulatedTraffic" style="font-size: 0.85rem; font-weight: 600; color: #e2e8f0; cursor: pointer;">
               Enable Organic Traffic & Sales Generation in background loop
+            </label>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 10px; margin-top: 6px;">
+            <input type="checkbox" id="settingAutoUploadSocial" checked style="width: 18px; height: 18px; accent-color: #f43f5e;">
+            <label for="settingAutoUploadSocial" style="font-size: 0.85rem; font-weight: 600; color: #e2e8f0; cursor: pointer;">
+              Auto-Upload Winning Products to Instagram feed (@kevin_369) on each cycle
             </label>
           </div>
 

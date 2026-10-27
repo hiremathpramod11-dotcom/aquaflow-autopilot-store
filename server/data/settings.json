@@ -10,6 +10,7 @@
   "autoFulfillOrders": true,
   "autoGenerateAds": true,
   "autoPublishProducts": true,
+  "autoUploadInstagram": true,
   "simulatedTrafficActive": true,
   "supplierPreference": "SPOCKET_PREMIUM",
   "freeShippingThreshold": 50,
@@ -39,6 +40,13 @@
       "enabled": true,
       "connected": true,
       "adAccount": "ACT-AQUA-VIRAL"
+    },
+    "instagram": {
+      "enabled": true,
+      "connected": true,
+      "username": "kevin_369",
+      "targetAccount": "@kevin_369",
+      "autoUpload": true
     },
     "metaAds": {
       "enabled": true,

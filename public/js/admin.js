@@ -33,6 +33,7 @@ const settingInterval = document.getElementById('settingInterval');
 const settingMultiplier = document.getElementById('settingMultiplier');
 const settingSupplier = document.getElementById('settingSupplier');
 const settingSimulatedTraffic = document.getElementById('settingSimulatedTraffic');
+const settingAutoUploadSocial = document.getElementById('settingAutoUploadSocial');
 
 // Tab Switching
 document.querySelectorAll('.admin-tab').forEach(tab => {
@@ -191,6 +192,8 @@ function updateUI() {
   settingMultiplier.value = settings.defaultMarginMultiplier || 3.2;
   settingSupplier.value = settings.supplierPreference || "CJ_DROPSHIPPING_FAST";
   settingSimulatedTraffic.checked = settings.simulatedTrafficActive !== false;
+  if (settingAutoUploadSocial) settingAutoUploadSocial.checked = settings.autoUploadInstagram !== false;
+  if (igAutoCycleToggle) igAutoCycleToggle.checked = settings.autoUploadInstagram !== false;
 
   // Populate Traffic Product Selector
   if (trafficProductSelect && products.length > 0) {
@@ -229,6 +232,8 @@ function connectWebSocket() {
         appendLog(data.level, data.timestamp, data.message);
       } else if (data.type === 'NEW_ORDER' || data.type === 'CYCLE_COMPLETE' || data.type === 'NEW_PRODUCT') {
         loadAllData();
+      } else if (data.type === 'INSTAGRAM_POST_PUBLISHED') {
+        loadIgUploadHistory();
       }
     } catch (e) {}
   };
@@ -294,7 +299,8 @@ settingsForm.addEventListener('submit', async (e) => {
     autopilotIntervalSeconds: parseInt(settingInterval.value, 10),
     defaultMarginMultiplier: parseFloat(settingMultiplier.value),
     supplierPreference: settingSupplier.value,
-    simulatedTrafficActive: settingSimulatedTraffic.checked
+    simulatedTrafficActive: settingSimulatedTraffic.checked,
+    autoUploadInstagram: settingAutoUploadSocial ? settingAutoUploadSocial.checked : true
   };
 
   const res = await fetch('/api/settings', {
@@ -382,6 +388,130 @@ if (copyInfluencerDmBtn) {
   });
 }
 
+// ==================== INSTAGRAM AUTO-UPLOADER CONTROLLER ====================
+const igAccountSelect = document.getElementById('igAccountSelect');
+const igPasswordInput = document.getElementById('igPasswordInput');
+const igModeSelect = document.getElementById('igModeSelect');
+const igAutoCycleToggle = document.getElementById('igAutoCycleToggle');
+const triggerAutoUploadBtn = document.getElementById('triggerAutoUploadBtn');
+const igUploadFeedback = document.getElementById('igUploadFeedback');
+const igUploadHistoryList = document.getElementById('igUploadHistoryList');
+const refreshIgHistoryBtn = document.getElementById('refreshIgHistoryBtn');
+
+async function loadIgUploadHistory() {
+  if (!igUploadHistoryList) return;
+  try {
+    const res = await fetch('/api/traffic/upload/history');
+    const history = await res.json();
+    if (!history || history.length === 0) {
+      igUploadHistoryList.innerHTML = `<div style="font-size: 0.8rem; color: #64748b; padding: 12px;">No uploads recorded yet. Trigger your first post above!</div>`;
+      return;
+    }
+
+    igUploadHistoryList.innerHTML = history.slice(0, 10).map(item => {
+      const isSim = item.mode === 'SIMULATED';
+      const badgeColor = isSim ? '#38bdf8' : '#22c55e';
+      const badgeBg = isSim ? 'rgba(56, 189, 248, 0.15)' : 'rgba(34, 197, 94, 0.15)';
+      const dateStr = item.timestamp ? new Date(item.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : '';
+
+      return `
+        <div style="background: rgba(0,0,0,0.35); border: 1px solid #1e293b; border-radius: 8px; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <i class="fa-brands fa-instagram" style="color: #f43f5e; font-size: 1.2rem;"></i>
+            <div>
+              <div style="font-weight: 700; font-size: 0.85rem; color: white;">
+                @${item.account} &bull; <span style="color: #cbd5e1; font-weight: 500;">${item.productTitle}</span>
+              </div>
+              <div style="font-size: 0.72rem; color: #94a3b8; margin-top: 2px;">
+                Code: <code style="color: #38bdf8;">${item.postCode}</code> &bull; ${dateStr}
+              </div>
+            </div>
+          </div>
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <span style="background: ${badgeBg}; color: ${badgeColor}; border: 1px solid ${badgeColor}; padding: 3px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: 700;">
+              ${item.mode}
+            </span>
+            <a href="${item.postUrl}" target="_blank" style="background: #1e293b; color: #f43f5e; border: 1px solid #334155; padding: 5px 10px; border-radius: 6px; font-size: 0.75rem; text-decoration: none; font-weight: 700; display: flex; align-items: center; gap: 5px;">
+              <span>View Post</span> <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.7rem;"></i>
+            </a>
+          </div>
+        </div>
+      `;
+    }).join('');
+  } catch (err) {
+    console.error('Failed to load upload history:', err);
+  }
+}
+
+if (triggerAutoUploadBtn) {
+  triggerAutoUploadBtn.addEventListener('click', async () => {
+    const productId = trafficProductSelect ? trafficProductSelect.value : (products[0] ? products[0].id : null);
+    const username = igAccountSelect ? igAccountSelect.value : 'kevin_369';
+    const password = igPasswordInput ? igPasswordInput.value.trim() : '';
+    const simulate = igModeSelect ? igModeSelect.value === 'simulate' : false;
+
+    triggerAutoUploadBtn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Auto-Uploading to Instagram...`;
+    triggerAutoUploadBtn.disabled = true;
+    igUploadFeedback.innerHTML = `<span style="color: #38bdf8;">Connecting to Instagram API & preparing viral assets...</span>`;
+
+    try {
+      const res = await fetch('/api/traffic/upload', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          productId,
+          username,
+          password,
+          simulate
+        })
+      });
+
+      const data = await res.json();
+      if (data.success) {
+        igUploadFeedback.innerHTML = `
+          <span style="color: #34d399; font-weight: 700;">
+            <i class="fa-solid fa-circle-check"></i> Post Published! 
+            <a href="${data.postUrl}" target="_blank" style="color: #38bdf8; text-decoration: underline; margin-left: 6px;">View on Instagram &rarr;</a>
+          </span>
+        `;
+        appendLog('SUCCESS', new Date().toLocaleTimeString(), `📸 Instagram Auto-Upload complete for @${data.account}: ${data.postUrl}`);
+        loadIgUploadHistory();
+      } else {
+        igUploadFeedback.innerHTML = `
+          <span style="color: #f87171;">
+            <i class="fa-solid fa-triangle-exclamation"></i> ${data.error || 'Upload error'}
+            ${data.tip ? `<br><small style="color: #cbd5e1;">${data.tip}</small>` : ''}
+          </span>
+        `;
+        appendLog('ERROR', new Date().toLocaleTimeString(), `⚠️ Instagram upload error: ${data.error}`);
+      }
+    } catch (err) {
+      igUploadFeedback.innerHTML = `<span style="color: #f87171;">Network error: ${err.message}</span>`;
+    } finally {
+      triggerAutoUploadBtn.innerHTML = `<i class="fa-solid fa-cloud-arrow-up"></i> 1-Click Auto-Upload to Instagram`;
+      triggerAutoUploadBtn.disabled = false;
+    }
+  });
+}
+
+if (igAutoCycleToggle) {
+  igAutoCycleToggle.addEventListener('change', async () => {
+    const isChecked = igAutoCycleToggle.checked;
+    await fetch('/api/settings', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ autoUploadInstagram: isChecked })
+    });
+    if (settingAutoUploadSocial) settingAutoUploadSocial.checked = isChecked;
+    appendLog('INFO', new Date().toLocaleTimeString(), `Autonomous Instagram Upload set to: ${isChecked ? 'ENABLED' : 'PAUSED'}`);
+  });
+}
+
+if (refreshIgHistoryBtn) {
+  refreshIgHistoryBtn.addEventListener('click', loadIgUploadHistory);
+}
+
 // Boot up
 loadAllData();
+loadIgUploadHistory();
 connectWebSocket();

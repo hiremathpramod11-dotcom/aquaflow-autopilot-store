@@ -29,13 +29,18 @@ pip install -r requirements.txt
 
 Run the companion tools:
 ```bash
-# 1. Telemetry HUD Daemon
+# 1. 1-Click Instagram Auto-Uploader (@kevin_369 / @aquaflow_drop)
+npm run autoupload                              # Instant Node.js runner
+python automation/instagram_autoposter.py --auto # Python runner
+# Or double-click: run_autoupload.bat
+
+# 2. Telemetry HUD Daemon
 python automation/auto_bot.py
 
-# 2. Viral Trend Scraper & Product Hunter
+# 3. Viral Trend Scraper & Product Hunter
 python automation/trend_scraper.py -n 3 --sync
 
-# 3. Real-World Unit Economics & ROAS Calculator
+# 4. Real-World Unit Economics & ROAS Calculator
 python automation/profit_calculator.py -i           # Interactive Mode
 python automation/profit_calculator.py --store      # Audit live store inventory
 ```

@@ -12,6 +12,7 @@ const FulfillmentService = require('./services/fulfillmentService');
 const CustomerSupportAi = require('./services/customerSupportAi');
 const AutopilotEngine = require('./services/autopilotEngine');
 const SocialTrafficService = require('./services/socialTrafficService');
+const AutoUploadService = require('./services/autoUploadService');
 
 const app = express();
 const server = http.createServer(app);
@@ -42,10 +43,11 @@ const adCreative = new AdCreativeService(DATA_PATH);
 const fulfillment = new FulfillmentService(DATA_PATH);
 const customerSupport = new CustomerSupportAi(fulfillment);
 const socialTraffic = new SocialTrafficService();
+const autoUpload = new AutoUploadService(DATA_PATH, null, (event) => broadcast(event));
 
 const autopilot = new AutopilotEngine(
   DATA_PATH,
-  { viralHunter, aiCopywriter, adCreative, fulfillment },
+  { viralHunter, aiCopywriter, adCreative, fulfillment, autoUpload },
   (event) => broadcast(event)
 );
 
@@ -136,6 +138,27 @@ app.get('/api/traffic/pack/:id', (req, res) => {
   const prod = products.find(p => p.id === req.params.id || p.slug === req.params.id) || products[0];
   const pack = socialTraffic.generateSocialPack(prod);
   res.json(pack);
+});
+
+// Auto-Upload Routes (Instagram & Socials)
+app.get('/api/traffic/upload/history', (req, res) => {
+  res.json(autoUpload.getHistory());
+});
+
+app.post('/api/traffic/upload', async (req, res) => {
+  try {
+    const { productId, username, password, caption, simulate } = req.body;
+    const result = await autoUpload.uploadPost({
+      productId,
+      username,
+      password,
+      caption,
+      simulate: simulate === true || simulate === 'true'
+    });
+    res.json(result);
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
 });
 
 // AI Customer Support

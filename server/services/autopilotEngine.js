@@ -10,6 +10,7 @@ class AutopilotEngine {
     this.aiCopywriter = services.aiCopywriter;
     this.adCreative = services.adCreative;
     this.fulfillment = services.fulfillment;
+    this.autoUpload = services.autoUpload;
     this.broadcast = broadcastCallback || (() => {});
     this.timer = null;
     this.isRunningCycle = false;
@@ -98,8 +99,18 @@ class AutopilotEngine {
         message: `🎬 Created Viral TikTok/Reels Script & Meta Ad Copy (Predicted ROAS: ${campaign.roas}x)`
       });
 
-      // 4. Simulate Realistic Organic Traffic & Autopilot Sale (if enabled)
+      // 4. Autonomous Auto-Upload to Instagram / Social Traffic
       const settings = this.getSettings();
+      if (settings.autoUploadInstagram !== false && this.autoUpload) {
+        const igUser = settings.activeIntegrations?.instagram?.username || 'kevin_369';
+        await this.autoUpload.uploadPost({
+          productId: newProduct.id,
+          username: igUser,
+          simulate: true // Background autonomous cycle verifies pipeline safely
+        });
+      }
+
+      // 5. Simulate Realistic Organic Traffic & Autopilot Sale (if enabled)
       if (settings.simulatedTrafficActive) {
         const orderValue = newProduct.price;
         const buyerNames = [
