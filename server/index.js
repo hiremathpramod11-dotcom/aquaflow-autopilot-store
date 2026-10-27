@@ -13,6 +13,7 @@ const CustomerSupportAi = require('./services/customerSupportAi');
 const AutopilotEngine = require('./services/autopilotEngine');
 const SocialTrafficService = require('./services/socialTrafficService');
 const AutoUploadService = require('./services/autoUploadService');
+const SalesAutomationService = require('./services/salesAutomationService');
 
 const app = express();
 const server = http.createServer(app);
@@ -44,6 +45,7 @@ const fulfillment = new FulfillmentService(DATA_PATH);
 const customerSupport = new CustomerSupportAi(fulfillment);
 const socialTraffic = new SocialTrafficService();
 const autoUpload = new AutoUploadService(DATA_PATH, null, (event) => broadcast(event));
+const salesAccelerator = new SalesAutomationService(DATA_PATH, fulfillment, (event) => broadcast(event));
 
 const autopilot = new AutopilotEngine(
   DATA_PATH,
@@ -51,8 +53,9 @@ const autopilot = new AutopilotEngine(
   (event) => broadcast(event)
 );
 
-// Start autonomous engine
+// Start autonomous engines
 autopilot.start();
+salesAccelerator.startOvernightSalesPipeline();
 
 // ==================== REST API ROUTES ====================
 
@@ -143,6 +146,11 @@ app.get('/api/traffic/pack/:id', (req, res) => {
 // Auto-Upload Routes (Instagram & Socials)
 app.get('/api/traffic/upload/history', (req, res) => {
   res.json(autoUpload.getHistory());
+});
+
+app.post('/api/sales/accelerate', (req, res) => {
+  const result = salesAccelerator.startOvernightSalesPipeline();
+  res.json(result);
 });
 
 app.post('/api/traffic/upload', async (req, res) => {

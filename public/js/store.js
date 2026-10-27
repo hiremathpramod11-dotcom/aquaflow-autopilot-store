@@ -190,45 +190,94 @@ openCartBtn.addEventListener('click', openCart);
 closeCartBtn.addEventListener('click', closeCart);
 cartBackdrop.addEventListener('click', closeCart);
 
-// 4. Checkout Simulation
-checkoutBtn.addEventListener('click', async () => {
+// 4. Express Priority Checkout Modal Handling
+const checkoutModal = document.getElementById('checkoutModal');
+const checkoutModalBackdrop = document.getElementById('checkoutModalBackdrop');
+const closeCheckoutModalBtn = document.getElementById('closeCheckoutModalBtn');
+const customerCheckoutForm = document.getElementById('customerCheckoutForm');
+const checkoutPayableAmount = document.getElementById('checkoutPayableAmount');
+const submitOrderBtn = document.getElementById('submitOrderBtn');
+
+function openCheckoutModal() {
   if (cart.length === 0) return;
-
   const subtotal = cart.reduce((acc, item) => acc + (item.price * item.quantity), 0);
-  checkoutBtn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Processing Secure Payment...`;
-  checkoutBtn.disabled = true;
+  if (checkoutPayableAmount) checkoutPayableAmount.innerText = `$${subtotal.toFixed(2)}`;
+  if (checkoutModal) checkoutModal.style.display = 'flex';
+  if (checkoutModalBackdrop) checkoutModalBackdrop.style.display = 'block';
+  closeCart();
+}
 
-  try {
-    const res = await fetch('/api/orders', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        name: "Valued Customer",
-        email: "customer" + Math.floor(Math.random() * 899 + 100) + "@gmail.com",
-        city: "San Francisco, CA",
-        country: "United States",
-        subtotal: subtotal,
-        shipping: 0.00,
-        total: subtotal,
-        items: cart
-      })
-    });
+function closeCheckoutModal() {
+  if (checkoutModal) checkoutModal.style.display = 'none';
+  if (checkoutModalBackdrop) checkoutModalBackdrop.style.display = 'none';
+}
 
-    const data = await res.json();
-    if (data.success) {
-      cart = [];
-      updateCartUI();
-      closeCart();
-      alert(`🎉 ORDER CONFIRMED!\n\nOrder #${data.order.orderId} has been successfully placed.\n\nAutopilot has assigned tracking number: ${data.order.trackingNumber}\n\nYou can track this live at /track !`);
-      window.location.href = `/track?id=${data.order.orderId}`;
+if (checkoutBtn) {
+  checkoutBtn.addEventListener('click', openCheckoutModal);
+}
+
+if (closeCheckoutModalBtn) {
+  closeCheckoutModalBtn.addEventListener('click', closeCheckoutModal);
+}
+
+if (checkoutModalBackdrop) {
+  checkoutModalBackdrop.addEventListener('click', closeCheckoutModal);
+}
+
+if (customerCheckoutForm) {
+  customerCheckoutForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (cart.length === 0) return;
+
+    const subtotal = cart.reduce((acc, item) => acc + (item.price * item.quantity), 0);
+    const name = document.getElementById('custName')?.value.trim() || "Valued Customer";
+    const phone = document.getElementById('custPhone')?.value.trim() || "";
+    const email = document.getElementById('custEmail')?.value.trim() || (phone ? `${phone}@delivery.aquaflow.com` : "customer@example.com");
+    const address = document.getElementById('custAddress')?.value.trim() || "Priority Express Address";
+    const city = document.getElementById('custCity')?.value.trim() || "Global Delivery";
+    const paymentMethod = document.getElementById('custPaymentMethod')?.value || "COD";
+
+    submitOrderBtn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Processing & Dispatching...`;
+    submitOrderBtn.disabled = true;
+
+    try {
+      const res = await fetch('/api/orders', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: name,
+          email: email,
+          phone: phone,
+          address: address,
+          city: city,
+          paymentMethod: paymentMethod,
+          paymentStatus: paymentMethod === 'COD' ? "PENDING_CASH_ON_DELIVERY" : "PAID",
+          country: "United States",
+          subtotal: subtotal,
+          shipping: 0.00,
+          total: subtotal,
+          items: cart
+        })
+      });
+
+      const data = await res.json();
+      if (data.success) {
+        cart = [];
+        updateCartUI();
+        closeCheckoutModal();
+        alert(`🎉 ORDER CONFIRMED!\n\nThank you ${name}!\nOrder #${data.order.orderId} has been confirmed.\n\nFulfillment Status: Dispatching via CJ Global Express\nLive Tracking Number: ${data.order.trackingNumber}\n\nRedirecting to tracking portal...`);
+        window.location.href = `/track?id=${data.order.orderId}`;
+      } else {
+        alert("Order placement failed: " + (data.error || "Please try again"));
+      }
+    } catch (err) {
+      alert("Checkout error: " + err.message);
+    } finally {
+      submitOrderBtn.innerHTML = `<i class="fa-solid fa-lock"></i> Place Order Now (Free Delivery)`;
+      submitOrderBtn.disabled = false;
     }
-  } catch (err) {
-    alert("Checkout error: " + err.message);
-  } finally {
-    checkoutBtn.innerHTML = `<i class="fa-solid fa-lock"></i> Complete Order & Free Shipping`;
-    checkoutBtn.disabled = false;
-  }
-});
+  });
+}
 
 // 5. Product Modal
 function openProductModal(productId) {

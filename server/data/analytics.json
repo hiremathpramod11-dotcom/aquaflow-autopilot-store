@@ -1,16 +1,16 @@
 {
-  "totalRevenue": 22002.82,
-  "netProfit": 15401.67,
-  "totalOrders": 466,
+  "totalRevenue": 22062.77,
+  "netProfit": 15443.63,
+  "totalOrders": 467,
   "averageOrderValue": 45.4,
   "blendedRoas": 3.42,
   "conversionRate": 3.85,
   "totalAdSpend": 3050,
   "totalCogs": 1417.72,
   "activeVisitorsNow": 47,
-  "todayRevenue": 8394.92,
-  "todayProfit": 5876.14,
-  "todayOrders": 166,
+  "todayRevenue": 8454.87,
+  "todayProfit": 5918.1,
+  "todayOrders": 167,
   "salesByNiche": [
     {
       "name": "Beauty & Personal Care",
@@ -39,6 +39,20 @@
     }
   ],
   "recentEvents": [
+    {
+      "id": "ev_1793118524880",
+      "timestamp": "10/27/2026, 9:58:44 PM",
+      "type": "AUTOPILOT_FULFILLMENT",
+      "icon": "⚡",
+      "message": "Autopilot fulfilled #AQF-64612 with supplier. Carrier: USPS Priority Express (USPS291420...)"
+    },
+    {
+      "id": "ev_1793118524876",
+      "timestamp": "10/27/2026, 9:58:44 PM",
+      "type": "SALE",
+      "icon": "💰",
+      "message": "Incoming Customer Order #AQF-64612 from Los Angeles, CA for $59.95 (Net Profit: $41.96)"
+    },
     {
       "id": "ev_1793101990775",
       "timestamp": "10/27/2026, 5:23:10 PM",
@@ -234,20 +248,6 @@
       "type": "SALE",
       "icon": "💰",
       "message": "Incoming Customer Order #AQF-90353 from Los Angeles, CA for $39.99 (Net Profit: $27.99)"
-    },
-    {
-      "id": "ev_1793101360641",
-      "timestamp": "10/27/2026, 5:12:40 PM",
-      "type": "AUTOPILOT_FULFILLMENT",
-      "icon": "⚡",
-      "message": "Autopilot fulfilled #AQF-44466 with supplier. Carrier: USPS Priority Express (USPS469894...)"
-    },
-    {
-      "id": "ev_1793101360634",
-      "timestamp": "10/27/2026, 5:12:40 PM",
-      "type": "SALE",
-      "icon": "💰",
-      "message": "Incoming Customer Order #AQF-44466 from Chicago, IL for $59.95 (Net Profit: $41.96)"
     }
   ]
 }

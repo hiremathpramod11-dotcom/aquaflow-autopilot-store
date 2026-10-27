@@ -274,6 +274,27 @@ triggerCycleBtn.addEventListener('click', async () => {
   }
 });
 
+const accelerateSalesBtn = document.getElementById('accelerateSalesBtn');
+if (accelerateSalesBtn) {
+  accelerateSalesBtn.addEventListener('click', async () => {
+    accelerateSalesBtn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Dispatching Sale...`;
+    accelerateSalesBtn.disabled = true;
+    try {
+      const res = await fetch('/api/sales/accelerate', { method: 'POST' });
+      const data = await res.json();
+      if (data.immediateOrder) {
+        alert(`🎉 NEW SALE GENERATED!\n\nOrder #${data.immediateOrder.orderId} for ${data.immediateOrder.customer.name} has been processed ($${data.immediateOrder.total.toFixed(2)}).\n\nNet Profit: $${data.immediateOrder.profit.toFixed(2)}\nTracking: ${data.immediateOrder.trackingNumber}`);
+      }
+      loadAllData();
+    } catch (e) {
+      alert("Error generating sale: " + e.message);
+    } finally {
+      accelerateSalesBtn.innerHTML = `<i class="fa-solid fa-bolt"></i> Fast-Track New Sale Now`;
+      accelerateSalesBtn.disabled = false;
+    }
+  });
+}
+
 huntNowBtn.addEventListener('click', async () => {
   huntNowBtn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Hunting Trend...`;
   huntNowBtn.disabled = true;
