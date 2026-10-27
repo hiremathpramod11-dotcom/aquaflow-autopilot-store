@@ -95,6 +95,23 @@ class FulfillmentService {
     analytics.todayProfit = Number(((analytics.todayProfit || 0) + newOrder.profit).toFixed(2));
     analytics.todayOrders = (analytics.todayOrders || 0) + 1;
 
+    // Direct Bank Account Balance Ledger (PhonePe 910889831@ybl)
+    const isRupee = newOrder.currency === 'INR';
+    const inrValue = isRupee ? Math.round(newOrder.total) : Math.round(newOrder.total * 86.5);
+    const inrProfit = Math.round(inrValue * 0.70);
+
+    if (newOrder.paymentMethod === 'UPI' || newOrder.paymentStatus === 'PAID_DIRECT_UPI' || newOrder.paymentStatus === 'PAID') {
+      analytics.bankBalanceInr = (analytics.bankBalanceInr || 0) + inrValue;
+      analytics.bankNetProfitInr = (analytics.bankNetProfitInr || 0) + inrProfit;
+    } else if (newOrder.paymentMethod === 'COD' || newOrder.paymentStatus === 'PENDING_CASH_ON_DELIVERY') {
+      analytics.codReceivableInr = (analytics.codReceivableInr || 0) + inrValue;
+    } else {
+      analytics.cardSettledUsd = (analytics.cardSettledUsd || 0) + newOrder.total;
+    }
+
+    analytics.bankAccountVpa = "910889831@ybl";
+    analytics.lastSettledAt = new Date().toISOString();
+
     analytics.recentEvents = analytics.recentEvents || [];
     analytics.recentEvents.unshift({
       id: `ev_${Date.now()}`,

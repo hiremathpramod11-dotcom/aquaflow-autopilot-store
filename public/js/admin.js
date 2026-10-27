@@ -95,6 +95,24 @@ function updateUI() {
   kpiOrders.innerText = (analytics.totalOrders || orders.length);
   kpiVisitors.innerText = (analytics.activeVisitorsNow || 48);
 
+  // PhonePe & Bank Account Balance Ledger (910889831@ybl)
+  const kpiBankBalance = document.getElementById('kpiBankBalance');
+  const kpiCodPending = document.getElementById('kpiCodPending');
+  const kpiBankProfit = document.getElementById('kpiBankProfit');
+
+  if (kpiBankBalance) {
+    const bankBal = analytics.bankBalanceInr || Math.round((analytics.totalRevenue || 0) * 86.5);
+    kpiBankBalance.innerText = `₹${bankBal.toLocaleString('en-IN')}`;
+  }
+  if (kpiCodPending) {
+    const codBal = analytics.codReceivableInr || Math.round((analytics.todayRevenue || 0) * 45);
+    kpiCodPending.innerText = `₹${codBal.toLocaleString('en-IN')}`;
+  }
+  if (kpiBankProfit) {
+    const bankProf = analytics.bankNetProfitInr || Math.round((analytics.netProfit || 0) * 86.5);
+    kpiBankProfit.innerText = `₹${bankProf.toLocaleString('en-IN')}`;
+  }
+
   // Products Table
   productsTableBody.innerHTML = products.map(p => `
     <tr>
@@ -128,8 +146,11 @@ function updateUI() {
         <div style="font-size: 0.75rem; color: #64748b;">${o.customer.city}</div>
       </td>
       <td>${(o.items && o.items[0]) ? o.items[0].title.slice(0, 30) + '...' : 'Product Pack'}</td>
-      <td style="font-weight: 700;">$${o.total.toFixed(2)}</td>
-      <td style="color: #34d399; font-weight: 700;">+$${o.profit.toFixed(2)}</td>
+      <td style="font-weight: 700;">
+        ${o.currency === 'INR' ? '₹' + Math.round(o.total).toLocaleString('en-IN') : '$' + o.total.toFixed(2)}
+        <div style="font-size: 0.7rem; color: #10b981; font-weight: 800;">${o.paymentMethod || 'UPI'}</div>
+      </td>
+      <td style="color: #34d399; font-weight: 700;">+${o.currency === 'INR' ? '₹' + Math.round(o.profit).toLocaleString('en-IN') : '$' + o.profit.toFixed(2)}</td>
       <td>
         <span class="status-badge status-${o.fulfillmentStatus}">
           ${o.fulfillmentStatus.replace('_', ' ')}
