@@ -1,5 +1,807 @@
 [
   {
+    "orderId": "AQF-82864",
+    "customer": {
+      "name": "Sophia Martinez",
+      "email": "sophia.martinez@icloud.com",
+      "phone": "+1 (310) 902-4419",
+      "address": "742 Evergreen Terrace",
+      "city": "Los Angeles, CA",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793119334921",
+        "title": "PurrPulse Max V769 Smart Edition",
+        "quantity": 1,
+        "price": 39.99,
+        "cost": 9.9
+      }
+    ],
+    "subtotal": 39.99,
+    "shipping": 0,
+    "total": 39.99,
+    "profit": 27.99,
+    "paymentMethod": "CARD_STRIPE",
+    "paymentStatus": "PAID",
+    "utrNumber": null,
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS5447517023509169",
+    "createdAt": "2026-10-27T16:44:14.624Z",
+    "dispatchedAt": "2026-10-27T16:44:14.652Z",
+    "timeline": [
+      {
+        "time": "10:14 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:14 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-80409",
+    "customer": {
+      "name": "Ava Jenkins",
+      "email": "ava.jenkins@example.com",
+      "city": "Seattle, WA",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793119334921",
+        "title": "PurrPulse Max V769 Smart Edition",
+        "quantity": 1,
+        "price": 39.99,
+        "cost": 9.9
+      }
+    ],
+    "subtotal": 39.99,
+    "shipping": 0,
+    "total": 39.99,
+    "profit": 27.99,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS2345555110479755",
+    "createdAt": "2026-10-27T16:42:14.951Z",
+    "dispatchedAt": "2026-10-27T16:42:14.955Z",
+    "timeline": [
+      {
+        "time": "10:12 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:12 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-63659",
+    "customer": {
+      "name": "Sophia Martinez",
+      "email": "sophia.martinez@example.com",
+      "city": "Los Angeles, CA",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793119289921",
+        "title": "NovaBeam Max V311 Smart Edition",
+        "quantity": 1,
+        "price": 59.95,
+        "cost": 14.8
+      }
+    ],
+    "subtotal": 59.95,
+    "shipping": 0,
+    "total": 59.95,
+    "profit": 41.96,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS2457729880324003",
+    "createdAt": "2026-10-27T16:41:29.946Z",
+    "dispatchedAt": "2026-10-27T16:41:29.951Z",
+    "timeline": [
+      {
+        "time": "10:11 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:11 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-12869",
+    "customer": {
+      "name": "Emma Watson",
+      "email": "emma.watson@example.com",
+      "city": "New York, NY",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793119244919",
+        "title": "ChronoGlow Max V366 Smart Edition",
+        "quantity": 1,
+        "price": 69.99,
+        "cost": 18
+      }
+    ],
+    "subtotal": 69.99,
+    "shipping": 0,
+    "total": 69.99,
+    "profit": 48.99,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS2429969812041006",
+    "createdAt": "2026-10-27T16:40:44.947Z",
+    "dispatchedAt": "2026-10-27T16:40:44.955Z",
+    "timeline": [
+      {
+        "time": "10:10 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:10 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-47169",
+    "customer": {
+      "name": "Emma Watson",
+      "email": "emma.watson@example.com",
+      "city": "New York, NY",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793119199916",
+        "title": "PurrPulse Max V571 Smart Edition",
+        "quantity": 1,
+        "price": 39.99,
+        "cost": 9.9
+      }
+    ],
+    "subtotal": 39.99,
+    "shipping": 0,
+    "total": 39.99,
+    "profit": 27.99,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS2079475483126755",
+    "createdAt": "2026-10-27T16:39:59.934Z",
+    "dispatchedAt": "2026-10-27T16:39:59.939Z",
+    "timeline": [
+      {
+        "time": "10:09 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:09 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-75261",
+    "customer": {
+      "name": "Liam O'Connor",
+      "email": "liam.o.connor@example.com",
+      "city": "Chicago, IL",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793119154917",
+        "title": "SculptBlade Max V193 Smart Edition",
+        "quantity": 1,
+        "price": 36.95,
+        "cost": 8.6
+      }
+    ],
+    "subtotal": 36.95,
+    "shipping": 0,
+    "total": 36.95,
+    "profit": 25.87,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS5084660503310902",
+    "createdAt": "2026-10-27T16:39:14.944Z",
+    "dispatchedAt": "2026-10-27T16:39:14.949Z",
+    "timeline": [
+      {
+        "time": "10:09 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:09 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-82190",
+    "customer": {
+      "name": "Sophia Martinez",
+      "email": "sophia.martinez@example.com",
+      "city": "Los Angeles, CA",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793119109910",
+        "title": "AquaBreeze Max V715 Smart Edition",
+        "quantity": 1,
+        "price": 49.99,
+        "cost": 12.5
+      }
+    ],
+    "subtotal": 49.99,
+    "shipping": 0,
+    "total": 49.99,
+    "profit": 34.99,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS9728159405471178",
+    "createdAt": "2026-10-27T16:38:29.932Z",
+    "dispatchedAt": "2026-10-27T16:38:29.938Z",
+    "timeline": [
+      {
+        "time": "10:08 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:08 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-40637",
+    "customer": {
+      "name": "Lucas Vance",
+      "email": "lucas.vance@example.com",
+      "city": "Denver, CO",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793119064909",
+        "title": "SculptBlade Max V818 Smart Edition",
+        "quantity": 1,
+        "price": 36.95,
+        "cost": 8.6
+      }
+    ],
+    "subtotal": 36.95,
+    "shipping": 0,
+    "total": 36.95,
+    "profit": 25.87,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS9241835272533324",
+    "createdAt": "2026-10-27T16:37:44.928Z",
+    "dispatchedAt": "2026-10-27T16:37:44.933Z",
+    "timeline": [
+      {
+        "time": "10:07 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:07 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-49450",
+    "customer": {
+      "name": "Emma Watson",
+      "email": "emma.watson@example.com",
+      "city": "New York, NY",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793119019906",
+        "title": "PurrPulse Max V683 Smart Edition",
+        "quantity": 1,
+        "price": 39.99,
+        "cost": 9.9
+      }
+    ],
+    "subtotal": 39.99,
+    "shipping": 0,
+    "total": 39.99,
+    "profit": 27.99,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS1209431270748546",
+    "createdAt": "2026-10-27T16:36:59.937Z",
+    "dispatchedAt": "2026-10-27T16:36:59.946Z",
+    "timeline": [
+      {
+        "time": "10:06 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:06 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-37322",
+    "customer": {
+      "name": "Liam O'Connor",
+      "email": "liam.o.connor@example.com",
+      "city": "Chicago, IL",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793118974897",
+        "title": "PurrPulse Max V543 Smart Edition",
+        "quantity": 1,
+        "price": 39.99,
+        "cost": 9.9
+      }
+    ],
+    "subtotal": 39.99,
+    "shipping": 0,
+    "total": 39.99,
+    "profit": 27.99,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS5265698377236694",
+    "createdAt": "2026-10-27T16:36:14.924Z",
+    "dispatchedAt": "2026-10-27T16:36:14.933Z",
+    "timeline": [
+      {
+        "time": "10:06 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:06 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-14065",
+    "customer": {
+      "name": "Liam O'Connor",
+      "email": "liam.o.connor@example.com",
+      "city": "Chicago, IL",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793118929891",
+        "title": "ChronoGlow Max V118 Smart Edition",
+        "quantity": 1,
+        "price": 69.99,
+        "cost": 18
+      }
+    ],
+    "subtotal": 69.99,
+    "shipping": 0,
+    "total": 69.99,
+    "profit": 48.99,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS5706467559052033",
+    "createdAt": "2026-10-27T16:35:29.911Z",
+    "dispatchedAt": "2026-10-27T16:35:29.916Z",
+    "timeline": [
+      {
+        "time": "10:05 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:05 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-40483",
+    "customer": {
+      "name": "Sophia Martinez",
+      "email": "sophia.martinez@icloud.com",
+      "city": "Los Angeles, CA",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793118884889",
+        "title": "AquaBreeze Max V259 Smart Edition",
+        "quantity": 1,
+        "price": 49.99,
+        "cost": 12.5
+      }
+    ],
+    "subtotal": 49.99,
+    "shipping": 0,
+    "total": 49.99,
+    "profit": 34.99,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS1703288034965596",
+    "createdAt": "2026-10-27T16:35:15.760Z",
+    "dispatchedAt": "2026-10-27T16:35:15.776Z",
+    "timeline": [
+      {
+        "time": "10:05 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:05 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-40959",
+    "customer": {
+      "name": "Sophia Martinez",
+      "email": "sophia.martinez@example.com",
+      "city": "Los Angeles, CA",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793118884889",
+        "title": "AquaBreeze Max V259 Smart Edition",
+        "quantity": 1,
+        "price": 49.99,
+        "cost": 12.5
+      }
+    ],
+    "subtotal": 49.99,
+    "shipping": 0,
+    "total": 49.99,
+    "profit": 34.99,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS7437475326670280",
+    "createdAt": "2026-10-27T16:34:44.908Z",
+    "dispatchedAt": "2026-10-27T16:34:44.912Z",
+    "timeline": [
+      {
+        "time": "10:04 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:04 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-72285",
+    "customer": {
+      "name": "Lucas Vance",
+      "email": "lucas.vance@example.com",
+      "city": "Denver, CO",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793118839882",
+        "title": "PurrPulse Max V178 Smart Edition",
+        "quantity": 1,
+        "price": 39.99,
+        "cost": 9.9
+      }
+    ],
+    "subtotal": 39.99,
+    "shipping": 0,
+    "total": 39.99,
+    "profit": 27.99,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS6765608892459140",
+    "createdAt": "2026-10-27T16:33:59.901Z",
+    "dispatchedAt": "2026-10-27T16:33:59.906Z",
+    "timeline": [
+      {
+        "time": "10:03 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:03 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-14347",
+    "customer": {
+      "name": "Emma Watson",
+      "email": "emma.watson@example.com",
+      "city": "New York, NY",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793118794870",
+        "title": "SculptBlade Max V202 Smart Edition",
+        "quantity": 1,
+        "price": 36.95,
+        "cost": 8.6
+      }
+    ],
+    "subtotal": 36.95,
+    "shipping": 0,
+    "total": 36.95,
+    "profit": 25.87,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS9953951307250818",
+    "createdAt": "2026-10-27T16:33:14.897Z",
+    "dispatchedAt": "2026-10-27T16:33:14.902Z",
+    "timeline": [
+      {
+        "time": "10:03 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:03 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-98150",
+    "customer": {
+      "name": "Liam O'Connor",
+      "email": "liam.o.connor@example.com",
+      "city": "Chicago, IL",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793118749865",
+        "title": "PurrPulse Max V590 Smart Edition",
+        "quantity": 1,
+        "price": 39.99,
+        "cost": 9.9
+      }
+    ],
+    "subtotal": 39.99,
+    "shipping": 0,
+    "total": 39.99,
+    "profit": 27.99,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS3922625701546017",
+    "createdAt": "2026-10-27T16:32:29.883Z",
+    "dispatchedAt": "2026-10-27T16:32:29.887Z",
+    "timeline": [
+      {
+        "time": "10:02 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:02 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-17613",
+    "customer": {
+      "name": "Sophia Martinez",
+      "email": "sophia.martinez@icloud.com",
+      "city": "Los Angeles, CA",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793118704860",
+        "title": "AquaBreeze Max V761 Smart Edition",
+        "quantity": 1,
+        "price": 49.99,
+        "cost": 12.5
+      }
+    ],
+    "subtotal": 49.99,
+    "shipping": 0,
+    "total": 49.99,
+    "profit": 34.99,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS5517226552487498",
+    "createdAt": "2026-10-27T16:32:18.605Z",
+    "dispatchedAt": "2026-10-27T16:32:18.611Z",
+    "timeline": [
+      {
+        "time": "10:02 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:02 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-82066",
+    "customer": {
+      "name": "Lucas Vance",
+      "email": "lucas.vance@example.com",
+      "city": "Denver, CO",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793118704860",
+        "title": "AquaBreeze Max V761 Smart Edition",
+        "quantity": 1,
+        "price": 49.99,
+        "cost": 12.5
+      }
+    ],
+    "subtotal": 49.99,
+    "shipping": 0,
+    "total": 49.99,
+    "profit": 34.99,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS8675415631625559",
+    "createdAt": "2026-10-27T16:31:44.881Z",
+    "dispatchedAt": "2026-10-27T16:31:44.886Z",
+    "timeline": [
+      {
+        "time": "10:01 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:01 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-73777",
+    "customer": {
+      "name": "Emma Watson",
+      "email": "emma.watson@example.com",
+      "city": "New York, NY",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793118659853",
+        "title": "NovaBeam Max V603 Smart Edition",
+        "quantity": 1,
+        "price": 59.95,
+        "cost": 14.8
+      }
+    ],
+    "subtotal": 59.95,
+    "shipping": 0,
+    "total": 59.95,
+    "profit": 41.96,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS9211432715864668",
+    "createdAt": "2026-10-27T16:30:59.873Z",
+    "dispatchedAt": "2026-10-27T16:30:59.878Z",
+    "timeline": [
+      {
+        "time": "10:00 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:00 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-85076",
+    "customer": {
+      "name": "Ava Jenkins",
+      "email": "ava.jenkins@example.com",
+      "city": "Seattle, WA",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793118614844",
+        "title": "NovaBeam Max V580 Smart Edition",
+        "quantity": 1,
+        "price": 59.95,
+        "cost": 14.8
+      }
+    ],
+    "subtotal": 59.95,
+    "shipping": 0,
+    "total": 59.95,
+    "profit": 41.96,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS8045642532404829",
+    "createdAt": "2026-10-27T16:30:14.870Z",
+    "dispatchedAt": "2026-10-27T16:30:14.877Z",
+    "timeline": [
+      {
+        "time": "10:00 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "10:00 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
+    "orderId": "AQF-81295",
+    "customer": {
+      "name": "Lucas Vance",
+      "email": "lucas.vance@example.com",
+      "city": "Denver, CO",
+      "country": "United States"
+    },
+    "items": [
+      {
+        "productId": "prod_1793118569847",
+        "title": "SculptBlade Max V284 Smart Edition",
+        "quantity": 1,
+        "price": 36.95,
+        "cost": 8.6
+      }
+    ],
+    "subtotal": 36.95,
+    "shipping": 0,
+    "total": 36.95,
+    "profit": 25.87,
+    "paymentStatus": "PAID",
+    "fulfillmentStatus": "DISPATCHED",
+    "carrier": "USPS Priority Express",
+    "trackingNumber": "USPS8355872371638010",
+    "createdAt": "2026-10-27T16:29:29.877Z",
+    "dispatchedAt": "2026-10-27T16:29:29.882Z",
+    "timeline": [
+      {
+        "time": "09:59 PM",
+        "status": "Order Authorized & Fraud Checks Passed (100% Clean)"
+      },
+      {
+        "time": "09:59 PM",
+        "status": "Autopilot dispatched electronic order ticket to CJ Dropshipping Global Hub"
+      }
+    ]
+  },
+  {
     "orderId": "AQF-64612",
     "customer": {
       "name": "Sophia Martinez",

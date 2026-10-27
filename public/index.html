@@ -173,10 +173,54 @@
           </div>
           <div>
             <label style="display: block; font-size: 0.8rem; font-weight: 700; color: #334155; margin-bottom: 4px;">Payment Method</label>
-            <select id="custPaymentMethod" style="width: 100%; padding: 10px 14px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 0.85rem; font-weight: 600; background: #fff;">
+            <select id="custPaymentMethod" style="width: 100%; padding: 10px 14px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 0.85rem; font-weight: 700; background: #fff; color: #0284c7;">
+              <option value="UPI" selected>⚡ Instant UPI / Google Pay / PhonePe (0% Fee, Direct to Bank)</option>
               <option value="COD">💵 Cash on Delivery (Pay When Arrived)</option>
-              <option value="CARD_ONLINE">💳 Instant Card / UPI / PayPal (Fast Track)</option>
+              <option value="CARD_ONLINE">💳 International Credit / Debit Card (USD)</option>
             </select>
+          </div>
+        </div>
+
+        <!-- Dynamic UPI Payment Card -->
+        <div id="upiPaymentCard" style="display: block; background: #f8fafc; border: 2px dashed #0284c7; border-radius: 12px; padding: 16px; text-align: center; margin-top: 6px;">
+          <div style="font-size: 0.85rem; font-weight: 800; color: #0284c7; margin-bottom: 4px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+            <i class="fa-solid fa-qrcode"></i> Scan to Pay Directly to Bank Account (0% Fee)
+          </div>
+          <div style="font-size: 0.75rem; color: #64748b; margin-bottom: 12px;">
+            Supported: <b>Google Pay, PhonePe, Paytm, BHIM, CRED</b> & Any Bank UPI App
+          </div>
+
+          <div style="display: flex; justify-content: center; margin-bottom: 10px;">
+            <div style="background: white; padding: 10px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: inline-block;">
+              <img id="upiQrCodeImg" src="" style="width: 160px; height: 160px; display: block;" alt="Scan UPI QR">
+            </div>
+          </div>
+
+          <div style="font-size: 0.85rem; color: #0f172a; font-weight: 700; margin-bottom: 4px;">
+            Amount: <span id="upiAmountInr" style="color: #16a34a; font-size: 1.15rem; font-weight: 900;">₹0</span>
+            <span style="font-size: 0.75rem; color: #64748b; font-weight: 500;">(Exact converted price)</span>
+          </div>
+
+          <div style="background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 8px 12px; display: flex; justify-content: space-between; align-items: center; margin: 10px 0;">
+            <div style="text-align: left;">
+              <div style="font-size: 0.65rem; color: #94a3b8; text-transform: uppercase; font-weight: 700;">Payee UPI ID</div>
+              <div id="upiVpaDisplay" style="font-size: 0.82rem; font-weight: 800; color: #0f172a; word-break: break-all;">hiremathpramod@upi</div>
+            </div>
+            <button type="button" id="copyUpiIdBtn" style="background: #e0f2fe; color: #0284c7; border: 1px solid #bae6fd; padding: 5px 10px; border-radius: 6px; font-size: 0.75rem; font-weight: 700; cursor: pointer;">
+              Copy
+            </button>
+          </div>
+
+          <!-- Direct Mobile Pay Button -->
+          <div style="margin-top: 8px;">
+            <a id="mobileUpiIntentBtn" href="#" style="display: block; background: #16a34a; color: white; text-decoration: none; padding: 10px; border-radius: 8px; font-size: 0.85rem; font-weight: 800; display: flex; align-items: center; justify-content: center; gap: 8px;">
+              <i class="fa-solid fa-mobile-screen-button"></i> Open UPI App to Pay (PhonePe / GPay)
+            </a>
+          </div>
+
+          <div style="margin-top: 10px; text-align: left;">
+            <label style="display: block; font-size: 0.75rem; font-weight: 700; color: #475569; margin-bottom: 3px;">UTR / UPI Reference No. (Optional):</label>
+            <input type="text" id="custUtrNumber" placeholder="Enter 12-digit UPI Ref/UTR after paying" style="width: 100%; padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 0.8rem;">
           </div>
         </div>
 

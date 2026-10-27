@@ -48,11 +48,17 @@
       "targetAccount": "@kevin_369",
       "autoUpload": true
     },
+    "upi": {
+      "enabled": true,
+      "vpa": "hiremathpramod@upi",
+      "payeeName": "AquaFlow Store",
+      "currencyRate": 86.5
+    },
     "metaAds": {
       "enabled": true,
       "connected": true,
       "pixelId": "PIX-994281729"
     }
   },
-  "publicLiveUrl": "https://february-little-inclusive-structural.trycloudflare.com"
+  "publicLiveUrl": "https://juan-responses-receptors-revenues.trycloudflare.com"
 }

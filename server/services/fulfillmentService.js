@@ -57,15 +57,19 @@ class FulfillmentService {
       customer: {
         name: orderData.name || "Customer",
         email: orderData.email || "buyer@example.com",
+        phone: orderData.phone || "",
+        address: orderData.address || "",
         city: orderData.city || "New York, NY",
-        country: orderData.country || "United States"
+        country: orderData.country || "India"
       },
       items: orderData.items || [],
       subtotal: Number(orderData.subtotal || 39.99),
       shipping: Number(orderData.shipping || 0.00),
       total: Number(orderData.total || 39.99),
       profit: Number((orderData.total * 0.70).toFixed(2)),
-      paymentStatus: "PAID",
+      paymentMethod: orderData.paymentMethod || "UPI",
+      paymentStatus: orderData.paymentStatus || "PAID",
+      utrNumber: orderData.utrNumber || null,
       fulfillmentStatus: "ORDER_PLACED",
       carrier: "USPS Priority Express",
       trackingNumber: `USPS${Math.floor(Math.random() * 9000000000000000 + 1000000000000000)}`,

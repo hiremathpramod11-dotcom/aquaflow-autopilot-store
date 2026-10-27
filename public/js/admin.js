@@ -34,6 +34,8 @@ const settingMultiplier = document.getElementById('settingMultiplier');
 const settingSupplier = document.getElementById('settingSupplier');
 const settingSimulatedTraffic = document.getElementById('settingSimulatedTraffic');
 const settingAutoUploadSocial = document.getElementById('settingAutoUploadSocial');
+const settingUpiVpa = document.getElementById('settingUpiVpa');
+const settingUpiPayee = document.getElementById('settingUpiPayee');
 
 // Tab Switching
 document.querySelectorAll('.admin-tab').forEach(tab => {
@@ -194,6 +196,8 @@ function updateUI() {
   settingSimulatedTraffic.checked = settings.simulatedTrafficActive !== false;
   if (settingAutoUploadSocial) settingAutoUploadSocial.checked = settings.autoUploadInstagram !== false;
   if (igAutoCycleToggle) igAutoCycleToggle.checked = settings.autoUploadInstagram !== false;
+  if (settingUpiVpa) settingUpiVpa.value = settings.activeIntegrations?.upi?.vpa || settings.upi?.vpa || 'hiremathpramod@upi';
+  if (settingUpiPayee) settingUpiPayee.value = settings.activeIntegrations?.upi?.payeeName || settings.upi?.payeeName || 'AquaFlow Store';
 
   // Populate Traffic Product Selector
   if (trafficProductSelect && products.length > 0) {
@@ -321,7 +325,16 @@ settingsForm.addEventListener('submit', async (e) => {
     defaultMarginMultiplier: parseFloat(settingMultiplier.value),
     supplierPreference: settingSupplier.value,
     simulatedTrafficActive: settingSimulatedTraffic.checked,
-    autoUploadInstagram: settingAutoUploadSocial ? settingAutoUploadSocial.checked : true
+    autoUploadInstagram: settingAutoUploadSocial ? settingAutoUploadSocial.checked : true,
+    activeIntegrations: {
+      ...(settings.activeIntegrations || {}),
+      upi: {
+        enabled: true,
+        vpa: settingUpiVpa ? settingUpiVpa.value.trim() : 'hiremathpramod@upi',
+        payeeName: settingUpiPayee ? settingUpiPayee.value.trim() : 'AquaFlow Store',
+        currencyRate: 86.5
+      }
+    }
   };
 
   const res = await fetch('/api/settings', {

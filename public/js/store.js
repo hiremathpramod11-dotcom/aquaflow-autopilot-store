@@ -198,10 +198,79 @@ const customerCheckoutForm = document.getElementById('customerCheckoutForm');
 const checkoutPayableAmount = document.getElementById('checkoutPayableAmount');
 const submitOrderBtn = document.getElementById('submitOrderBtn');
 
+const custPaymentMethod = document.getElementById('custPaymentMethod');
+const upiPaymentCard = document.getElementById('upiPaymentCard');
+const upiQrCodeImg = document.getElementById('upiQrCodeImg');
+const upiAmountInr = document.getElementById('upiAmountInr');
+const upiVpaDisplay = document.getElementById('upiVpaDisplay');
+const copyUpiIdBtn = document.getElementById('copyUpiIdBtn');
+const mobileUpiIntentBtn = document.getElementById('mobileUpiIntentBtn');
+const custUtrNumber = document.getElementById('custUtrNumber');
+
+let storeSettings = null;
+
+async function fetchStoreSettings() {
+  if (storeSettings) return storeSettings;
+  try {
+    const res = await fetch('/api/settings');
+    storeSettings = await res.json();
+    return storeSettings;
+  } catch (e) {
+    return {
+      activeIntegrations: {
+        upi: { vpa: "hiremathpramod@upi", payeeName: "AquaFlow Store", currencyRate: 86.5 }
+      }
+    };
+  }
+}
+
+async function updateUpiDisplay(subtotalUsd) {
+  const settings = await fetchStoreSettings();
+  const upiConfig = settings?.activeIntegrations?.upi || settings?.upi || {
+    vpa: "hiremathpramod@upi",
+    payeeName: "AquaFlow Store",
+    currencyRate: 86.5
+  };
+
+  const vpa = upiConfig.vpa || "hiremathpramod@upi";
+  const payeeName = upiConfig.payeeName || "AquaFlow Store";
+  const rate = upiConfig.currencyRate || 86.5;
+  const inrAmount = Math.max(99, Math.round(subtotalUsd * rate));
+
+  if (upiVpaDisplay) upiVpaDisplay.innerText = vpa;
+  if (upiAmountInr) upiAmountInr.innerText = `₹${inrAmount.toLocaleString('en-IN')}`;
+
+  // Standard NPCI UPI URI Scheme
+  const upiIntentUri = `upi://pay?pa=${encodeURIComponent(vpa)}&pn=${encodeURIComponent(payeeName)}&am=${inrAmount}&cu=INR&tn=AquaFlow-Order`;
+  const qrApiUrl = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(upiIntentUri)}`;
+
+  if (upiQrCodeImg) upiQrCodeImg.src = qrApiUrl;
+  if (mobileUpiIntentBtn) mobileUpiIntentBtn.href = upiIntentUri;
+}
+
+if (custPaymentMethod && upiPaymentCard) {
+  custPaymentMethod.addEventListener('change', () => {
+    if (custPaymentMethod.value === 'UPI') {
+      upiPaymentCard.style.display = 'block';
+    } else {
+      upiPaymentCard.style.display = 'none';
+    }
+  });
+}
+
+if (copyUpiIdBtn && upiVpaDisplay) {
+  copyUpiIdBtn.addEventListener('click', () => {
+    navigator.clipboard.writeText(upiVpaDisplay.innerText);
+    copyUpiIdBtn.innerText = "Copied!";
+    setTimeout(() => { copyUpiIdBtn.innerText = "Copy"; }, 2000);
+  });
+}
+
 function openCheckoutModal() {
   if (cart.length === 0) return;
   const subtotal = cart.reduce((acc, item) => acc + (item.price * item.quantity), 0);
   if (checkoutPayableAmount) checkoutPayableAmount.innerText = `$${subtotal.toFixed(2)}`;
+  updateUpiDisplay(subtotal);
   if (checkoutModal) checkoutModal.style.display = 'flex';
   if (checkoutModalBackdrop) checkoutModalBackdrop.style.display = 'block';
   closeCart();
@@ -251,8 +320,9 @@ if (customerCheckoutForm) {
           address: address,
           city: city,
           paymentMethod: paymentMethod,
-          paymentStatus: paymentMethod === 'COD' ? "PENDING_CASH_ON_DELIVERY" : "PAID",
-          country: "United States",
+          utrNumber: custUtrNumber?.value.trim() || "",
+          paymentStatus: paymentMethod === 'COD' ? "PENDING_CASH_ON_DELIVERY" : (paymentMethod === 'UPI' ? "PAID_DIRECT_UPI" : "PAID"),
+          country: "India",
           subtotal: subtotal,
           shipping: 0.00,
           total: subtotal,
@@ -265,7 +335,14 @@ if (customerCheckoutForm) {
         cart = [];
         updateCartUI();
         closeCheckoutModal();
-        alert(`🎉 ORDER CONFIRMED!\n\nThank you ${name}!\nOrder #${data.order.orderId} has been confirmed.\n\nFulfillment Status: Dispatching via CJ Global Express\nLive Tracking Number: ${data.order.trackingNumber}\n\nRedirecting to tracking portal...`);
+        
+        let confirmMsg = `🎉 ORDER CONFIRMED!\n\nThank you ${name}!\nOrder #${data.order.orderId} has been confirmed.`;
+        if (paymentMethod === 'UPI') {
+          confirmMsg += `\n\n💰 Payment Method: Direct UPI (Instant Bank Deposit)\nStatus: Confirmed and verifying UTR!`;
+        }
+        confirmMsg += `\n\nFulfillment Status: Dispatching via CJ Global Express\nLive Tracking Number: ${data.order.trackingNumber}\n\nRedirecting to tracking portal...`;
+        
+        alert(confirmMsg);
         window.location.href = `/track?id=${data.order.orderId}`;
       } else {
         alert("Order placement failed: " + (data.error || "Please try again"));
