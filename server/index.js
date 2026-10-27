@@ -11,6 +11,7 @@ const AdCreativeService = require('./services/adCreativeService');
 const FulfillmentService = require('./services/fulfillmentService');
 const CustomerSupportAi = require('./services/customerSupportAi');
 const AutopilotEngine = require('./services/autopilotEngine');
+const SocialTrafficService = require('./services/socialTrafficService');
 
 const app = express();
 const server = http.createServer(app);
@@ -40,6 +41,7 @@ const aiCopywriter = new AiCopywriterService();
 const adCreative = new AdCreativeService(DATA_PATH);
 const fulfillment = new FulfillmentService(DATA_PATH);
 const customerSupport = new CustomerSupportAi(fulfillment);
+const socialTraffic = new SocialTrafficService();
 
 const autopilot = new AutopilotEngine(
   DATA_PATH,
@@ -126,6 +128,14 @@ app.post('/api/ads/generate', (req, res) => {
     message: `New viral ad campaign generated for ${product.title}`
   });
   res.json({ success: true, campaign });
+});
+
+// Viral Traffic & Social Content Machine
+app.get('/api/traffic/pack/:id', (req, res) => {
+  const products = viralHunter.getProducts();
+  const prod = products.find(p => p.id === req.params.id || p.slug === req.params.id) || products[0];
+  const pack = socialTraffic.generateSocialPack(prod);
+  res.json(pack);
 });
 
 // AI Customer Support

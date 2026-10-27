@@ -191,6 +191,18 @@ function updateUI() {
   settingMultiplier.value = settings.defaultMarginMultiplier || 3.2;
   settingSupplier.value = settings.supplierPreference || "CJ_DROPSHIPPING_FAST";
   settingSimulatedTraffic.checked = settings.simulatedTrafficActive !== false;
+
+  // Populate Traffic Product Selector
+  if (trafficProductSelect && products.length > 0) {
+    const currentVal = trafficProductSelect.value;
+    trafficProductSelect.innerHTML = products.map(p => `
+      <option value="${p.id}">${p.title.slice(0, 34)}... ($${p.price.toFixed(2)})</option>
+    `).join('');
+    if (currentVal) trafficProductSelect.value = currentVal;
+    if (!activeTrafficPack) {
+      loadTrafficPack(products[0].id);
+    }
+  }
 }
 
 // Log Appender
@@ -295,6 +307,80 @@ settingsForm.addEventListener('submit', async (e) => {
   appendLog('SUCCESS', new Date().toLocaleTimeString(), `⚙️ Autopilot parameters updated and saved to disk.`);
   alert("Autopilot Settings Successfully Saved!");
 });
+
+// AI Viral Traffic Machine Controller
+const trafficProductSelect = document.getElementById('trafficProductSelect');
+const generateTrafficPackBtn = document.getElementById('generateTrafficPackBtn');
+const trafficTikTokContent = document.getElementById('trafficTikTokContent');
+const trafficWhatsAppContent = document.getElementById('trafficWhatsAppContent');
+const trafficInfluencerContent = document.getElementById('trafficInfluencerContent');
+const trafficStoryboardContent = document.getElementById('trafficStoryboardContent');
+const copyTikTokBtn = document.getElementById('copyTikTokBtn');
+const launchWhatsAppBroadcastBtn = document.getElementById('launchWhatsAppBroadcastBtn');
+const copyInfluencerDmBtn = document.getElementById('copyInfluencerDmBtn');
+
+let activeTrafficPack = null;
+
+async function loadTrafficPack(productId) {
+  try {
+    const id = productId || (products[0] ? products[0].id : 'hero');
+    const res = await fetch(`/api/traffic/pack/${id}`);
+    activeTrafficPack = await res.json();
+
+    if (trafficTikTokContent && activeTrafficPack.tiktokReels) {
+      trafficTikTokContent.innerText = `${activeTrafficPack.tiktokReels.onScreenHookText}\n\n${activeTrafficPack.tiktokReels.caption}\n\n${activeTrafficPack.tiktokReels.hashtags}`;
+    }
+
+    if (trafficWhatsAppContent) {
+      trafficWhatsAppContent.innerText = activeTrafficPack.whatsappViralBlast;
+    }
+
+    if (trafficInfluencerContent) {
+      trafficInfluencerContent.innerText = activeTrafficPack.influencerDmPitch;
+    }
+
+    if (trafficStoryboardContent && activeTrafficPack.tiktokReels) {
+      trafficStoryboardContent.innerHTML = activeTrafficPack.tiktokReels.videoDirectives.map(d => `
+        <div style="border-left: 2px solid #eab308; padding-left: 8px;">${d}</div>
+      `).join('');
+    }
+  } catch (err) {
+    console.error('Failed to load traffic pack', err);
+  }
+}
+
+if (generateTrafficPackBtn) {
+  generateTrafficPackBtn.addEventListener('click', () => {
+    loadTrafficPack(trafficProductSelect.value);
+  });
+}
+
+if (copyTikTokBtn) {
+  copyTikTokBtn.addEventListener('click', () => {
+    if (activeTrafficPack && activeTrafficPack.tiktokReels) {
+      const text = `${activeTrafficPack.tiktokReels.onScreenHookText}\n\n${activeTrafficPack.tiktokReels.caption}\n\n${activeTrafficPack.tiktokReels.hashtags}`;
+      navigator.clipboard.writeText(text);
+      alert("✅ TikTok Caption & Hashtags copied! Ready to paste into TikTok/Instagram!");
+    }
+  });
+}
+
+if (launchWhatsAppBroadcastBtn) {
+  launchWhatsAppBroadcastBtn.addEventListener('click', () => {
+    if (activeTrafficPack && activeTrafficPack.whatsappViralBlast) {
+      window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(activeTrafficPack.whatsappViralBlast)}`, '_blank');
+    }
+  });
+}
+
+if (copyInfluencerDmBtn) {
+  copyInfluencerDmBtn.addEventListener('click', () => {
+    if (activeTrafficPack && activeTrafficPack.influencerDmPitch) {
+      navigator.clipboard.writeText(activeTrafficPack.influencerDmPitch);
+      alert("✅ Influencer DM Pitch copied! Ready to send to creators!");
+    }
+  });
+}
 
 // Boot up
 loadAllData();

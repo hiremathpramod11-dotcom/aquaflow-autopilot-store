@@ -1,5 +1,869 @@
 [
   {
+    "id": "prod_1793100621130",
+    "title": "AquaBreeze Max V713 Smart Edition",
+    "slug": "aquabreeze-max-v713-smart-edition",
+    "category": "Home & Wellness",
+    "price": 49.99,
+    "compareAtPrice": 89.98,
+    "supplierCost": 12.5,
+    "shippingCost": 3.8,
+    "marginPercent": 67.4,
+    "profitPerUnit": 33.69,
+    "rating": 4.88,
+    "reviewCount": 334,
+    "stock": 10,
+    "trendingScore": 92,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Cool down any room by 15°F in under 90 seconds without a $500 monthly electric bill.",
+    "description": "Compact rapid-chill ultrasonic cooling cube that chills, humidifies, and purifies personal spaces with ice-water mist technology.",
+    "bullets": [
+      "❄️ Drops ambient air temp up to 15°F in seconds",
+      "💧 3-in-1 Cooling, Humidifying, and Air Filtering",
+      "🔋 USB-C Powered – run on power bank anywhere",
+      "🤫 Whisper quiet sleep mode with 7-color ambient night light"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Home & Wellness"
+    ]
+  },
+  {
+    "id": "prod_1793100576123",
+    "title": "SculptBlade Max V751 Smart Edition",
+    "slug": "sculptblade-max-v751-smart-edition",
+    "category": "Beauty & Personal Care",
+    "price": 36.95,
+    "compareAtPrice": 66.51,
+    "supplierCost": 8.6,
+    "shippingCost": 3.2,
+    "marginPercent": 68.1,
+    "profitPerUnit": 25.15,
+    "rating": 4.97,
+    "reviewCount": 320,
+    "stock": 19,
+    "trendingScore": 94,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Melt away muscle tension and flush out toxic bloating with targeted vibration and thermotherapy.",
+    "description": "Modern ergonomic thermal stone gua sha scraper with 9 heat levels and high-frequency acoustic pulse vibrations.",
+    "bullets": [
+      "✨ 9 Adjustable Thermal Heat Levels for deep cellular release",
+      "💎 Promotes instant lymphatic drainage and debloating",
+      "⚡ Acoustic micro-vibrations stimulate collagen and tone skin",
+      "🔋 Cordless handheld design with LCD digital display"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Beauty & Personal Care"
+    ]
+  },
+  {
+    "id": "prod_1793100531118",
+    "title": "ChronoGlow Max V473 Smart Edition",
+    "slug": "chronoglow-max-v473-smart-edition",
+    "category": "Aesthetic Home & Wellness",
+    "price": 69.99,
+    "compareAtPrice": 125.98,
+    "supplierCost": 18,
+    "shippingCost": 4.5,
+    "marginPercent": 67.9,
+    "profitPerUnit": 47.49,
+    "rating": 4.85,
+    "reviewCount": 274,
+    "stock": 22,
+    "trendingScore": 96,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "The cyberpunk retro-futuristic desk showpiece that everyone in your room will ask you about.",
+    "description": "Retro Nixie-tube inspired electronic clock with full color IPS screens displaying dynamic weather, photo albums, and ambient lighting.",
+    "bullets": [
+      "🕰️ 6 High-Definition IPS Custom Digital Screen Dials",
+      "🌈 16 Million RGB Backlight Color Combinations",
+      "📶 WiFi Time & Live Weather Synchronization",
+      "🪵 Real North American Black Walnut Solid Wood Base"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Home & Wellness"
+    ]
+  },
+  {
+    "id": "prod_1793100486113",
+    "title": "AquaBreeze Max V366 Smart Edition",
+    "slug": "aquabreeze-max-v366-smart-edition",
+    "category": "Home & Wellness",
+    "price": 49.99,
+    "compareAtPrice": 89.98,
+    "supplierCost": 12.5,
+    "shippingCost": 3.8,
+    "marginPercent": 67.4,
+    "profitPerUnit": 33.69,
+    "rating": 4.93,
+    "reviewCount": 193,
+    "stock": 19,
+    "trendingScore": 92,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Cool down any room by 15°F in under 90 seconds without a $500 monthly electric bill.",
+    "description": "Compact rapid-chill ultrasonic cooling cube that chills, humidifies, and purifies personal spaces with ice-water mist technology.",
+    "bullets": [
+      "❄️ Drops ambient air temp up to 15°F in seconds",
+      "💧 3-in-1 Cooling, Humidifying, and Air Filtering",
+      "🔋 USB-C Powered – run on power bank anywhere",
+      "🤫 Whisper quiet sleep mode with 7-color ambient night light"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Home & Wellness"
+    ]
+  },
+  {
+    "id": "prod_1793100441100",
+    "title": "SculptBlade Max V950 Smart Edition",
+    "slug": "sculptblade-max-v950-smart-edition",
+    "category": "Beauty & Personal Care",
+    "price": 36.95,
+    "compareAtPrice": 66.51,
+    "supplierCost": 8.6,
+    "shippingCost": 3.2,
+    "marginPercent": 68.1,
+    "profitPerUnit": 25.15,
+    "rating": 4.96,
+    "reviewCount": 144,
+    "stock": 17,
+    "trendingScore": 95,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Melt away muscle tension and flush out toxic bloating with targeted vibration and thermotherapy.",
+    "description": "Modern ergonomic thermal stone gua sha scraper with 9 heat levels and high-frequency acoustic pulse vibrations.",
+    "bullets": [
+      "✨ 9 Adjustable Thermal Heat Levels for deep cellular release",
+      "💎 Promotes instant lymphatic drainage and debloating",
+      "⚡ Acoustic micro-vibrations stimulate collagen and tone skin",
+      "🔋 Cordless handheld design with LCD digital display"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Beauty & Personal Care"
+    ]
+  },
+  {
+    "id": "prod_1793100396093",
+    "title": "ChronoGlow Max V546 Smart Edition",
+    "slug": "chronoglow-max-v546-smart-edition",
+    "category": "Aesthetic Home & Wellness",
+    "price": 69.99,
+    "compareAtPrice": 125.98,
+    "supplierCost": 18,
+    "shippingCost": 4.5,
+    "marginPercent": 67.9,
+    "profitPerUnit": 47.49,
+    "rating": 4.91,
+    "reviewCount": 260,
+    "stock": 11,
+    "trendingScore": 95,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "The cyberpunk retro-futuristic desk showpiece that everyone in your room will ask you about.",
+    "description": "Retro Nixie-tube inspired electronic clock with full color IPS screens displaying dynamic weather, photo albums, and ambient lighting.",
+    "bullets": [
+      "🕰️ 6 High-Definition IPS Custom Digital Screen Dials",
+      "🌈 16 Million RGB Backlight Color Combinations",
+      "📶 WiFi Time & Live Weather Synchronization",
+      "🪵 Real North American Black Walnut Solid Wood Base"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Home & Wellness"
+    ]
+  },
+  {
+    "id": "prod_1793100351080",
+    "title": "AquaBreeze Max V509 Smart Edition",
+    "slug": "aquabreeze-max-v509-smart-edition",
+    "category": "Home & Wellness",
+    "price": 49.99,
+    "compareAtPrice": 89.98,
+    "supplierCost": 12.5,
+    "shippingCost": 3.8,
+    "marginPercent": 67.4,
+    "profitPerUnit": 33.69,
+    "rating": 4.86,
+    "reviewCount": 380,
+    "stock": 19,
+    "trendingScore": 97,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Cool down any room by 15°F in under 90 seconds without a $500 monthly electric bill.",
+    "description": "Compact rapid-chill ultrasonic cooling cube that chills, humidifies, and purifies personal spaces with ice-water mist technology.",
+    "bullets": [
+      "❄️ Drops ambient air temp up to 15°F in seconds",
+      "💧 3-in-1 Cooling, Humidifying, and Air Filtering",
+      "🔋 USB-C Powered – run on power bank anywhere",
+      "🤫 Whisper quiet sleep mode with 7-color ambient night light"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Home & Wellness"
+    ]
+  },
+  {
+    "id": "prod_1793100306078",
+    "title": "ChronoGlow Max V553 Smart Edition",
+    "slug": "chronoglow-max-v553-smart-edition",
+    "category": "Aesthetic Home & Wellness",
+    "price": 69.99,
+    "compareAtPrice": 125.98,
+    "supplierCost": 18,
+    "shippingCost": 4.5,
+    "marginPercent": 67.9,
+    "profitPerUnit": 47.49,
+    "rating": 4.94,
+    "reviewCount": 239,
+    "stock": 11,
+    "trendingScore": 97,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "The cyberpunk retro-futuristic desk showpiece that everyone in your room will ask you about.",
+    "description": "Retro Nixie-tube inspired electronic clock with full color IPS screens displaying dynamic weather, photo albums, and ambient lighting.",
+    "bullets": [
+      "🕰️ 6 High-Definition IPS Custom Digital Screen Dials",
+      "🌈 16 Million RGB Backlight Color Combinations",
+      "📶 WiFi Time & Live Weather Synchronization",
+      "🪵 Real North American Black Walnut Solid Wood Base"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Home & Wellness"
+    ]
+  },
+  {
+    "id": "prod_1793100261066",
+    "title": "AquaBreeze Max V329 Smart Edition",
+    "slug": "aquabreeze-max-v329-smart-edition",
+    "category": "Home & Wellness",
+    "price": 49.99,
+    "compareAtPrice": 89.98,
+    "supplierCost": 12.5,
+    "shippingCost": 3.8,
+    "marginPercent": 67.4,
+    "profitPerUnit": 33.69,
+    "rating": 4.92,
+    "reviewCount": 134,
+    "stock": 11,
+    "trendingScore": 95,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Cool down any room by 15°F in under 90 seconds without a $500 monthly electric bill.",
+    "description": "Compact rapid-chill ultrasonic cooling cube that chills, humidifies, and purifies personal spaces with ice-water mist technology.",
+    "bullets": [
+      "❄️ Drops ambient air temp up to 15°F in seconds",
+      "💧 3-in-1 Cooling, Humidifying, and Air Filtering",
+      "🔋 USB-C Powered – run on power bank anywhere",
+      "🤫 Whisper quiet sleep mode with 7-color ambient night light"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Home & Wellness"
+    ]
+  },
+  {
+    "id": "prod_1793100216054",
+    "title": "NovaBeam Max V202 Smart Edition",
+    "slug": "novabeam-max-v202-smart-edition",
+    "category": "Smart Tech Gadgets",
+    "price": 59.95,
+    "compareAtPrice": 107.91,
+    "supplierCost": 14.8,
+    "shippingCost": 4.1,
+    "marginPercent": 68.5,
+    "profitPerUnit": 41.05,
+    "rating": 4.88,
+    "reviewCount": 357,
+    "stock": 24,
+    "trendingScore": 96,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "The AI personal cameraman that keeps you perfectly centered in every frame without needing an app.",
+    "description": "Built-in optical AI camera sensor tracks your face and body movements 360° seamlessly. Perfect for TikTok, live streaming, fitness, and calls.",
+    "bullets": [
+      "🤖 360° AI Smart Facial & Body Recognition Tracking",
+      "🚫 Zero App Required – instant plug-and-play with phone clamp",
+      "✋ Gesture Control Recognition (OK sign to start, Palm to pause)",
+      "🔋 12-Hour Continuous Battery Life per charge"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Smart Tech Gadgets"
+    ]
+  },
+  {
+    "id": "prod_1793100171054",
+    "title": "PurrPulse Max V285 Smart Edition",
+    "slug": "purrpulse-max-v285-smart-edition",
+    "category": "Pet Supplies",
+    "price": 39.99,
+    "compareAtPrice": 71.98,
+    "supplierCost": 9.9,
+    "shippingCost": 3.5,
+    "marginPercent": 66.5,
+    "profitPerUnit": 26.59,
+    "rating": 4.97,
+    "reviewCount": 308,
+    "stock": 26,
+    "trendingScore": 94,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life.",
+    "description": "Orthopedic memory foam with raised rim bolsters and ultra-soft faux shag fur simulates the comforting warmth of mother's fur coat.",
+    "bullets": [
+      "🐾 Proven to reduce pet stress and separation anxiety by 84%",
+      "☁️ Premium High-Density Orthopedic Joint Support",
+      "🧼 100% Machine Washable with removable zipper cover",
+      "🔒 Non-slip waterproof bottom grip prevents sliding"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Pet Supplies"
+    ]
+  },
+  {
+    "id": "prod_1793100126048",
+    "title": "SculptBlade Max V635 Smart Edition",
+    "slug": "sculptblade-max-v635-smart-edition",
+    "category": "Beauty & Personal Care",
+    "price": 36.95,
+    "compareAtPrice": 66.51,
+    "supplierCost": 8.6,
+    "shippingCost": 3.2,
+    "marginPercent": 68.1,
+    "profitPerUnit": 25.15,
+    "rating": 4.94,
+    "reviewCount": 266,
+    "stock": 21,
+    "trendingScore": 93,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Melt away muscle tension and flush out toxic bloating with targeted vibration and thermotherapy.",
+    "description": "Modern ergonomic thermal stone gua sha scraper with 9 heat levels and high-frequency acoustic pulse vibrations.",
+    "bullets": [
+      "✨ 9 Adjustable Thermal Heat Levels for deep cellular release",
+      "💎 Promotes instant lymphatic drainage and debloating",
+      "⚡ Acoustic micro-vibrations stimulate collagen and tone skin",
+      "🔋 Cordless handheld design with LCD digital display"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Beauty & Personal Care"
+    ]
+  },
+  {
+    "id": "prod_1793100081034",
+    "title": "SculptBlade Max V313 Smart Edition",
+    "slug": "sculptblade-max-v313-smart-edition",
+    "category": "Beauty & Personal Care",
+    "price": 36.95,
+    "compareAtPrice": 66.51,
+    "supplierCost": 8.6,
+    "shippingCost": 3.2,
+    "marginPercent": 68.1,
+    "profitPerUnit": 25.15,
+    "rating": 4.93,
+    "reviewCount": 412,
+    "stock": 19,
+    "trendingScore": 96,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512290903671-17adc82f05a9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Melt away muscle tension and flush out toxic bloating with targeted vibration and thermotherapy.",
+    "description": "Modern ergonomic thermal stone gua sha scraper with 9 heat levels and high-frequency acoustic pulse vibrations.",
+    "bullets": [
+      "✨ 9 Adjustable Thermal Heat Levels for deep cellular release",
+      "💎 Promotes instant lymphatic drainage and debloating",
+      "⚡ Acoustic micro-vibrations stimulate collagen and tone skin",
+      "🔋 Cordless handheld design with LCD digital display"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Beauty & Personal Care"
+    ]
+  },
+  {
+    "id": "prod_1793100036020",
+    "title": "PurrPulse Max V209 Smart Edition",
+    "slug": "purrpulse-max-v209-smart-edition",
+    "category": "Pet Supplies",
+    "price": 39.99,
+    "compareAtPrice": 71.98,
+    "supplierCost": 9.9,
+    "shippingCost": 3.5,
+    "marginPercent": 66.5,
+    "profitPerUnit": 26.59,
+    "rating": 4.93,
+    "reviewCount": 385,
+    "stock": 17,
+    "trendingScore": 93,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life.",
+    "description": "Orthopedic memory foam with raised rim bolsters and ultra-soft faux shag fur simulates the comforting warmth of mother's fur coat.",
+    "bullets": [
+      "🐾 Proven to reduce pet stress and separation anxiety by 84%",
+      "☁️ Premium High-Density Orthopedic Joint Support",
+      "🧼 100% Machine Washable with removable zipper cover",
+      "🔒 Non-slip waterproof bottom grip prevents sliding"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Pet Supplies"
+    ]
+  },
+  {
+    "id": "prod_1793099991009",
+    "title": "PurrPulse Max V974 Smart Edition",
+    "slug": "purrpulse-max-v974-smart-edition",
+    "category": "Pet Supplies",
+    "price": 39.99,
+    "compareAtPrice": 71.98,
+    "supplierCost": 9.9,
+    "shippingCost": 3.5,
+    "marginPercent": 66.5,
+    "profitPerUnit": 26.59,
+    "rating": 4.89,
+    "reviewCount": 279,
+    "stock": 18,
+    "trendingScore": 93,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life.",
+    "description": "Orthopedic memory foam with raised rim bolsters and ultra-soft faux shag fur simulates the comforting warmth of mother's fur coat.",
+    "bullets": [
+      "🐾 Proven to reduce pet stress and separation anxiety by 84%",
+      "☁️ Premium High-Density Orthopedic Joint Support",
+      "🧼 100% Machine Washable with removable zipper cover",
+      "🔒 Non-slip waterproof bottom grip prevents sliding"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Pet Supplies"
+    ]
+  },
+  {
+    "id": "prod_1793099945998",
+    "title": "PurrPulse Max V961 Smart Edition",
+    "slug": "purrpulse-max-v961-smart-edition",
+    "category": "Pet Supplies",
+    "price": 39.99,
+    "compareAtPrice": 71.98,
+    "supplierCost": 9.9,
+    "shippingCost": 3.5,
+    "marginPercent": 66.5,
+    "profitPerUnit": 26.59,
+    "rating": 4.9,
+    "reviewCount": 291,
+    "stock": 17,
+    "trendingScore": 91,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life.",
+    "description": "Orthopedic memory foam with raised rim bolsters and ultra-soft faux shag fur simulates the comforting warmth of mother's fur coat.",
+    "bullets": [
+      "🐾 Proven to reduce pet stress and separation anxiety by 84%",
+      "☁️ Premium High-Density Orthopedic Joint Support",
+      "🧼 100% Machine Washable with removable zipper cover",
+      "🔒 Non-slip waterproof bottom grip prevents sliding"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Pet Supplies"
+    ]
+  },
+  {
+    "id": "prod_1793099900990",
+    "title": "PurrPulse Max V555 Smart Edition",
+    "slug": "purrpulse-max-v555-smart-edition",
+    "category": "Pet Supplies",
+    "price": 39.99,
+    "compareAtPrice": 71.98,
+    "supplierCost": 9.9,
+    "shippingCost": 3.5,
+    "marginPercent": 66.5,
+    "profitPerUnit": 26.59,
+    "rating": 4.88,
+    "reviewCount": 285,
+    "stock": 21,
+    "trendingScore": 92,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life.",
+    "description": "Orthopedic memory foam with raised rim bolsters and ultra-soft faux shag fur simulates the comforting warmth of mother's fur coat.",
+    "bullets": [
+      "🐾 Proven to reduce pet stress and separation anxiety by 84%",
+      "☁️ Premium High-Density Orthopedic Joint Support",
+      "🧼 100% Machine Washable with removable zipper cover",
+      "🔒 Non-slip waterproof bottom grip prevents sliding"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Pet Supplies"
+    ]
+  },
+  {
+    "id": "prod_1793099855988",
+    "title": "AquaBreeze Max V548 Smart Edition",
+    "slug": "aquabreeze-max-v548-smart-edition",
+    "category": "Home & Wellness",
+    "price": 49.99,
+    "compareAtPrice": 89.98,
+    "supplierCost": 12.5,
+    "shippingCost": 3.8,
+    "marginPercent": 67.4,
+    "profitPerUnit": 33.69,
+    "rating": 4.81,
+    "reviewCount": 414,
+    "stock": 20,
+    "trendingScore": 95,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Cool down any room by 15°F in under 90 seconds without a $500 monthly electric bill.",
+    "description": "Compact rapid-chill ultrasonic cooling cube that chills, humidifies, and purifies personal spaces with ice-water mist technology.",
+    "bullets": [
+      "❄️ Drops ambient air temp up to 15°F in seconds",
+      "💧 3-in-1 Cooling, Humidifying, and Air Filtering",
+      "🔋 USB-C Powered – run on power bank anywhere",
+      "🤫 Whisper quiet sleep mode with 7-color ambient night light"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Home & Wellness"
+    ]
+  },
+  {
+    "id": "prod_1793099810982",
+    "title": "NovaBeam Max V348 Smart Edition",
+    "slug": "novabeam-max-v348-smart-edition",
+    "category": "Smart Tech Gadgets",
+    "price": 59.95,
+    "compareAtPrice": 107.91,
+    "supplierCost": 14.8,
+    "shippingCost": 4.1,
+    "marginPercent": 68.5,
+    "profitPerUnit": 41.05,
+    "rating": 4.95,
+    "reviewCount": 214,
+    "stock": 13,
+    "trendingScore": 93,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "The AI personal cameraman that keeps you perfectly centered in every frame without needing an app.",
+    "description": "Built-in optical AI camera sensor tracks your face and body movements 360° seamlessly. Perfect for TikTok, live streaming, fitness, and calls.",
+    "bullets": [
+      "🤖 360° AI Smart Facial & Body Recognition Tracking",
+      "🚫 Zero App Required – instant plug-and-play with phone clamp",
+      "✋ Gesture Control Recognition (OK sign to start, Palm to pause)",
+      "🔋 12-Hour Continuous Battery Life per charge"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Smart Tech Gadgets"
+    ]
+  },
+  {
+    "id": "prod_1793099765976",
+    "title": "NovaBeam Max V790 Smart Edition",
+    "slug": "novabeam-max-v790-smart-edition",
+    "category": "Smart Tech Gadgets",
+    "price": 59.95,
+    "compareAtPrice": 107.91,
+    "supplierCost": 14.8,
+    "shippingCost": 4.1,
+    "marginPercent": 68.5,
+    "profitPerUnit": 41.05,
+    "rating": 4.87,
+    "reviewCount": 321,
+    "stock": 22,
+    "trendingScore": 94,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "The AI personal cameraman that keeps you perfectly centered in every frame without needing an app.",
+    "description": "Built-in optical AI camera sensor tracks your face and body movements 360° seamlessly. Perfect for TikTok, live streaming, fitness, and calls.",
+    "bullets": [
+      "🤖 360° AI Smart Facial & Body Recognition Tracking",
+      "🚫 Zero App Required – instant plug-and-play with phone clamp",
+      "✋ Gesture Control Recognition (OK sign to start, Palm to pause)",
+      "🔋 12-Hour Continuous Battery Life per charge"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Smart Tech Gadgets"
+    ]
+  },
+  {
+    "id": "prod_1793099720963",
+    "title": "NovaBeam Max V415 Smart Edition",
+    "slug": "novabeam-max-v415-smart-edition",
+    "category": "Smart Tech Gadgets",
+    "price": 59.95,
+    "compareAtPrice": 107.91,
+    "supplierCost": 14.8,
+    "shippingCost": 4.1,
+    "marginPercent": 68.5,
+    "profitPerUnit": 41.05,
+    "rating": 4.96,
+    "reviewCount": 261,
+    "stock": 27,
+    "trendingScore": 94,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "The AI personal cameraman that keeps you perfectly centered in every frame without needing an app.",
+    "description": "Built-in optical AI camera sensor tracks your face and body movements 360° seamlessly. Perfect for TikTok, live streaming, fitness, and calls.",
+    "bullets": [
+      "🤖 360° AI Smart Facial & Body Recognition Tracking",
+      "🚫 Zero App Required – instant plug-and-play with phone clamp",
+      "✋ Gesture Control Recognition (OK sign to start, Palm to pause)",
+      "🔋 12-Hour Continuous Battery Life per charge"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Smart Tech Gadgets"
+    ]
+  },
+  {
+    "id": "prod_1793099675950",
+    "title": "PurrPulse Max V629 Smart Edition",
+    "slug": "purrpulse-max-v629-smart-edition",
+    "category": "Pet Supplies",
+    "price": 39.99,
+    "compareAtPrice": 71.98,
+    "supplierCost": 9.9,
+    "shippingCost": 3.5,
+    "marginPercent": 66.5,
+    "profitPerUnit": 26.59,
+    "rating": 4.81,
+    "reviewCount": 237,
+    "stock": 17,
+    "trendingScore": 97,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life.",
+    "description": "Orthopedic memory foam with raised rim bolsters and ultra-soft faux shag fur simulates the comforting warmth of mother's fur coat.",
+    "bullets": [
+      "🐾 Proven to reduce pet stress and separation anxiety by 84%",
+      "☁️ Premium High-Density Orthopedic Joint Support",
+      "🧼 100% Machine Washable with removable zipper cover",
+      "🔒 Non-slip waterproof bottom grip prevents sliding"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Pet Supplies"
+    ]
+  },
+  {
+    "id": "prod_1793099630949",
+    "title": "PurrPulse Max V160 Smart Edition",
+    "slug": "purrpulse-max-v160-smart-edition",
+    "category": "Pet Supplies",
+    "price": 39.99,
+    "compareAtPrice": 71.98,
+    "supplierCost": 9.9,
+    "shippingCost": 3.5,
+    "marginPercent": 66.5,
+    "profitPerUnit": 26.59,
+    "rating": 4.82,
+    "reviewCount": 366,
+    "stock": 8,
+    "trendingScore": 96,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life.",
+    "description": "Orthopedic memory foam with raised rim bolsters and ultra-soft faux shag fur simulates the comforting warmth of mother's fur coat.",
+    "bullets": [
+      "🐾 Proven to reduce pet stress and separation anxiety by 84%",
+      "☁️ Premium High-Density Orthopedic Joint Support",
+      "🧼 100% Machine Washable with removable zipper cover",
+      "🔒 Non-slip waterproof bottom grip prevents sliding"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Pet Supplies"
+    ]
+  },
+  {
+    "id": "prod_1793099585940",
+    "title": "ChronoGlow Max V259 Smart Edition",
+    "slug": "chronoglow-max-v259-smart-edition",
+    "category": "Aesthetic Home & Wellness",
+    "price": 69.99,
+    "compareAtPrice": 125.98,
+    "supplierCost": 18,
+    "shippingCost": 4.5,
+    "marginPercent": 67.9,
+    "profitPerUnit": 47.49,
+    "rating": 4.92,
+    "reviewCount": 410,
+    "stock": 13,
+    "trendingScore": 93,
+    "badge": "🔥 NEW VIRAL FIND",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
+    ],
+    "hook": "The cyberpunk retro-futuristic desk showpiece that everyone in your room will ask you about.",
+    "description": "Retro Nixie-tube inspired electronic clock with full color IPS screens displaying dynamic weather, photo albums, and ambient lighting.",
+    "bullets": [
+      "🕰️ 6 High-Definition IPS Custom Digital Screen Dials",
+      "🌈 16 Million RGB Backlight Color Combinations",
+      "📶 WiFi Time & Live Weather Synchronization",
+      "🪵 Real North American Black Walnut Solid Wood Base"
+    ],
+    "shippingTime": "3-6 Business Days (Express)",
+    "supplier": "CJ Dropshipping Global Hub",
+    "tags": [
+      "Viral Auto-Find",
+      "High Margin",
+      "Home & Wellness"
+    ]
+  },
+  {
     "id": "prod_1793099540931",
     "title": "NovaBeam Max V939 Smart Edition",
     "slug": "novabeam-max-v939-smart-edition",

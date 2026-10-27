@@ -112,6 +112,9 @@
       <button class="admin-tab" data-tab="tabAds">
         <i class="fa-solid fa-video"></i> AI TikTok & Meta Ad Studio
       </button>
+      <button class="admin-tab" data-tab="tabTraffic">
+        <i class="fa-solid fa-bullhorn" style="color: #38bdf8;"></i> AI Viral Traffic Machine
+      </button>
       <button class="admin-tab" data-tab="tabSettings">
         <i class="fa-solid fa-sliders"></i> Autopilot Engine Config
       </button>
@@ -191,6 +194,88 @@
 
       <div id="adCampaignsContainer">
         <!-- Injected by admin.js -->
+      </div>
+    </div>
+
+    <!-- TAB: AI Viral Traffic & Outreach Machine -->
+    <div id="tabTraffic" class="tab-pane" style="display: none;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 12px;">
+        <div>
+          <h2 style="font-size: 1.3rem; font-weight: 800; color: #38bdf8;">
+            <i class="fa-solid fa-bullhorn"></i> AI Viral Traffic & Content Machine
+          </h2>
+          <p style="font-size: 0.85rem; color: #94a3b8;">
+            Zero manual copywriting: 1-click ready-to-post TikTok captions, Reels storyboards, WhatsApp broadcasts, and Influencer DM pitches.
+          </p>
+        </div>
+        <div style="display: flex; gap: 10px;">
+          <select id="trafficProductSelect" style="background: #1e293b; color: white; border: 1px solid #334155; padding: 10px 14px; border-radius: 8px; font-size: 0.85rem; font-weight: 600;">
+            <!-- Populated dynamically -->
+          </select>
+          <button id="generateTrafficPackBtn" style="background: #0284c7; color: white; border: none; padding: 10px 18px; border-radius: 8px; font-weight: 700; font-size: 0.85rem; cursor: pointer; display: flex; align-items: center; gap: 6px;">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> Generate Fresh Pack
+          </button>
+        </div>
+      </div>
+
+      <!-- Traffic Pack Content Cards -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 20px;">
+        
+        <!-- TikTok & Reels Pack -->
+        <div style="background: #0f172a; border: 1px solid #1e293b; border-radius: 12px; padding: 20px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+            <h3 style="font-size: 1rem; font-weight: 700; color: #f43f5e; display: flex; align-items: center; gap: 8px;">
+              <i class="fa-brands fa-tiktok"></i> TikTok & Reels Ready Post
+            </h3>
+            <button id="copyTikTokBtn" style="background: #1e293b; color: #38bdf8; border: 1px solid #334155; padding: 6px 12px; border-radius: 6px; font-size: 0.75rem; font-weight: 700; cursor: pointer;">
+              <i class="fa-solid fa-copy"></i> Copy Post
+            </button>
+          </div>
+          <div style="font-size: 0.8rem; color: #cbd5e1; background: rgba(0,0,0,0.3); padding: 14px; border-radius: 8px; white-space: pre-wrap;" id="trafficTikTokContent">
+Loading viral TikTok pack...
+          </div>
+        </div>
+
+        <!-- WhatsApp / Telegram Viral Broadcast -->
+        <div style="background: #0f172a; border: 1px solid #1e293b; border-radius: 12px; padding: 20px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+            <h3 style="font-size: 1rem; font-weight: 700; color: #22c55e; display: flex; align-items: center; gap: 8px;">
+              <i class="fa-brands fa-whatsapp"></i> 1-Click WhatsApp Broadcast
+            </h3>
+            <button id="launchWhatsAppBroadcastBtn" style="background: #10b981; color: white; border: none; padding: 6px 14px; border-radius: 6px; font-size: 0.75rem; font-weight: 700; cursor: pointer;">
+              <i class="fa-brands fa-whatsapp"></i> Send to WhatsApp
+            </button>
+          </div>
+          <div style="font-size: 0.8rem; color: #cbd5e1; background: rgba(0,0,0,0.3); padding: 14px; border-radius: 8px; white-space: pre-wrap;" id="trafficWhatsAppContent">
+Loading WhatsApp blast...
+          </div>
+        </div>
+
+        <!-- Micro-Influencer DM Pitch -->
+        <div style="background: #0f172a; border: 1px solid #1e293b; border-radius: 12px; padding: 20px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+            <h3 style="font-size: 1rem; font-weight: 700; color: #a855f7; display: flex; align-items: center; gap: 8px;">
+              <i class="fa-solid fa-handshake"></i> Influencer DM Pitch ($10/sale)
+            </h3>
+            <button id="copyInfluencerDmBtn" style="background: #1e293b; color: #c084fc; border: 1px solid #334155; padding: 6px 12px; border-radius: 6px; font-size: 0.75rem; font-weight: 700; cursor: pointer;">
+              <i class="fa-solid fa-copy"></i> Copy DM
+            </button>
+          </div>
+          <div style="font-size: 0.8rem; color: #cbd5e1; background: rgba(0,0,0,0.3); padding: 14px; border-radius: 8px; white-space: pre-wrap;" id="trafficInfluencerContent">
+Loading influencer DM...
+          </div>
+        </div>
+
+        <!-- Video Storyboard & Recording Prompts -->
+        <div style="background: #0f172a; border: 1px solid #1e293b; border-radius: 12px; padding: 20px;">
+          <h3 style="font-size: 1rem; font-weight: 700; color: #eab308; display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
+            <i class="fa-solid fa-clapperboard"></i> Video Filming Directives
+          </h3>
+          <div style="font-size: 0.8rem; color: #cbd5e1; background: rgba(0,0,0,0.3); padding: 14px; border-radius: 8px; display: flex; flex-direction: column; gap: 8px;" id="trafficStoryboardContent">
+Loading filming steps...
+          </div>
+        </div>
+
       </div>
     </div>
 

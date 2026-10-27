@@ -267,6 +267,33 @@ modalAddToCartBtn.addEventListener('click', () => {
   }
 });
 
+const modalShareWhatsAppBtn = document.getElementById('modalShareWhatsAppBtn');
+const modalCopyLinkBtn = document.getElementById('modalCopyLinkBtn');
+
+if (modalShareWhatsAppBtn) {
+  modalShareWhatsAppBtn.addEventListener('click', () => {
+    if (!activeModalProduct) return;
+    const currentUrl = window.location.origin;
+    const text = `🔥 Check out this viral ${activeModalProduct.title}! It's on 50% OFF Flash Sale with Free Priority Shipping:\n\n👉 ${currentUrl}`;
+    window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`, '_blank');
+  });
+}
+
+if (modalCopyLinkBtn) {
+  modalCopyLinkBtn.addEventListener('click', () => {
+    if (!activeModalProduct) return;
+    const currentUrl = window.location.origin;
+    const link = `${currentUrl}`;
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(link).then(() => {
+        alert("✅ Deal link copied to clipboard! Send this to friends or paste into your social bio!");
+      });
+    } else {
+      prompt("Copy your deal link:", link);
+    }
+  });
+}
+
 // 6. Social Proof Popup
 const buyerNamesList = [
   { name: "Sophia M.", city: "New York, NY" },
