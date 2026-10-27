@@ -110,9 +110,9 @@ def auto_upload(username, password):
 if __name__ == "__main__":
     print_banner()
     
-    username = input("Enter Instagram username (e.g. aquaflow_drop or kevin_369): ").strip().replace('@', '')
+    username = input("Enter Instagram username (press Enter for @kevin_369): ").strip().replace('@', '')
     if not username:
-        username = "aquaflow_drop"
+        username = "kevin_369"
         
     import getpass
     password = getpass.getpass(f"Enter password for @{username}: ").strip()
