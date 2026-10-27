@@ -218,7 +218,7 @@ async function fetchStoreSettings() {
   } catch (e) {
     return {
       activeIntegrations: {
-        upi: { vpa: "hiremathpramod@upi", payeeName: "AquaFlow Store", currencyRate: 86.5 }
+        upi: { vpa: "910889831@ybl", payeeName: "AquaFlow Store", currencyRate: 86.5 }
       }
     };
   }
@@ -227,12 +227,12 @@ async function fetchStoreSettings() {
 async function updateUpiDisplay(subtotalUsd) {
   const settings = await fetchStoreSettings();
   const upiConfig = settings?.activeIntegrations?.upi || settings?.upi || {
-    vpa: "hiremathpramod@upi",
+    vpa: "910889831@ybl",
     payeeName: "AquaFlow Store",
     currencyRate: 86.5
   };
 
-  const vpa = upiConfig.vpa || "hiremathpramod@upi";
+  const vpa = upiConfig.vpa || "910889831@ybl";
   const payeeName = upiConfig.payeeName || "AquaFlow Store";
   const rate = upiConfig.currencyRate || 86.5;
   const inrAmount = Math.max(99, Math.round(subtotalUsd * rate));

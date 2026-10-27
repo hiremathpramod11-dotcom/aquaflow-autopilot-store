@@ -1,16 +1,16 @@
 {
-  "totalRevenue": 23060.28,
-  "netProfit": 16141.85,
-  "totalOrders": 488,
+  "totalRevenue": 23340.19,
+  "netProfit": 16337.77,
+  "totalOrders": 493,
   "averageOrderValue": 45.4,
   "blendedRoas": 3.42,
   "conversionRate": 3.85,
   "totalAdSpend": 3050,
   "totalCogs": 1417.72,
   "activeVisitorsNow": 47,
-  "todayRevenue": 9452.38,
-  "todayProfit": 6616.32,
-  "todayOrders": 188,
+  "todayRevenue": 9732.29,
+  "todayProfit": 6812.24,
+  "todayOrders": 193,
   "salesByNiche": [
     {
       "name": "Beauty & Personal Care",
@@ -39,6 +39,76 @@
     }
   ],
   "recentEvents": [
+    {
+      "id": "ev_1793119679678",
+      "timestamp": "10/27/2026, 10:17:59 PM",
+      "type": "AUTOPILOT_FULFILLMENT",
+      "icon": "⚡",
+      "message": "Autopilot fulfilled #AQF-49345 with supplier. Carrier: USPS Priority Express (USPS256812...)"
+    },
+    {
+      "id": "ev_1793119679673",
+      "timestamp": "10/27/2026, 10:17:59 PM",
+      "type": "SALE",
+      "icon": "💰",
+      "message": "Incoming Customer Order #AQF-49345 from Austin, TX for $39.99 (Net Profit: $27.99)"
+    },
+    {
+      "id": "ev_1793119634673",
+      "timestamp": "10/27/2026, 10:17:14 PM",
+      "type": "AUTOPILOT_FULFILLMENT",
+      "icon": "⚡",
+      "message": "Autopilot fulfilled #AQF-34836 with supplier. Carrier: USPS Priority Express (USPS383888...)"
+    },
+    {
+      "id": "ev_1793119634668",
+      "timestamp": "10/27/2026, 10:17:14 PM",
+      "type": "SALE",
+      "icon": "💰",
+      "message": "Incoming Customer Order #AQF-34836 from Denver, CO for $39.99 (Net Profit: $27.99)"
+    },
+    {
+      "id": "ev_1793119589678",
+      "timestamp": "10/27/2026, 10:16:29 PM",
+      "type": "AUTOPILOT_FULFILLMENT",
+      "icon": "⚡",
+      "message": "Autopilot fulfilled #AQF-47448 with supplier. Carrier: USPS Priority Express (USPS343859...)"
+    },
+    {
+      "id": "ev_1793119589671",
+      "timestamp": "10/27/2026, 10:16:29 PM",
+      "type": "SALE",
+      "icon": "💰",
+      "message": "Incoming Customer Order #AQF-47448 from Denver, CO for $69.99 (Net Profit: $48.99)"
+    },
+    {
+      "id": "ev_1793119544661",
+      "timestamp": "10/27/2026, 10:15:44 PM",
+      "type": "AUTOPILOT_FULFILLMENT",
+      "icon": "⚡",
+      "message": "Autopilot fulfilled #AQF-69714 with supplier. Carrier: USPS Priority Express (USPS772651...)"
+    },
+    {
+      "id": "ev_1793119544652",
+      "timestamp": "10/27/2026, 10:15:44 PM",
+      "type": "SALE",
+      "icon": "💰",
+      "message": "Incoming Customer Order #AQF-69714 from Seattle, WA for $59.95 (Net Profit: $41.96)"
+    },
+    {
+      "id": "ev_1793119499667",
+      "timestamp": "10/27/2026, 10:14:59 PM",
+      "type": "AUTOPILOT_FULFILLMENT",
+      "icon": "⚡",
+      "message": "Autopilot fulfilled #AQF-66248 with supplier. Carrier: USPS Priority Express (USPS289270...)"
+    },
+    {
+      "id": "ev_1793119499660",
+      "timestamp": "10/27/2026, 10:14:59 PM",
+      "type": "SALE",
+      "icon": "💰",
+      "message": "Incoming Customer Order #AQF-66248 from Denver, CO for $69.99 (Net Profit: $48.99)"
+    },
     {
       "id": "ev_1793119454654",
       "timestamp": "10/27/2026, 10:14:14 PM",
@@ -178,76 +248,6 @@
       "type": "SALE",
       "icon": "💰",
       "message": "Incoming Customer Order #AQF-37322 from Chicago, IL for $39.99 (Net Profit: $27.99)"
-    },
-    {
-      "id": "ev_1793118929922",
-      "timestamp": "10/27/2026, 10:05:29 PM",
-      "type": "AUTOPILOT_FULFILLMENT",
-      "icon": "⚡",
-      "message": "Autopilot fulfilled #AQF-14065 with supplier. Carrier: USPS Priority Express (USPS570646...)"
-    },
-    {
-      "id": "ev_1793118929913",
-      "timestamp": "10/27/2026, 10:05:29 PM",
-      "type": "SALE",
-      "icon": "💰",
-      "message": "Incoming Customer Order #AQF-14065 from Chicago, IL for $69.99 (Net Profit: $48.99)"
-    },
-    {
-      "id": "ev_1793118915778",
-      "timestamp": "10/27/2026, 10:05:15 PM",
-      "type": "AUTOPILOT_FULFILLMENT",
-      "icon": "⚡",
-      "message": "Autopilot fulfilled #AQF-40483 with supplier. Carrier: USPS Priority Express (USPS170328...)"
-    },
-    {
-      "id": "ev_1793118915771",
-      "timestamp": "10/27/2026, 10:05:15 PM",
-      "type": "SALE",
-      "icon": "💰",
-      "message": "Incoming Customer Order #AQF-40483 from Los Angeles, CA for $49.99 (Net Profit: $34.99)"
-    },
-    {
-      "id": "ev_1793118884916",
-      "timestamp": "10/27/2026, 10:04:44 PM",
-      "type": "AUTOPILOT_FULFILLMENT",
-      "icon": "⚡",
-      "message": "Autopilot fulfilled #AQF-40959 with supplier. Carrier: USPS Priority Express (USPS743747...)"
-    },
-    {
-      "id": "ev_1793118884910",
-      "timestamp": "10/27/2026, 10:04:44 PM",
-      "type": "SALE",
-      "icon": "💰",
-      "message": "Incoming Customer Order #AQF-40959 from Los Angeles, CA for $49.99 (Net Profit: $34.99)"
-    },
-    {
-      "id": "ev_1793118839910",
-      "timestamp": "10/27/2026, 10:03:59 PM",
-      "type": "AUTOPILOT_FULFILLMENT",
-      "icon": "⚡",
-      "message": "Autopilot fulfilled #AQF-72285 with supplier. Carrier: USPS Priority Express (USPS676560...)"
-    },
-    {
-      "id": "ev_1793118839903",
-      "timestamp": "10/27/2026, 10:03:59 PM",
-      "type": "SALE",
-      "icon": "💰",
-      "message": "Incoming Customer Order #AQF-72285 from Denver, CO for $39.99 (Net Profit: $27.99)"
-    },
-    {
-      "id": "ev_1793118794905",
-      "timestamp": "10/27/2026, 10:03:14 PM",
-      "type": "AUTOPILOT_FULFILLMENT",
-      "icon": "⚡",
-      "message": "Autopilot fulfilled #AQF-14347 with supplier. Carrier: USPS Priority Express (USPS995395...)"
-    },
-    {
-      "id": "ev_1793118794900",
-      "timestamp": "10/27/2026, 10:03:14 PM",
-      "type": "SALE",
-      "icon": "💰",
-      "message": "Incoming Customer Order #AQF-14347 from New York, NY for $36.95 (Net Profit: $25.87)"
     }
   ]
 }

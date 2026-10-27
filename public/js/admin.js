@@ -196,7 +196,7 @@ function updateUI() {
   settingSimulatedTraffic.checked = settings.simulatedTrafficActive !== false;
   if (settingAutoUploadSocial) settingAutoUploadSocial.checked = settings.autoUploadInstagram !== false;
   if (igAutoCycleToggle) igAutoCycleToggle.checked = settings.autoUploadInstagram !== false;
-  if (settingUpiVpa) settingUpiVpa.value = settings.activeIntegrations?.upi?.vpa || settings.upi?.vpa || 'hiremathpramod@upi';
+  if (settingUpiVpa) settingUpiVpa.value = settings.activeIntegrations?.upi?.vpa || settings.upi?.vpa || '910889831@ybl';
   if (settingUpiPayee) settingUpiPayee.value = settings.activeIntegrations?.upi?.payeeName || settings.upi?.payeeName || 'AquaFlow Store';
 
   // Populate Traffic Product Selector
@@ -330,7 +330,7 @@ settingsForm.addEventListener('submit', async (e) => {
       ...(settings.activeIntegrations || {}),
       upi: {
         enabled: true,
-        vpa: settingUpiVpa ? settingUpiVpa.value.trim() : 'hiremathpramod@upi',
+        vpa: settingUpiVpa ? settingUpiVpa.value.trim() : '910889831@ybl',
         payeeName: settingUpiPayee ? settingUpiPayee.value.trim() : 'AquaFlow Store',
         currencyRate: 86.5
       }

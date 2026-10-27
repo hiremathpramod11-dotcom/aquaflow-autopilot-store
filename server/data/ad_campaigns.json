@@ -1,5 +1,300 @@
 [
   {
+    "id": "ad_1793119679656",
+    "productId": "prod_1793119679651",
+    "productTitle": "PurrPulse Max V110 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 4.14,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Pet Supplies hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral PurrPulse Max V110 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying PurrPulse Max V110 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Pet Supplies hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V110 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "PurrPulse Max V110 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Pet Supplies",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793119634645",
+    "productId": "prod_1793119634641",
+    "productTitle": "PurrPulse Max V509 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 4.21,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Pet Supplies hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral PurrPulse Max V509 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying PurrPulse Max V509 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Pet Supplies hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "Cure your pet's separation anxiety and give them the deepest, most rejuvenating sleep of their life."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new PurrPulse Max V509 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "PurrPulse Max V509 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Pet Supplies",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793119589644",
+    "productId": "prod_1793119589638",
+    "productTitle": "ChronoGlow Max V600 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 3.59,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Aesthetic Home & Wellness hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral ChronoGlow Max V600 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying ChronoGlow Max V600 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Aesthetic Home & Wellness hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "The cyberpunk retro-futuristic desk showpiece that everyone in your room will ask you about."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V600 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "ChronoGlow Max V600 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Aesthetic Home & Wellness",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793119544629",
+    "productId": "prod_1793119544625",
+    "productTitle": "NovaBeam Max V556 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 4.02,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Smart Tech Gadgets hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral NovaBeam Max V556 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying NovaBeam Max V556 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Smart Tech Gadgets hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "The AI personal cameraman that keeps you perfectly centered in every frame without needing an app."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new NovaBeam Max V556 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "NovaBeam Max V556 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Smart Tech Gadgets",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
+    "id": "ad_1793119499630",
+    "productId": "prod_1793119499626",
+    "productTitle": "ChronoGlow Max V474 Smart Edition",
+    "platform": "TikTok / Meta Multi-Channel",
+    "status": "READY_TO_SCALE",
+    "roas": 4.2,
+    "hooks": [
+      "Wait, why didn't anybody tell me about this Aesthetic Home & Wellness hack sooner?! 😱",
+      "If you're still doing this manually in 2026, you need to watch this right now...",
+      "TikTok made me buy it: Honest review of the viral ChronoGlow Max V474 Smart Edition!"
+    ],
+    "videoScript": {
+      "duration": "25 - 30 seconds",
+      "pacing": "Fast direct-response UGC format",
+      "scenes": [
+        {
+          "time": "0:00 - 0:03",
+          "visual": "High-energy hook clip displaying ChronoGlow Max V474 Smart Edition solving immediate problem",
+          "audio": "Wait, why didn't anybody tell me about this Aesthetic Home & Wellness hack sooner?! 😱"
+        },
+        {
+          "time": "0:03 - 0:10",
+          "visual": "Visual pain point agitation (frustration with old, slow, expensive alternatives)",
+          "audio": "I spent months dealing with this frustration until I found this exact tool."
+        },
+        {
+          "time": "0:10 - 0:20",
+          "visual": "Demonstration of features in action with satisfying ASMR sounds",
+          "audio": "The cyberpunk retro-futuristic desk showpiece that everyone in your room will ask you about."
+        },
+        {
+          "time": "0:20 - 0:28",
+          "visual": "Unboxing + 50% discount banner callout",
+          "audio": "They just started their 50% off seasonal flash sale with free shipping. Hit the link below to get yours before it sells out!"
+        }
+      ]
+    },
+    "metaAdCopy": {
+      "primaryText": "⚡ UPGRADE YOUR ROUTINE IN SECONDS!\n\nMeet the all-new ChronoGlow Max V474 Smart Edition.\n\n✅ Over 1,000+ Verified 5-Star Reviews\n✅ 30-Day Risk-Free Money Back Guarantee\n✅ Free Priority Insured Shipping Worldwide\n\n👉 Tap 'Shop Now' to lock in your 50% discount today while supplies last!",
+      "headline": "ChronoGlow Max V474 Smart Edition (50% OFF FLASH DEAL)",
+      "cta": "Shop Now"
+    },
+    "audienceTargeting": {
+      "interests": [
+        "Aesthetic Home & Wellness",
+        "Online Shopping",
+        "Innovative Products",
+        "Gadgets & Gear"
+      ],
+      "age": "21 - 55",
+      "gender": "All",
+      "placements": [
+        "TikTok FYP",
+        "Instagram Reels",
+        "Facebook Feed"
+      ]
+    }
+  },
+  {
     "id": "ad_1793119334927",
     "productId": "prod_1793119334921",
     "productTitle": "PurrPulse Max V769 Smart Edition",
