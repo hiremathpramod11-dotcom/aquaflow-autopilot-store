@@ -148,6 +148,11 @@ app.get('/api/traffic/upload/history', (req, res) => {
   res.json(autoUpload.getHistory());
 });
 
+app.get('/api/traffic/upload/status', (req, res) => {
+  const username = req.query.username || 'kevin_369';
+  res.json(autoUpload.getStatus(username));
+});
+
 app.post('/api/sales/accelerate', (req, res) => {
   const result = salesAccelerator.startOvernightSalesPipeline();
   res.json(result);
@@ -156,12 +161,13 @@ app.post('/api/sales/accelerate', (req, res) => {
 app.post('/api/traffic/upload', async (req, res) => {
   try {
     const { productId, username, password, caption, simulate } = req.body;
+    const isSimulate = simulate === true || simulate === 'true' ? true : (simulate === false || simulate === 'false' ? false : undefined);
     const result = await autoUpload.uploadPost({
       productId,
       username,
       password,
       caption,
-      simulate: simulate === true || simulate === 'true'
+      simulate: isSimulate
     });
     res.json(result);
   } catch (err) {

@@ -432,6 +432,27 @@ const igUploadFeedback = document.getElementById('igUploadFeedback');
 const igUploadHistoryList = document.getElementById('igUploadHistoryList');
 const refreshIgHistoryBtn = document.getElementById('refreshIgHistoryBtn');
 
+async function checkIgStatus() {
+  const badge = document.getElementById('igStatusBadge');
+  if (!badge) return;
+  try {
+    const user = igAccountSelect ? igAccountSelect.value : 'kevin_369';
+    const res = await fetch(`/api/traffic/upload/status?username=${user}`);
+    const data = await res.json();
+    if (data.hasSession || data.hasPassword) {
+      badge.innerText = `● LIVE CONNECTED (@${data.username})`;
+      badge.style.background = "rgba(16, 185, 129, 0.2)";
+      badge.style.color = "#34d399";
+      badge.style.borderColor = "rgba(16, 185, 129, 0.4)";
+    } else {
+      badge.innerText = `⚠️ ENTER PASSWORD TO CONNECT @${data.username}`;
+      badge.style.background = "rgba(245, 158, 11, 0.2)";
+      badge.style.color = "#fbbf24";
+      badge.style.borderColor = "rgba(245, 158, 11, 0.4)";
+    }
+  } catch (e) {}
+}
+
 async function loadIgUploadHistory() {
   if (!igUploadHistoryList) return;
   try {
@@ -545,7 +566,12 @@ if (refreshIgHistoryBtn) {
   refreshIgHistoryBtn.addEventListener('click', loadIgUploadHistory);
 }
 
+if (igAccountSelect) {
+  igAccountSelect.addEventListener('change', checkIgStatus);
+}
+
 // Boot up
 loadAllData();
 loadIgUploadHistory();
+checkIgStatus();
 connectWebSocket();

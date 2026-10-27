@@ -96,11 +96,62 @@ class AutoUploadService {
     return code;
   }
 
+  getSavedPassword(username) {
+    try {
+      if (fs.existsSync(this.settingsPath)) {
+        const s = JSON.parse(fs.readFileSync(this.settingsPath, 'utf8'));
+        const ig = s.activeIntegrations?.instagram;
+        if (ig && ig.password && (ig.username === username || !ig.username)) {
+          return ig.password;
+        }
+      }
+    } catch (e) {}
+    return process.env.IG_PASSWORD || null;
+  }
+
+  saveInstagramCredentials(username, password) {
+    try {
+      if (fs.existsSync(this.settingsPath)) {
+        const s = JSON.parse(fs.readFileSync(this.settingsPath, 'utf8'));
+        if (!s.activeIntegrations) s.activeIntegrations = {};
+        if (!s.activeIntegrations.instagram) s.activeIntegrations.instagram = {};
+        s.activeIntegrations.instagram.username = username;
+        if (password) s.activeIntegrations.instagram.password = password;
+        s.activeIntegrations.instagram.connected = true;
+        fs.writeFileSync(this.settingsPath, JSON.stringify(s, null, 2), 'utf8');
+      }
+    } catch (e) {}
+  }
+
+  hasSavedSession(username) {
+    const sessionFile = path.join(this.dataPath, `session_${username}.json`);
+    return fs.existsSync(sessionFile);
+  }
+
+  getStatus(username = 'kevin_369') {
+    const cleanUser = (username || 'kevin_369').replace('@', '').trim();
+    const hasSession = this.hasSavedSession(cleanUser);
+    const hasPass = !!this.getSavedPassword(cleanUser);
+    return {
+      connected: hasSession || hasPass,
+      hasSession,
+      hasPassword: hasPass,
+      username: cleanUser
+    };
+  }
+
   /**
    * Main Auto-Upload Handler
    */
-  async uploadPost({ productId, username = 'kevin_369', password, caption, simulate = false }) {
+  async uploadPost({ productId, username = 'kevin_369', password, caption, simulate }) {
     const cleanUser = (username || 'kevin_369').replace('@', '').trim();
+    const effectivePassword = password || this.getSavedPassword(cleanUser);
+    const sessionExists = this.hasSavedSession(cleanUser);
+
+    if (password) {
+      this.saveInstagramCredentials(cleanUser, password);
+    }
+
     const products = this.getProducts();
     const product = products.find(p => p.id === productId) || products[0] || {
       id: "prod-default",
@@ -115,8 +166,19 @@ class AutoUploadService {
 
     console.log(`[AUTOUPLOAD] Initiating auto-upload for product "${product.title}" to @${cleanUser}...`);
 
+    // If user explicitly chose Live Mode (simulate === false), but no credentials/session are available
+    if (simulate === false && !effectivePassword && !sessionExists) {
+      return {
+        success: false,
+        mode: "LIVE",
+        account: cleanUser,
+        error: `Password Required: Cannot post live to Instagram @${cleanUser} without credentials.`,
+        tip: `Please enter the password for @${cleanUser} in the Admin Panel to authorize live posting, or select Simulation Mode.`
+      };
+    }
+
     // Check if simulation is requested or if credentials are dummy
-    const isSimulation = simulate || !password || password === 'SIMULATE' || password === 'test' || password.startsWith('DEMO_');
+    const isSimulation = simulate === true || (!effectivePassword && !sessionExists) || effectivePassword === 'SIMULATE' || effectivePassword === 'test';
 
     if (isSimulation) {
       const postCode = this.generatePostCode();
@@ -183,7 +245,7 @@ class AutoUploadService {
 
       if (!sessionLoaded) {
         console.log(`[AUTOUPLOAD] Logging into Instagram as @${cleanUser}...`);
-        await ig.account.login(cleanUser, password);
+        await ig.account.login(cleanUser, effectivePassword);
         const serialized = await ig.state.serialize();
         delete serialized.constants;
         fs.writeFileSync(sessionFile, JSON.stringify(serialized, null, 2), 'utf8');

@@ -192,6 +192,38 @@ def auto_upload(username, password=None, simulate=False):
         print(Fore.RED + f"Post upload failed: {e}")
         return False
 
+def get_saved_password(username):
+    settings_file = os.path.join(DATA_DIR, "settings.json")
+    if os.path.exists(settings_file):
+        try:
+            with open(settings_file, "r", encoding="utf-8") as f:
+                s = json.load(f)
+                ig = s.get("activeIntegrations", {}).get("instagram", {})
+                if ig.get("password") and (ig.get("username") == username or not ig.get("username")):
+                    return ig["password"]
+        except Exception:
+            pass
+    return os.environ.get("IG_PASSWORD")
+
+def save_saved_password(username, password):
+    if not password or password.upper() == "SIMULATE":
+        return
+    settings_file = os.path.join(DATA_DIR, "settings.json")
+    if os.path.exists(settings_file):
+        try:
+            with open(settings_file, "r", encoding="utf-8") as f:
+                s = json.load(f)
+            if "activeIntegrations" not in s:
+                s["activeIntegrations"] = {}
+            if "instagram" not in s["activeIntegrations"]:
+                s["activeIntegrations"]["instagram"] = {}
+            s["activeIntegrations"]["instagram"]["username"] = username
+            s["activeIntegrations"]["instagram"]["password"] = password
+            with open(settings_file, "w", encoding="utf-8") as f:
+                json.dump(s, f, indent=2)
+        except Exception:
+            pass
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="AquaFlow Direct AI Instagram Auto-Uploader")
     parser.add_argument("--username", "-u", default="kevin_369", help="Instagram username (default: kevin_369)")
@@ -203,7 +235,7 @@ if __name__ == "__main__":
     print_banner()
 
     username = args.username
-    password = args.password or os.environ.get("IG_PASSWORD")
+    password = args.password or get_saved_password(username)
 
     # If running with --auto or --simulate and no password, run simulation safely
     if args.auto or args.simulate:
@@ -225,4 +257,5 @@ if __name__ == "__main__":
         print(Fore.YELLOW + "No password entered. Running safe simulation test...")
         auto_upload(username, None, simulate=True)
     else:
+        save_saved_password(username, password)
         auto_upload(username, password, simulate=(password.upper() == "SIMULATE"))
