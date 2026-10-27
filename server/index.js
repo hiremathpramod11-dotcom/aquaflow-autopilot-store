@@ -178,7 +178,12 @@ wss.on('connection', (ws) => {
   }));
 });
 
-server.listen(PORT, () => {
+// Health check for Render / Cloud deployment
+app.get('/health', (req, res) => {
+  res.status(200).send('OK');
+});
+
+server.listen(PORT, '0.0.0.0', () => {
   console.log(`================================================================`);
   console.log(`🌊 AQUAFLOW AUTOPILOT DROPSHIPPING SYSTEM IS LIVE`);
   console.log(`----------------------------------------------------------------`);
