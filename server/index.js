@@ -53,9 +53,9 @@ const autopilot = new AutopilotEngine(
   (event) => broadcast(event)
 );
 
-// Start autonomous engines
+// Start autonomous engine (Real-time live mode only - zero fake sales)
 autopilot.start();
-salesAccelerator.startOvernightSalesPipeline();
+// salesAccelerator.startOvernightSalesPipeline() disabled: real transactions only
 
 // ==================== REST API ROUTES ====================
 

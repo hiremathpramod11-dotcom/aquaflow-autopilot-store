@@ -11,13 +11,13 @@
   "autoGenerateAds": true,
   "autoPublishProducts": true,
   "autoUploadInstagram": true,
-  "simulatedTrafficActive": true,
+  "simulatedTrafficActive": false,
   "supplierPreference": "SPOCKET_PREMIUM",
   "freeShippingThreshold": 50,
   "aiProvider": "GEMINI_TURBO_DIRECT",
   "activeIntegrations": {
     "payment": {
-      "mode": "SIMULATION",
+      "mode": "LIVE",
       "stripePublishableKey": "pk_live_your_key_here",
       "paypalClientId": "client_id_here",
       "payoutBankConfigured": false
@@ -60,5 +60,5 @@
       "pixelId": "PIX-994281729"
     }
   },
-  "publicLiveUrl": "https://village-athletic-pill-presents.trycloudflare.com"
+  "publicLiveUrl": "https://publication-challenged-nominations-whereas.trycloudflare.com"
 }

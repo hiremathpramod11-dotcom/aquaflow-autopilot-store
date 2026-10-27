@@ -308,8 +308,7 @@
           <div>
             <label style="font-size: 0.75rem; color: #94a3b8; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 6px;">Publishing Mode</label>
             <select id="igModeSelect" style="width: 100%; background: #0f172a; color: white; border: 1px solid #334155; padding: 10px 14px; border-radius: 8px; font-size: 0.85rem; font-weight: 600;">
-              <option value="live" selected>🚀 Live Instagram API Mode (Direct to Feed)</option>
-              <option value="simulate">Simulation Mode (Safe Verification / Instant Test)</option>
+              <option value="live" selected>🚀 Live Instagram Feed (Real-Time Auto-Upload)</option>
             </select>
           </div>
         </div>
@@ -426,11 +425,12 @@ Loading filming steps...
             </select>
           </div>
 
-          <div style="display: flex; align-items: center; gap: 10px; margin-top: 6px;">
-            <input type="checkbox" id="settingSimulatedTraffic" checked style="width: 18px; height: 18px;">
-            <label for="settingSimulatedTraffic" style="font-size: 0.85rem; font-weight: 600; color: #e2e8f0; cursor: pointer;">
-              Enable Organic Traffic & Sales Generation in background loop
-            </label>
+          <div style="display: flex; align-items: center; gap: 10px; margin-top: 6px; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); padding: 10px 14px; border-radius: 8px;">
+            <i class="fa-solid fa-shield-halved" style="color: #34d399;"></i>
+            <span style="font-size: 0.82rem; font-weight: 700; color: #34d399;">
+              Real Transactions Mode Active: Simulated/fake orders permanently disabled. Only real customer purchases appear in ledger.
+            </span>
+            <input type="checkbox" id="settingSimulatedTraffic" style="display: none;">
           </div>
 
           <div style="display: flex; align-items: center; gap: 10px; margin-top: 6px;">

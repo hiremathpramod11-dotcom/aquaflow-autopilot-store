@@ -185,9 +185,22 @@ def auto_upload(username, password=None, simulate=False):
             cl.dump_settings(session_path)
             print(Fore.GREEN + f"Successfully logged into @{clean_user}!")
         except Exception as e:
-            print(Fore.RED + f"Login failed: {e}")
-            print(Fore.YELLOW + "Tip: Instagram challenge or 2FA required. Approve on device or use --simulate.")
-            return False
+            err_str = str(e).lower()
+            if "challenge" in err_str or "checkpoint" in err_str:
+                print(Fore.YELLOW + "Instagram checkpoint received. If you tapped 'This was me' on your phone, retrying in 3 seconds...")
+                import time
+                time.sleep(3)
+                try:
+                    cl.login(clean_user, password)
+                    cl.dump_settings(session_path)
+                    print(Fore.GREEN + f"Successfully authorized & logged into @{clean_user}!")
+                except Exception as retry_err:
+                    print(Fore.RED + f"Retry failed: {retry_err}")
+                    return False
+            else:
+                print(Fore.RED + f"Login failed: {e}")
+                print(Fore.YELLOW + "Tip: Instagram challenge or 2FA required. Approve on device or verify credentials.")
+                return False
 
     print(Fore.YELLOW + "Publishing post to your Instagram feed...")
     try:

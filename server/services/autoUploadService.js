@@ -166,19 +166,26 @@ class AutoUploadService {
 
     console.log(`[AUTOUPLOAD] Initiating auto-upload for product "${product.title}" to @${cleanUser}...`);
 
-    // If user explicitly chose Live Mode (simulate === false), but no credentials/session are available
-    if (simulate === false && !effectivePassword && !sessionExists) {
+    // If no credentials and no session exist, do NOT create fake posts. Real live mode only.
+    if (!effectivePassword && !sessionExists) {
+      this.broadcast({
+        type: "LOG",
+        level: "WARN",
+        timestamp: localTime,
+        message: `⚠️ [AUTOUPLOAD] One-time authorization required for @${cleanUser}. Enter password to link live Instagram account.`
+      });
+
       return {
         success: false,
         mode: "LIVE",
         account: cleanUser,
         error: `Password Required: Cannot post live to Instagram @${cleanUser} without credentials.`,
-        tip: `Please enter the password for @${cleanUser} in the Admin Panel to authorize live posting, or select Simulation Mode.`
+        tip: `Please enter the password for @${cleanUser} in the Admin Command Center (or run run_instagram_autoposter.bat) to authorize live posting. No fake posts are generated.`
       };
     }
 
-    // Check if simulation is requested or if credentials are dummy
-    const isSimulation = simulate === true || (!effectivePassword && !sessionExists) || effectivePassword === 'SIMULATE' || effectivePassword === 'test';
+    // Only simulate if explicitly requested (simulate === true)
+    const isSimulation = simulate === true;
 
     if (isSimulation) {
       const postCode = this.generatePostCode();
@@ -245,7 +252,22 @@ class AutoUploadService {
 
       if (!sessionLoaded) {
         console.log(`[AUTOUPLOAD] Logging into Instagram as @${cleanUser}...`);
-        await ig.account.login(cleanUser, effectivePassword);
+        try {
+          await ig.account.login(cleanUser, effectivePassword);
+        } catch (loginErr) {
+          if (loginErr.name === 'IgCheckpointError' || (loginErr.message && loginErr.message.includes('checkpoint'))) {
+            console.log(`[AUTOUPLOAD] Checkpoint encountered. Handshaking with verified device...`);
+            try {
+              await ig.challenge.auto(true);
+              console.log(`[AUTOUPLOAD] Checkpoint auto-resolved successfully!`);
+            } catch (challengeErr) {
+              console.log(`[AUTOUPLOAD] Checkpoint verification: user must tap "This was me" in Instagram app.`);
+              throw loginErr;
+            }
+          } else {
+            throw loginErr;
+          }
+        }
         const serialized = await ig.state.serialize();
         delete serialized.constants;
         fs.writeFileSync(sessionFile, JSON.stringify(serialized, null, 2), 'utf8');

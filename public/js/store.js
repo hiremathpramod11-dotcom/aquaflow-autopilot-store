@@ -454,36 +454,32 @@ if (modalCopyLinkBtn) {
   });
 }
 
-// 6. Social Proof Popup
-const buyerNamesList = [
-  { name: "Sophia M.", city: "New York, NY" },
-  { name: "David L.", city: "Austin, TX" },
-  { name: "Chloe T.", city: "Miami, FL" },
-  { name: "Alexander K.", city: "Seattle, WA" },
-  { name: "Olivia P.", city: "Chicago, IL" },
-  { name: "Daniel W.", city: "Denver, CO" }
+// 6. Real Store Trust Highlights (Zero fake/fabricated buyers)
+const trustHighlights = [
+  { title: "7-Day Hassle-Free Defect Replacement", subtitle: "100% Guaranteed on all orders", icon: "🛡️" },
+  { title: "Direct PhonePe & UPI Accepted", subtitle: "Instant zero-fee checkout via QR", icon: "⚡" },
+  { title: "Cash on Delivery Available", subtitle: "Pay at your doorstep across India", icon: "📦" }
 ];
+let currentHighlightIdx = 0;
 
 function triggerSocialProof() {
-  if (allProducts.length === 0) return;
-  const buyer = buyerNamesList[Math.floor(Math.random() * buyerNamesList.length)];
-  const prod = allProducts[Math.floor(Math.random() * allProducts.length)];
-  const minsAgo = Math.floor(Math.random() * 8) + 1;
+  if (!socialProofToast) return;
+  const item = trustHighlights[currentHighlightIdx % trustHighlights.length];
+  currentHighlightIdx++;
 
-  toastImg.src = prod.image;
-  toastName.innerText = buyer.name;
-  toastCity.innerText = buyer.city;
-  toastAction.innerText = `Purchased ${prod.title.slice(0, 32)}...`;
-  toastTime.innerText = `${minsAgo} minutes ago • Verified Buyer`;
+  if (toastName) toastName.innerText = item.title;
+  if (toastCity) toastCity.innerText = item.subtitle;
+  if (toastAction) toastAction.innerText = "Verified Store Guarantee";
+  if (toastTime) toastTime.innerText = "Official AquaFlow Direct Policy";
 
   socialProofToast.classList.add('show');
   setTimeout(() => {
     socialProofToast.classList.remove('show');
-  }, 5000);
+  }, 4500);
 }
 
-setInterval(triggerSocialProof, 18000);
-setTimeout(triggerSocialProof, 3500);
+setInterval(triggerSocialProof, 25000);
+setTimeout(triggerSocialProof, 4000);
 
 // 7. 24/7 AI Chat Widget
 openChatBtn.addEventListener('click', () => {

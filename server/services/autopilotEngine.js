@@ -99,65 +99,32 @@ class AutopilotEngine {
         message: `🎬 Created Viral TikTok/Reels Script & Meta Ad Copy (Predicted ROAS: ${campaign.roas}x)`
       });
 
-      // 4. Autonomous Auto-Upload to Instagram / Social Traffic
+      // 4. Real Autonomous Auto-Upload to Instagram @kevin_369 (Zero fake/simulation)
       const settings = this.getSettings();
       if (settings.autoUploadInstagram !== false && this.autoUpload) {
         const igUser = settings.activeIntegrations?.instagram?.username || 'kevin_369';
         const igPass = settings.activeIntegrations?.instagram?.password || process.env.IG_PASSWORD;
-        await this.autoUpload.uploadPost({
-          productId: newProduct.id,
-          username: igUser,
-          password: igPass,
-          simulate: !igPass
-        });
+        const hasSession = this.autoUpload.hasSavedSession(igUser);
+
+        if (hasSession || igPass) {
+          await this.autoUpload.uploadPost({
+            productId: newProduct.id,
+            username: igUser,
+            password: igPass,
+            simulate: false
+          });
+        } else {
+          this.broadcast({
+            type: "LOG",
+            level: "INFO",
+            timestamp,
+            message: `📸 [AUTOUPLOAD] Standing by for live Instagram session for @${igUser}. Provide password once to enable automatic real-time feed publishing.`
+          });
+        }
       }
 
-      // 5. Simulate Realistic Organic Traffic & Autopilot Sale (if enabled)
-      if (settings.simulatedTrafficActive) {
-        const orderValue = newProduct.price;
-        const buyerNames = [
-          { name: "Sophia Martinez", city: "Los Angeles, CA" },
-          { name: "Liam O'Connor", city: "Chicago, IL" },
-          { name: "Emma Watson", city: "New York, NY" },
-          { name: "Noah Campbell", city: "Austin, TX" },
-          { name: "Ava Jenkins", city: "Seattle, WA" },
-          { name: "Lucas Vance", city: "Denver, CO" }
-        ];
-        const randomBuyer = buyerNames[Math.floor(Math.random() * buyerNames.length)];
-
-        const order = this.fulfillment.createOrder({
-          name: randomBuyer.name,
-          email: `${randomBuyer.name.toLowerCase().replace(/[^a-z]/g, '.')}@example.com`,
-          city: randomBuyer.city,
-          country: "United States",
-          subtotal: orderValue,
-          shipping: 0.00,
-          total: orderValue,
-          items: [
-            {
-              productId: newProduct.id,
-              title: newProduct.title,
-              quantity: 1,
-              price: newProduct.price,
-              cost: newProduct.supplierCost
-            }
-          ]
-        });
-
-        this.broadcast({
-          type: "LOG",
-          level: "SALE",
-          timestamp,
-          message: `💰 Incoming Sale: #${order.orderId} from ${randomBuyer.city} ($${order.total.toFixed(2)} total, Net Profit: $${order.profit.toFixed(2)})`
-        });
-
-        this.broadcast({
-          type: "LOG",
-          level: "SUCCESS",
-          timestamp,
-          message: `⚡ Autopilot dispatched Order #${order.orderId} to CJ Global Supplier. Tracking: ${order.trackingNumber}`
-        });
-      }
+      // Real Transactions Only: Synthetic/fake orders permanently disabled.
+      // Real sales are captured live via storefront checkout to PhonePe UPI: 910889831@ybl
 
       this.broadcast({
         type: "CYCLE_COMPLETE",
